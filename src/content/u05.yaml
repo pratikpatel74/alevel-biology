@@ -1,0 +1,131 @@
+id: "3.2b"
+order: 5
+section: "3.2"
+spec: "3.2.2"
+title: "Cell division"
+desc: "The cell cycle, the stages of mitosis, the mitotic index, cancer as uncontrolled division, binary fission and virus replication."
+practicals: [2]
+summary:
+  - h: "The cell cycle"
+    p:
+      - "Within multicellular organisms, not all cells keep the ability to divide."
+      - "The cycle has **interphase** (most of the time), then **mitosis** (nuclear division), then **cytokinesis** (cytoplasm divides)."
+      - "During interphase, **DNA replicates** (semi-conservatively) and the cell grows, makes organelles and stores energy as ATP."
+  - h: "Mitosis"
+    p:
+      - "Mitosis produces **two genetically identical** daughter cells. It is used for growth, repair and asexual reproduction."
+      - "**Prophase**: chromosomes condense and become visible as two **sister chromatids** joined at a **centromere**. The nuclear envelope breaks down. **Centrioles** move to opposite poles and spindle fibres form."
+      - "**Metaphase**: chromosomes line up at the **equator** of the cell, attached to spindle fibres by their centromeres."
+      - "**Anaphase**: centromeres divide. Spindle fibres shorten and pull **sister chromatids** to opposite poles."
+      - "**Telophase**: chromatids reach the poles and uncoil. A **nuclear envelope** reforms around each set."
+      - "**Cytokinesis** then divides the cytoplasm, giving two cells."
+  - h: "Mitotic index"
+    p:
+      - "`Mitotic index = number of cells in mitosis ÷ total number of cells observed`"
+      - "A high mitotic index means rapid growth or repair, e.g. a root tip or a tumour."
+  - h: "Cancer"
+    p:
+      - "Cancer results from **mutations in genes that regulate mitosis** and the cell cycle. This causes **uncontrolled cell division** and a **tumour**."
+      - "Many cancer treatments target the cell cycle, e.g. blocking DNA replication or the formation of spindle fibres. These also harm healthy dividing cells (such as hair follicles), causing side effects."
+  - h: "Binary fission in prokaryotes"
+    p:
+      - "The **circular DNA** replicates, and **plasmids** replicate (any number of copies)."
+      - "The cytoplasm divides, giving two daughter cells, each with **one copy of the circular DNA** and a variable number of plasmids."
+  - h: "Viruses don't undergo cell division"
+    p:
+      - "Being non-living, viruses don't divide. Their **attachment proteins** bind to complementary **receptors** on the host cell."
+      - "Their genetic material is injected or enters the host cell. The host cell's machinery **replicates** the virus particles."
+pitfalls:
+  - "DNA replication happens in **interphase**, not in prophase."
+  - "In anaphase, it is **sister chromatids** (not homologous chromosomes) that separate. Homologous pairs separate in meiosis I."
+  - "Binary fission is **not** mitosis: prokaryotes have no nucleus or spindle."
+  - "In mitotic index questions, count only cells **in mitosis** in the numerator. Interphase cells go only in the total."
+questions:
+  - q: "During which stage of the cell cycle does DNA replicate?"
+    o: ["Prophase", "Anaphase", "Interphase", "Cytokinesis"]
+    a: 2
+    e: "DNA replicates during interphase, so each chromosome has two identical sister chromatids by the time mitosis starts."
+  - q: "What happens during prophase?"
+    o: ["Chromosomes condense, the nuclear envelope breaks down and the spindle forms", "Chromosomes line up at the equator", "Sister chromatids move to opposite poles", "Nuclear envelopes reform"]
+    a: 0
+    e: "In prophase, chromosomes condense and become visible, the nuclear envelope breaks down and spindle fibres begin to form."
+  - q: "What happens during metaphase?"
+    o: ["Chromatids uncoil", "Chromosomes line up at the equator, attached to spindle fibres by their centromeres", "Centromeres divide", "The cytoplasm divides"]
+    a: 1
+    e: "Metaphase is when chromosomes are lined up along the equator, each attached to spindle fibres at its centromere."
+  - q: "What happens during anaphase of mitosis?"
+    o: ["Homologous chromosomes separate", "Nuclear envelopes reform", "DNA replicates", "Centromeres divide and sister chromatids are pulled to opposite poles"]
+    a: 3
+    e: "Spindle fibres shorten, pulling sister chromatids apart to opposite poles. Their V shape shows they are being pulled at the centromere."
+  - q: "What happens during telophase?"
+    o: ["Chromatids reach the poles, uncoil, and nuclear envelopes reform", "Chromosomes condense", "The spindle forms", "Chromosomes line up at the equator"]
+    a: 0
+    e: "In telophase the chromatids, now chromosomes, are at the poles. They become long and thin again, and a nuclear envelope forms around each set."
+  - q: "What is cytokinesis?"
+    o: ["Division of the nucleus", "Division of the cytoplasm to form two cells", "Replication of DNA", "Formation of the spindle"]
+    a: 1
+    e: "Cytokinesis is the division of the cytoplasm, which usually starts in telophase and produces two daughter cells."
+  - q: "What is the outcome of mitosis?"
+    o: ["Four genetically different cells", "Two cells with half the chromosome number", "Two genetically identical daughter cells", "One cell with double the chromosome number"]
+    a: 2
+    e: "Mitosis produces two daughter cells genetically identical to each other and to the parent cell, with the same chromosome number."
+  - q: "In a root tip squash, 24 cells are in mitosis out of 160 cells counted. What is the mitotic index?"
+    o: ["0.15", "0.24", "6.7", "0.85"]
+    a: 0
+    e: "Mitotic index = 24 ÷ 160 = 0.15 (or 15%)."
+  - q: "A cell cycle lasts 20 hours. In a sample, 5% of cells are in metaphase. Roughly how long does metaphase last?"
+    o: ["5 hours", "4 hours", "10 minutes", "1 hour"]
+    a: 3
+    e: "Time in a stage ≈ proportion of cells in that stage × cycle length = 0.05 × 20 hours = 1 hour."
+  - q: "Why is hydrochloric acid used in the root tip squash practical?"
+    o: ["To stain the chromosomes", "To separate the cells and stop division", "To make the cells divide faster", "To increase magnification"]
+    a: 1
+    e: "Warm HCl breaks down the middle lamella holding cells together, so they can be squashed into a single layer. It also stops mitosis."
+  - q: "Why is only the tip of the root used in the mitosis practical?"
+    o: ["It contains the meristem, where cells are actively dividing", "It contains chloroplasts", "It is the easiest part to stain", "Cells there are the largest"]
+    a: 0
+    e: "The meristem at the root tip is where mitosis happens. Further back, cells are elongating rather than dividing."
+  - q: "What causes cancer at the cellular level?"
+    o: ["Viruses always cause it", "Too much glucose in cells", "Mutations in genes that control mitosis, leading to uncontrolled cell division", "Cells stopping mitosis"]
+    a: 2
+    e: "Cancer arises from mutations in genes regulating the cell cycle. Cells divide uncontrollably and form a tumour."
+  - q: "Some cancer drugs stop spindle fibres forming. Which stage of mitosis would be prevented?"
+    o: ["Interphase", "Anaphase, because chromatids can't be separated", "DNA replication", "Prophase condensation"]
+    a: 1
+    e: "Without spindle fibres, chromosomes can't line up or be pulled apart, so anaphase can't happen and the cell can't divide."
+  - q: "Why do cancer treatments often cause hair loss?"
+    o: ["They target the cell cycle, which also affects healthy, rapidly dividing cells such as hair follicles", "They destroy keratin", "They increase mitosis in all cells", "They only affect cells in interphase"]
+    a: 0
+    e: "Treatments target dividing cells. Healthy cells that divide often, such as hair follicles, are affected too."
+  - q: "How do prokaryotic cells divide?"
+    o: ["Mitosis", "Meiosis", "Budding", "Binary fission"]
+    a: 3
+    e: "Prokaryotes divide by binary fission: circular DNA and plasmids replicate, then the cytoplasm divides."
+  - q: "In binary fission, what does each daughter cell receive?"
+    o: ["Half the circular DNA", "One copy of the circular DNA and a variable number of plasmids", "Two copies of the circular DNA", "Only plasmids"]
+    a: 1
+    e: "Each daughter cell gets a single copy of the circular DNA. Plasmids are shared out unevenly, so numbers vary."
+  - q: "Why don't viruses undergo cell division?"
+    o: ["They divide too quickly to observe", "They contain no DNA", "They are non-living and acellular", "They only infect plant cells"]
+    a: 2
+    e: "Viruses are not cells. They can only be replicated by a host cell's machinery."
+  - q: "How does a virus first attach to a host cell?"
+    o: ["Its capsid dissolves the host membrane", "Its attachment proteins bind to complementary receptor proteins on the host cell", "It is engulfed randomly", "Its ribosomes bind to the cell wall"]
+    a: 1
+    e: "Attachment proteins on the virus are complementary to specific receptors on host cells, which is why viruses infect particular cell types."
+  - q: "Which statement about interphase is correct?"
+    o: ["The cell grows, organelles are made and DNA replicates", "Chromosomes are visible as chromatids", "The nuclear envelope is absent", "Cells are not active"]
+    a: 0
+    e: "Interphase is a very active phase: DNA replication, protein synthesis, organelle replication and growth all occur."
+  - q: "A chromosome in metaphase is made of:"
+    o: ["One chromatid", "Four chromatids", "Two homologous chromosomes", "Two sister chromatids joined at a centromere"]
+    a: 3
+    e: "After replication in interphase, each chromosome is two identical sister chromatids held together at the centromere."
+  - q: "In which stage is the number of chromosomes in a cell temporarily doubled because chromatids have separated?"
+    o: ["Anaphase", "Prophase", "Metaphase", "Interphase"]
+    a: 0
+    e: "Once centromeres divide in anaphase, each chromatid counts as a separate chromosome, so there are briefly twice as many until the cell divides."
+  - q: "What is mitosis used for in multicellular organisms?"
+    o: ["Producing gametes", "Increasing genetic variation", "Growth, repair of tissues and asexual reproduction", "Halving the chromosome number"]
+    a: 2
+    e: "Mitosis produces identical cells for growth, repair and asexual reproduction. Meiosis produces gametes."

@@ -1,0 +1,129 @@
+id: "3.6a"
+order: 20
+section: "3.6"
+spec: "3.6.1"
+title: "Stimuli, receptors and heart rate"
+desc: "Tropisms and IAA, taxes and kinesis, reflex arcs, the Pacinian corpuscle, rods and cones, and control of heart rate."
+practicals: [10]
+summary:
+  - h: "Survival and response"
+    p:
+      - "Organisms increase their chance of survival by responding to changes in their environment."
+      - "In flowering plants, specific growth factors move from growing regions to other tissues, where they regulate growth in response to directional stimuli (**tropisms**)."
+      - "**IAA** (indoleacetic acid, an auxin) controls cell elongation. **Phototropism** in shoots: IAA moves to the **shaded side**, and those cells **elongate more**, so the shoot bends **towards** light."
+      - "**Gravitropism** in roots: IAA accumulates on the **lower side**, where it **inhibits** elongation, so the root bends **downward**."
+      - "**Taxis**: a **directional** movement towards or away from a stimulus (e.g. woodlice move away from light)."
+      - "**Kinesis**: a **non-directional** response. Speed of movement or rate of turning changes with stimulus intensity (e.g. woodlice move faster and turn less in dry conditions)."
+  - h: "Reflexes"
+    p:
+      - "A simple reflex is a rapid, automatic response that protects from harm."
+      - "**Reflex arc**: stimulus → receptor → sensory neurone → relay neurone (in the spinal cord) → motor neurone → effector → response."
+      - "It involves only **three neurones** and doesn't involve conscious thought (the brain), so it is **fast**."
+  - h: "Receptors"
+    p:
+      - "Receptors are **specific** to one type of stimulus."
+      - "**Pacinian corpuscle** (pressure receptor in skin): pressure deforms the layers of connective tissue (**lamellae**), which **stretches** the sensory neurone membrane. **Stretch-mediated sodium channels** open, Na⁺ enters, producing a **generator potential**. If this reaches the threshold, an action potential is sent."
+      - "**Rods**: one type of pigment (rhodopsin), very **sensitive** to light because **several rods connect to one bipolar neurone** (**summation**), so they work in dim light. But **low visual acuity**: the brain can't tell which rod was stimulated."
+      - "**Cones**: three types, sensitive to red, green or blue light, so give **colour vision**. **Each cone connects to its own bipolar neurone**, giving **high visual acuity**, but they need bright light."
+  - h: "Control of heart rate"
+    p:
+      - "Heart muscle is **myogenic**: it contracts without nervous stimulation."
+      - "The **sinoatrial node (SAN)** in the right atrium is the pacemaker. It sends waves of electrical activity across the atria, so they contract."
+      - "A layer of non-conducting tissue stops the wave reaching the ventricles directly. The **atrioventricular node (AVN)** delays the impulse briefly, so the atria finish emptying."
+      - "The impulse passes down the **bundle of His** and then **Purkyne tissue** through the ventricle walls, so the ventricles contract **from the apex (bottom) upwards**."
+      - "**Chemoreceptors** (detect CO₂/pH) and **baroreceptors** (detect blood pressure) in the aorta and carotid arteries send impulses to the **medulla oblongata**."
+      - "The medulla sends impulses along **sympathetic** neurones to increase heart rate, or **parasympathetic** neurones to decrease it."
+pitfalls:
+  - "In shoots, IAA **promotes** elongation. In roots, IAA **inhibits** elongation."
+  - "Explain rod sensitivity with **summation**: several rods share one bipolar neurone, so their generator potentials add up to reach threshold."
+  - "The AVN **delays** the impulse. The **Purkyne tissue** carries it to the ventricle apex."
+  - "Taxis is directional. Kinesis is non-directional. Don't swap them."
+questions:
+  - q: "In a shoot lit from one side, where does IAA accumulate?"
+    o: ["On the illuminated side", "On the shaded side", "Evenly on both sides", "Only in the root"]
+    a: 1
+    e: "IAA moves to the shaded side of the shoot, where it causes more cell elongation, bending the shoot towards the light."
+  - q: "What is the effect of IAA on cells in a shoot?"
+    o: ["It stimulates cell elongation", "It inhibits cell elongation", "It causes cell death", "It stops photosynthesis"]
+    a: 0
+    e: "In shoots, IAA promotes cell elongation. More IAA on the shaded side means those cells grow longer."
+  - q: "Why do roots grow downwards?"
+    o: ["IAA promotes elongation on the lower side", "Light inhibits root growth", "IAA accumulates on the lower side and inhibits elongation there, so the upper side grows more", "Roots have no IAA"]
+    a: 2
+    e: "In roots, IAA inhibits elongation. With more on the lower side, the upper side grows faster, so the root bends down."
+  - q: "What is a taxis?"
+    o: ["A non-directional change in speed", "A growth response in plants", "A reflex action", "A directional movement towards or away from a stimulus"]
+    a: 3
+    e: "A taxis is a directional response, e.g. a woodlouse moving away from light."
+  - q: "Woodlice move faster and turn less often in dry air. What type of response is this?"
+    o: ["Kinesis", "Taxis", "Tropism", "Reflex"]
+    a: 0
+    e: "This is a kinesis: a non-directional change in speed or rate of turning, which keeps woodlice in damp areas."
+  - q: "Why is a reflex arc fast?"
+    o: ["It involves the brain", "It involves only a few neurones and no conscious thought", "It uses hormones", "It has many synapses"]
+    a: 1
+    e: "Only three neurones and few synapses are involved, and the response doesn't wait for conscious processing."
+  - q: "What is the correct order of a reflex arc?"
+    o: ["Receptor, motor neurone, relay neurone, sensory neurone, effector", "Effector, sensory neurone, receptor", "Receptor, sensory neurone, relay neurone, motor neurone, effector", "Relay neurone, receptor, effector"]
+    a: 2
+    e: "Stimulus is detected by a receptor, then sensory, relay and motor neurones carry the impulse to an effector."
+  - q: "How does a Pacinian corpuscle produce a generator potential?"
+    o: ["Light bleaches a pigment", "Hormones bind receptors", "Chemicals open ligand-gated channels", "Pressure deforms the lamellae, stretching the membrane and opening stretch-mediated Na⁺ channels"]
+    a: 3
+    e: "Deformation opens stretch-mediated sodium channels. Na⁺ diffuses in, depolarising the membrane."
+  - q: "Why are rods more sensitive to dim light than cones?"
+    o: ["Several rods connect to one bipolar neurone, so their generator potentials combine (summation)", "Rods contain three pigments", "Rods are in the fovea", "Each rod has its own neurone"]
+    a: 0
+    e: "Small generator potentials from several rods add up in one bipolar neurone to reach threshold, even in dim light."
+  - q: "Why do cones give higher visual acuity than rods?"
+    o: ["Cones are more sensitive", "Each cone connects to its own bipolar neurone, so the brain can tell which cones were stimulated", "Cones work in dim light", "Cones have one pigment"]
+    a: 1
+    e: "Separate connections mean separate signals from neighbouring cones, so fine detail can be distinguished."
+  - q: "Why can we see colour?"
+    o: ["Rods detect different wavelengths", "There is one type of cone", "There are three types of cone, each sensitive to different wavelengths", "Bipolar neurones detect colour"]
+    a: 2
+    e: "Red-, green- and blue-sensitive cones are stimulated to different extents, which the brain interprets as colour."
+  - q: "What does 'myogenic' mean for cardiac muscle?"
+    o: ["It needs nervous stimulation to contract", "It is controlled by hormones only", "It doesn't contract", "It contracts without nervous stimulation"]
+    a: 3
+    e: "Cardiac muscle starts its own contractions. Nerves only change the rate."
+  - q: "Where is the sinoatrial node?"
+    o: ["In the wall of the right atrium", "In the left ventricle", "In the septum", "In the aorta"]
+    a: 0
+    e: "The SAN is in the right atrium wall. It is the heart's natural pacemaker."
+  - q: "What is the role of the atrioventricular node?"
+    o: ["It starts each heartbeat", "It delays the impulse briefly before passing it to the ventricles", "It detects blood pressure", "It stops the heart"]
+    a: 1
+    e: "The delay lets the atria finish contracting and emptying before the ventricles contract."
+  - q: "Why do the ventricles contract from the apex (bottom) upwards?"
+    o: ["The SAN is at the apex", "Gravity", "The Purkyne tissue carries the impulse down to the apex first, then up the ventricle walls", "Blood flows downward"]
+    a: 2
+    e: "The bundle of His and Purkyne tissue carry the impulse down the septum to the apex, so contraction squeezes blood up into the arteries."
+  - q: "Where are chemoreceptors that help control heart rate found?"
+    o: ["In the medulla only", "In the SAN", "In the skin", "In the aorta and carotid arteries"]
+    a: 3
+    e: "Chemoreceptors in the aorta and carotid arteries (and the medulla) detect changes in blood CO₂ and pH."
+  - q: "During exercise, CO₂ in the blood rises. How does heart rate increase?"
+    o: ["Chemoreceptors send impulses to the medulla, which sends impulses along sympathetic neurones to the SAN", "The SAN detects CO₂ directly", "Baroreceptors slow the heart", "Parasympathetic impulses increase"]
+    a: 0
+    e: "Lower pH is detected by chemoreceptors. The medulla increases sympathetic impulses to the SAN, raising heart rate."
+  - q: "Blood pressure rises above normal. What happens?"
+    o: ["Sympathetic impulses to the SAN increase", "Baroreceptors detect it; the medulla sends more impulses along parasympathetic neurones to the SAN, slowing heart rate", "Chemoreceptors increase heart rate", "The AVN stops working"]
+    a: 1
+    e: "Baroreceptors detect high pressure. Parasympathetic impulses slow the SAN, reducing heart rate and pressure."
+  - q: "Which part of the brain controls heart rate?"
+    o: ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"]
+    a: 2
+    e: "The cardiovascular centre in the medulla oblongata controls heart rate through the autonomic nervous system."
+  - q: "In a choice chamber (RP10), what is used to make one side dry?"
+    o: ["Water", "Cobalt chloride paper", "Distilled water", "Silica gel or anhydrous calcium chloride"]
+    a: 3
+    e: "A drying agent such as silica gel absorbs moisture. Water under the other side keeps it humid."
+  - q: "Which statistical test is used to check whether woodlice distribution differs significantly from 50:50?"
+    o: ["Chi-squared test", "Spearman's rank", "Standard deviation", "Student's t-test"]
+    a: 0
+    e: "Chi-squared compares observed and expected frequencies in categories, such as numbers on each side."
+  - q: "What happens if a generator potential does not reach the threshold?"
+    o: ["An action potential is produced", "No action potential is produced", "The receptor is damaged", "The action potential is smaller"]
+    a: 1
+    e: "Action potentials are all-or-nothing. Below threshold, no action potential is sent."

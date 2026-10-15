@@ -1,0 +1,143 @@
+id: "3.2d"
+order: 7
+section: "3.2"
+spec: "3.2.4"
+title: "Cell recognition and the immune system"
+desc: "Antigens, phagocytosis, T and B lymphocytes, antibodies, vaccines and herd immunity, HIV, monoclonal antibodies and the ELISA test."
+practicals: []
+summary:
+  - h: "Antigens"
+    p:
+      - "**Antigens** are molecules (usually proteins) on cell surfaces that **generate an immune response**."
+      - "They let the immune system identify **pathogens**, cells from other organisms of the same species, **abnormal body cells** (e.g. cancer cells) and **toxins**."
+      - "**Antigen variability**: when a pathogen's antigens change shape (e.g. influenza), existing memory cells and antibodies no longer recognise it."
+  - h: "Phagocytosis"
+    p:
+      - "A **phagocyte** recognises the foreign antigen and **engulfs** the pathogen, enclosing it in a **phagosome**."
+      - "**Lysosomes** fuse with the phagosome and release **lysozymes**, which hydrolyse the pathogen."
+      - "The phagocyte presents the pathogen's antigens on its surface, becoming an **antigen-presenting cell**."
+  - h: "Cellular response: T lymphocytes"
+    p:
+      - "**Helper T cells** have receptors complementary to a specific antigen on an antigen-presenting cell. They bind and are activated."
+      - "Activated helper T cells divide by **mitosis** (clonal expansion) and **stimulate**: phagocytes to engulf, **cytotoxic T cells** to kill infected cells, and **B cells** to divide."
+      - "**Cytotoxic T cells** kill infected body cells by producing **perforin**, which makes holes in the cell-surface membrane."
+  - h: "Humoral response: B lymphocytes and antibodies"
+    p:
+      - "A B cell with a complementary antibody on its surface binds the antigen, takes it in, and presents it. Helper T cells bind and activate it."
+      - "The B cell divides by mitosis (**clonal selection**) into **plasma cells**, which secrete antibodies, and **memory cells**."
+      - "An **antibody** is a protein with **four polypeptide chains** (two heavy, two light). The **variable region** forms the specific antigen-binding site. The rest is the **constant region**."
+      - "Antibodies bind antigens to form an **antigen–antibody complex**. They cause **agglutination** (clumping), which makes phagocytosis easier."
+      - "**Primary response**: slow, few antibodies, symptoms appear. **Secondary response**: memory cells divide rapidly into plasma cells, so antibodies are produced **faster and in greater amounts**, usually before symptoms."
+  - h: "Immunity and vaccines"
+    p:
+      - "**Active immunity**: the body makes its own antibodies and memory cells, after natural infection or a **vaccine**. Long-term, but takes time to develop."
+      - "**Passive immunity**: antibodies are given (e.g. across the placenta, in breast milk, or by injection). Immediate but **short-term**, with **no memory cells**."
+      - "A **vaccine** contains antigens (e.g. dead or weakened pathogens), which stimulate a primary response and memory cells."
+      - "**Herd immunity**: when a large proportion of a population is vaccinated, the pathogen can't spread easily, protecting unvaccinated people."
+      - "Ethical issues: testing on animals, side effects, consent in trials, compulsory vaccination."
+  - h: "HIV"
+    p:
+      - "HIV has an RNA genome, **reverse transcriptase**, a capsid, an envelope and attachment proteins."
+      - "It infects **helper T cells**. Reverse transcriptase makes DNA from viral RNA, which is inserted into host DNA."
+      - "Helper T cell numbers fall, so the immune system can't respond effectively. Opportunistic infections then cause **AIDS**."
+      - "**Antibiotics don't work on viruses**: viruses have no cell wall or their own metabolic machinery for antibiotics to target."
+  - h: "Monoclonal antibodies and ELISA"
+    p:
+      - "**Monoclonal antibodies** are identical antibodies from one clone of plasma cells, all binding one specific antigen."
+      - "Uses: **targeted drugs** (antibody carries a drug to cancer cells), **medical diagnosis**, and **pregnancy tests** (detect hCG)."
+      - "**ELISA** (indirect): antigen is bound to a well. Add the patient's sample. Wash. Add a second antibody that is enzyme-linked and binds the first. Wash. Add substrate. **A colour change means the antibody was present.**"
+      - "**Washing** removes unbound antibodies, which would otherwise give a false positive."
+pitfalls:
+  - "Phagocytes are **non-specific**. Lymphocytes are **specific**."
+  - "Plasma cells make antibodies. Memory cells **don't** secrete antibodies; they divide quickly into plasma cells on re-infection."
+  - "Antibodies don't 'kill' pathogens directly. They cause agglutination and mark them for phagocytes."
+  - "HIV doesn't kill people directly. Opportunistic infections do, after helper T cells are destroyed."
+questions:
+  - q: "What is an antigen?"
+    o: ["A protein made by plasma cells", "A molecule, often a protein, that generates an immune response", "A type of white blood cell", "An enzyme in lysosomes"]
+    a: 1
+    e: "Antigens are molecules on cell surfaces that trigger an immune response. They allow non-self cells to be identified."
+  - q: "During phagocytosis, how is the pathogen destroyed?"
+    o: ["Lysosomes fuse with the phagosome and release lysozymes, which hydrolyse it", "Antibodies dissolve it", "Perforin makes holes in it", "Helper T cells digest it"]
+    a: 0
+    e: "The engulfed pathogen sits in a phagosome. Lysosomes fuse with it and hydrolytic enzymes digest the pathogen."
+  - q: "What is an antigen-presenting cell?"
+    o: ["A cell that makes antigens", "A plasma cell", "A cell that displays foreign antigens on its surface, e.g. a phagocyte after engulfing a pathogen", "A cell with no antigens"]
+    a: 2
+    e: "After phagocytosis, the phagocyte displays the pathogen's antigens on its surface for helper T cells to recognise."
+  - q: "What is the role of helper T cells?"
+    o: ["They secrete antibodies", "They engulf pathogens", "They produce perforin", "They stimulate phagocytes, cytotoxic T cells and B cells"]
+    a: 3
+    e: "Activated helper T cells release chemical signals that stimulate phagocytes, cytotoxic T cells and B cells."
+  - q: "How do cytotoxic T cells kill infected cells?"
+    o: ["They secrete perforin, which makes holes in the cell-surface membrane", "They engulf them", "They release antibodies", "They release lysozymes into the blood"]
+    a: 0
+    e: "Perforin creates pores in the infected cell's membrane, making it freely permeable, so the cell dies."
+  - q: "What are plasma cells?"
+    o: ["Cells that engulf pathogens", "Cells derived from B cells that secrete antibodies", "T cells that kill infected cells", "Red blood cells"]
+    a: 1
+    e: "Activated B cells divide into plasma cells, which secrete large amounts of one specific antibody, and memory cells."
+  - q: "Why is the secondary immune response faster than the primary response?"
+    o: ["Phagocytes are more active", "The pathogen is weaker", "Antibodies from the first infection are still present in large numbers", "Memory cells divide rapidly into plasma cells that produce antibodies"]
+    a: 3
+    e: "Memory cells recognise the antigen and quickly divide into plasma cells, so more antibodies are produced faster, usually before symptoms."
+  - q: "Which part of an antibody binds to the antigen?"
+    o: ["The constant region", "The variable region", "The disulfide bridges", "The heavy chain only"]
+    a: 1
+    e: "The variable region at the tip of each arm has a specific shape complementary to one antigen."
+  - q: "How many polypeptide chains make up an antibody molecule?"
+    o: ["Four: two heavy and two light", "Two", "One", "Six"]
+    a: 0
+    e: "An antibody has four polypeptide chains held by disulfide bridges, giving it quaternary structure."
+  - q: "How does agglutination help destroy pathogens?"
+    o: ["It splits pathogens apart", "It neutralises toxins by hydrolysis", "Antibodies clump pathogens together, so phagocytes can engulf many at once", "It activates helper T cells"]
+    a: 2
+    e: "Each antibody has two binding sites, so it can link pathogens together into clumps that phagocytes can engulf more easily."
+  - q: "Which is an example of passive immunity?"
+    o: ["Antibodies passing to a baby in breast milk", "Getting chickenpox", "Receiving a vaccine", "Producing memory cells after infection"]
+    a: 0
+    e: "Passive immunity means antibodies are introduced from outside. No memory cells form, so it is short-term."
+  - q: "Why does active immunity last longer than passive immunity?"
+    o: ["More antibodies are given", "Antibodies last forever", "Phagocytes become specific", "Memory cells are produced"]
+    a: 3
+    e: "Active immunity produces memory cells, which persist and can respond quickly to future infection."
+  - q: "What does a vaccine contain?"
+    o: ["Antibodies against a pathogen", "Antigens, for example from dead or weakened pathogens", "Antibiotics", "Memory cells"]
+    a: 1
+    e: "Vaccines contain antigens, which trigger a primary response and the production of memory cells without causing disease."
+  - q: "What is herd immunity?"
+    o: ["When everyone in a population has had the disease", "When antibodies pass between people", "When enough of a population is vaccinated that the pathogen can't spread easily, protecting the unvaccinated", "When animals are vaccinated"]
+    a: 2
+    e: "If most people are immune, there are few hosts for the pathogen, so transmission falls and unvaccinated people are protected too."
+  - q: "Why might a vaccine against influenza need updating every year?"
+    o: ["Antigenic variability: the virus's antigens change shape, so memory cells don't recognise new strains", "The vaccine expires", "Antibodies become denatured", "Flu is caused by bacteria"]
+    a: 0
+    e: "Mutations change the shape of influenza antigens, so existing antibodies and memory cells are no longer complementary."
+  - q: "Which cells does HIV infect?"
+    o: ["Red blood cells", "B cells", "Helper T cells", "Phagocytes only"]
+    a: 2
+    e: "HIV attachment proteins bind to receptors on helper T cells. As these are destroyed, the immune response fails."
+  - q: "What is the role of reverse transcriptase in HIV replication?"
+    o: ["It makes RNA from DNA", "It makes DNA from viral RNA", "It digests host DNA", "It forms the capsid"]
+    a: 1
+    e: "Reverse transcriptase uses viral RNA as a template to make DNA, which is inserted into the host's DNA."
+  - q: "Why are antibiotics ineffective against viruses?"
+    o: ["Viruses are too small", "Viruses are always inside the nucleus", "Viruses have thick cell walls", "Viruses have no cell wall or metabolic machinery of their own for antibiotics to target"]
+    a: 3
+    e: "Antibiotics target bacterial structures such as murein cell walls or 70S ribosomes. Viruses don't have these."
+  - q: "What is a monoclonal antibody?"
+    o: ["An antibody made by a single clone of plasma cells, binding one specific antigen", "An antibody with one polypeptide chain", "An antibody made by T cells", "A mixture of antibodies for many antigens"]
+    a: 0
+    e: "Monoclonal antibodies are identical, all with the same variable region and specificity."
+  - q: "In an ELISA test, why are the wells washed between steps?"
+    o: ["To add more antigen", "To remove unbound antibodies, which could cause a false positive", "To denature the enzyme", "To cool the plate"]
+    a: 1
+    e: "Unbound enzyme-linked antibody left in the well would react with the substrate and give a colour change even without the target."
+  - q: "In an indirect ELISA, what does a colour change show?"
+    o: ["The substrate has run out", "The test has failed", "The enzyme-linked antibody is present, so the target antibody was in the sample", "No antibody was present"]
+    a: 2
+    e: "The second, enzyme-linked antibody only stays if it bound to the patient's antibody. Its enzyme converts the substrate to a coloured product."
+  - q: "How can monoclonal antibodies be used to treat cancer?"
+    o: ["They attach a drug to the antibody, so it binds only to cancer cell antigens", "They make cancer cells divide faster", "They replace helper T cells", "They act as antibiotics"]
+    a: 0
+    e: "Antibodies complementary to cancer cell antigens carry the drug directly to those cells, reducing harm to healthy cells."

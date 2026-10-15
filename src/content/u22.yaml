@@ -1,0 +1,131 @@
+id: "3.6c"
+order: 22
+section: "3.6"
+spec: "3.6.3"
+title: "Skeletal muscle"
+desc: "Antagonistic muscles, sarcomere structure, the sliding filament theory, the roles of calcium ions and ATP, phosphocreatine, and slow and fast twitch fibres."
+practicals: []
+summary:
+  - h: "Muscles and movement"
+    p:
+      - "Skeletal muscles act in **antagonistic pairs** against an incompressible skeleton: when one contracts, the other relaxes, e.g. biceps and triceps."
+      - "Muscle is made of **muscle fibres** (multinucleate cells). Each fibre contains many **myofibrils** made of repeating units called **sarcomeres**."
+  - h: "Sarcomere structure"
+    p:
+      - "**Actin**: thin filaments. **Myosin**: thick filaments with heads."
+      - "**Z-line**: the boundary of each sarcomere, where actin is attached."
+      - "**A-band** (dark): the length of the myosin filaments, including where they overlap with actin."
+      - "**I-band** (light): actin only."
+      - "**H-zone**: myosin only, in the centre of the sarcomere."
+      - "During contraction, the **I-band and H-zone shorten**, the **sarcomere shortens**, and the **A-band stays the same length**."
+  - h: "Sliding filament theory"
+    p:
+      - "An action potential arrives at the neuromuscular junction and spreads along the **sarcolemma** and down **T-tubules**."
+      - "**Ca²⁺** is released from the **sarcoplasmic reticulum**."
+      - "Ca²⁺ binds to **troponin**, which pulls **tropomyosin** away from the binding sites on actin, exposing them."
+      - "**Myosin heads** (with ADP attached) bind to actin, forming **actinomyosin cross-bridges**."
+      - "The myosin head bends (power stroke), **pulling actin** towards the centre of the sarcomere, and **ADP is released**."
+      - "**ATP** binds to the myosin head, causing it to **detach** from actin."
+      - "Ca²⁺ activates **ATP hydrolase**, which hydrolyses ATP. The energy returns the myosin head to its original position, ready to bind again further along."
+  - h: "Energy supply"
+    p:
+      - "**Phosphocreatine** in muscle provides phosphate to regenerate ATP from ADP **anaerobically**. This supplies ATP rapidly at the start of intense exercise."
+      - "ATP is also produced by aerobic respiration and anaerobic respiration."
+  - h: "Slow and fast twitch fibres"
+    p:
+      - "**Slow twitch**: contract slowly and for long periods, for endurance (e.g. posture muscles). Many **mitochondria**, lots of **myoglobin** (stores O₂, red colour), rich **blood supply**. Use **aerobic** respiration."
+      - "**Fast twitch**: contract rapidly and powerfully for short periods (e.g. sprinting). Thicker, more myosin filaments, lots of **glycogen** and **phosphocreatine**. Use **anaerobic** respiration and fatigue quickly."
+pitfalls:
+  - "The **A-band doesn't change** during contraction, because myosin filaments don't change length."
+  - "ATP is needed for the myosin head to **detach** and to **re-cock**. Without ATP, muscles stay contracted (rigor mortis)."
+  - "Ca²⁺ binds to **troponin**, not to tropomyosin."
+  - "Filaments **slide** past each other. They don't shorten themselves."
+questions:
+  - q: "Why do skeletal muscles work in antagonistic pairs?"
+    o: ["Muscles can push and pull", "Muscles can only pull, so one muscle contracts while the other relaxes to move a bone back", "To increase strength only", "To produce heat"]
+    a: 1
+    e: "Muscles can only contract (pull). An opposing muscle is needed to move the bone back."
+  - q: "What is a sarcomere?"
+    o: ["The repeating unit of a myofibril, between two Z-lines", "A muscle cell", "A type of neurone", "A bundle of muscle fibres"]
+    a: 0
+    e: "Sarcomeres are the contractile units of myofibrils, bounded by Z-lines."
+  - q: "Which band contains only actin filaments?"
+    o: ["A-band", "H-zone", "I-band", "M-line"]
+    a: 2
+    e: "The I-band is the light region where only thin actin filaments are present."
+  - q: "What does the H-zone contain?"
+    o: ["Actin only", "Both actin and myosin", "Z-lines only", "Myosin only"]
+    a: 3
+    e: "The H-zone is the centre of the sarcomere where there is myosin but no overlapping actin."
+  - q: "During contraction, which band stays the same length?"
+    o: ["A-band", "I-band", "H-zone", "Sarcomere"]
+    a: 0
+    e: "The A-band is the length of the myosin filaments, which don't change. Actin slides over them."
+  - q: "What happens to the I-band and H-zone during contraction?"
+    o: ["Both lengthen", "Both shorten", "The I-band shortens and the H-zone lengthens", "Neither changes"]
+    a: 1
+    e: "As actin slides towards the centre, there is more overlap, so regions with only one type of filament get shorter."
+  - q: "Where are calcium ions released from during muscle contraction?"
+    o: ["Mitochondria", "T-tubules", "Sarcoplasmic reticulum", "Nucleus"]
+    a: 2
+    e: "An action potential spreading through T-tubules causes the sarcoplasmic reticulum to release Ca²⁺."
+  - q: "What does Ca²⁺ bind to in muscle fibres?"
+    o: ["Actin", "Myosin", "Tropomyosin", "Troponin"]
+    a: 3
+    e: "Ca²⁺ binds to troponin, which changes shape and pulls tropomyosin away from binding sites on actin."
+  - q: "What is the role of tropomyosin in resting muscle?"
+    o: ["It blocks the myosin-binding sites on actin", "It hydrolyses ATP", "It releases Ca²⁺", "It forms the Z-line"]
+    a: 0
+    e: "In relaxed muscle, tropomyosin covers the binding sites, so myosin heads can't attach."
+  - q: "What happens when myosin heads bind to actin?"
+    o: ["ATP is made", "Actinomyosin cross-bridges form; the head bends, pulling actin towards the centre", "Ca²⁺ is released", "The A-band shortens"]
+    a: 1
+    e: "The myosin head binds, then bends (the power stroke), sliding actin along and releasing ADP."
+  - q: "What causes a myosin head to detach from actin?"
+    o: ["Ca²⁺ binding", "ADP binding", "ATP binding to the myosin head", "Tropomyosin moving"]
+    a: 2
+    e: "A new ATP molecule binding to the myosin head breaks the cross-bridge."
+  - q: "What is the energy from ATP hydrolysis used for in contraction?"
+    o: ["Releasing Ca²⁺", "Binding Ca²⁺ to troponin", "Moving tropomyosin", "Returning the myosin head to its original position"]
+    a: 3
+    e: "ATP hydrolase in the myosin head hydrolyses ATP. The energy re-cocks the head, ready to bind further along actin."
+  - q: "Why does rigor mortis happen after death?"
+    o: ["No ATP is available, so myosin heads can't detach from actin", "Too much ATP", "Ca²⁺ is removed", "Actin is destroyed"]
+    a: 0
+    e: "Without ATP, cross-bridges stay attached, so the muscles remain locked."
+  - q: "What is the role of phosphocreatine?"
+    o: ["It stores oxygen", "It provides phosphate to regenerate ATP from ADP rapidly and anaerobically", "It releases Ca²⁺", "It binds to troponin"]
+    a: 1
+    e: "Phosphocreatine donates phosphate to ADP, quickly resupplying ATP at the start of intense exercise."
+  - q: "Which feature is typical of slow twitch fibres?"
+    o: ["Large stores of phosphocreatine", "Few mitochondria", "Lots of myoglobin and many mitochondria", "Rapid fatigue"]
+    a: 2
+    e: "Slow twitch fibres respire aerobically. Myoglobin stores oxygen and many mitochondria make ATP."
+  - q: "Which feature is typical of fast twitch fibres?"
+    o: ["Rich blood supply", "Lots of myoglobin", "Many mitochondria", "Large stores of glycogen and phosphocreatine"]
+    a: 3
+    e: "Fast twitch fibres rely on anaerobic respiration and phosphocreatine for rapid, powerful contraction."
+  - q: "Why do slow twitch fibres look red?"
+    o: ["They contain a lot of myoglobin and have a rich blood supply", "They contain more actin", "They contain Ca²⁺", "They have more glycogen"]
+    a: 0
+    e: "Myoglobin is a red pigment that stores oxygen, and the many capillaries add to the colour."
+  - q: "Which sport mostly uses fast twitch fibres?"
+    o: ["Marathon running", "100 m sprint", "Long-distance cycling", "Holding posture"]
+    a: 1
+    e: "Sprinting needs short, powerful contractions, provided by fast twitch fibres."
+  - q: "What carries an action potential deep into a muscle fibre?"
+    o: ["Myofibrils", "Z-lines", "T-tubules", "Sarcomeres"]
+    a: 2
+    e: "T-tubules are extensions of the sarcolemma that carry the action potential into the fibre."
+  - q: "What is released from the myosin head during the power stroke?"
+    o: ["ATP", "Ca²⁺", "Tropomyosin", "ADP"]
+    a: 3
+    e: "Myosin heads bind actin with ADP attached. ADP is released as the head bends and pulls actin."
+  - q: "Ca²⁺ activates which enzyme in muscle contraction?"
+    o: ["ATP hydrolase", "ATP synthase", "Acetylcholinesterase", "Rubisco"]
+    a: 0
+    e: "Ca²⁺ activates ATP hydrolase, which hydrolyses ATP to provide energy for the myosin head to return."
+  - q: "A sarcomere is 2.5 µm long at rest and 2.0 µm when contracted. The A-band is 1.5 µm at rest. How long is the A-band when contracted?"
+    o: ["1.0 µm", "1.5 µm", "2.0 µm", "0.5 µm"]
+    a: 1
+    e: "The A-band doesn't change length during contraction, because myosin filaments stay the same length."

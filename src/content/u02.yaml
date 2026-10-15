@@ -1,0 +1,130 @@
+id: "3.1b"
+order: 2
+section: "3.1"
+spec: "3.1.4"
+title: "Proteins and enzymes"
+desc: "Amino acids and peptide bonds, the four levels of protein structure, induced-fit model, and factors affecting enzyme activity including inhibitors."
+practicals: [1]
+summary:
+  - h: "Amino acids and peptide bonds"
+    p:
+      - "Amino acids are the monomers of proteins. There are **20** that are common to all organisms."
+      - "General structure: a central carbon with an **amine group (–NH₂)**, a **carboxyl group (–COOH)**, a hydrogen atom and a variable **R group**."
+      - "Two amino acids join by **condensation** to form a **peptide bond** and a dipeptide. Many amino acids form a **polypeptide**."
+  - h: "Levels of protein structure"
+    p:
+      - "**Primary**: the sequence of amino acids in a polypeptide chain."
+      - "**Secondary**: hydrogen bonds between the amino acids fold the chain into an **α-helix** or **β-pleated sheet**."
+      - "**Tertiary**: further folding into a specific 3D shape, held by **hydrogen bonds, ionic bonds and disulfide bridges** between R groups."
+      - "**Quaternary**: more than one polypeptide chain, e.g. haemoglobin (four chains). Some proteins also have a prosthetic group."
+      - "Biuret test: blue changes to **purple** when peptide bonds are present."
+  - h: "How enzymes work"
+    p:
+      - "Enzymes are biological catalysts. They **lower the activation energy** of a reaction."
+      - "The **active site** has a specific shape, determined by the tertiary structure, that is complementary to the substrate."
+      - "**Induced-fit model**: as the substrate binds, the active site **changes shape slightly** to fit more closely. This puts strain on bonds in the substrate, lowering the activation energy. An **enzyme–substrate complex** forms."
+      - "The older lock-and-key model said the active site was rigid. Induced fit explains why enzymes are flexible."
+  - h: "Factors affecting rate"
+    p:
+      - "**Temperature**: rate rises with temperature as molecules have more kinetic energy, so there are more successful collisions. Above the optimum, bonds in the tertiary structure break (especially hydrogen bonds). The active site changes shape and the enzyme is **denatured**, so fewer enzyme–substrate complexes form."
+      - "**pH**: changes in H⁺ concentration affect **ionic and hydrogen bonds** in the tertiary structure. The active site changes shape away from the optimum pH."
+      - "**Substrate concentration**: rate increases until all active sites are occupied. Then **enzyme concentration** is the limiting factor and the curve levels off."
+      - "**Enzyme concentration**: rate increases as long as there is excess substrate."
+  - h: "Inhibitors"
+    p:
+      - "**Competitive inhibitors** are similar in shape to the substrate and **bind to the active site**. Adding more substrate **reduces** their effect."
+      - "**Non-competitive inhibitors** bind at a site **other than the active site** (allosteric site). This changes the shape of the active site, so substrate can't bind. More substrate **does not** reduce the effect."
+pitfalls:
+  - "Write that the active site is **complementary** to the substrate. Never say they are 'the same shape'."
+  - "Denaturing is about **bonds in the tertiary structure breaking** and the **active site changing shape**. Enzymes are not 'killed'."
+  - "Name the bonds: hydrogen, ionic and disulfide hold tertiary structure. Disulfide bridges are not broken by heat, but hydrogen and ionic bonds are."
+  - "When reading graphs, at low substrate concentration **substrate** is limiting. On the plateau, **enzyme concentration** is limiting."
+questions:
+  - q: "Which groups are found on every amino acid?"
+    o: ["An amine group, a carboxyl group and a variable R group", "A phosphate group, a pentose sugar and a base", "Glycerol and three fatty acids", "An amine group and a phosphate group only"]
+    a: 0
+    e: "Every amino acid has a central carbon bonded to an amine group, a carboxyl group, a hydrogen and an R group. The 20 amino acids differ only in their R group."
+  - q: "Which bond forms when two amino acids join by condensation?"
+    o: ["Glycosidic bond", "Ester bond", "Peptide bond", "Disulfide bridge"]
+    a: 2
+    e: "A peptide bond forms between the carboxyl group of one amino acid and the amine group of the next, releasing water."
+  - q: "What is the primary structure of a protein?"
+    o: ["The folding of the chain into an α-helix", "The sequence of amino acids in the polypeptide chain", "The 3D shape held by disulfide bridges", "The number of polypeptide chains"]
+    a: 1
+    e: "Primary structure is the amino acid sequence. It determines how the chain folds, and therefore the protein's final shape and function."
+  - q: "Which bonds hold the secondary structure of a protein?"
+    o: ["Ionic bonds between R groups", "Disulfide bridges", "Peptide bonds", "Hydrogen bonds"]
+    a: 3
+    e: "Hydrogen bonds between the –NH and –C=O groups of the polypeptide backbone hold the α-helix and β-pleated sheet."
+  - q: "Which bonds help maintain the tertiary structure of a protein?"
+    o: ["Hydrogen bonds, ionic bonds and disulfide bridges", "Peptide bonds only", "Glycosidic and ester bonds", "Phosphodiester bonds"]
+    a: 0
+    e: "Tertiary structure is held by hydrogen bonds, ionic bonds and disulfide bridges between R groups."
+  - q: "Haemoglobin has quaternary structure because it:"
+    o: ["Contains an α-helix", "Is made of more than one polypeptide chain", "Contains disulfide bridges", "Has a specific primary sequence"]
+    a: 1
+    e: "Quaternary structure means more than one polypeptide chain. Haemoglobin has four, plus haem prosthetic groups."
+  - q: "What is the positive result for the biuret test?"
+    o: ["Brick-red precipitate", "Blue-black colour", "Milky emulsion", "Purple colour"]
+    a: 3
+    e: "Biuret reagent turns from blue to purple when peptide bonds are present."
+  - q: "How do enzymes speed up reactions?"
+    o: ["By raising the temperature of the reaction", "By lowering the activation energy", "By increasing the kinetic energy of substrate molecules", "By supplying energy from ATP"]
+    a: 1
+    e: "Enzymes lower the activation energy, so more molecules have enough energy to react at a given temperature."
+  - q: "Which statement best describes the induced-fit model?"
+    o: ["The active site is a rigid shape that exactly matches the substrate", "The substrate changes the enzyme's primary structure", "The active site changes shape slightly as the substrate binds, putting strain on substrate bonds", "The enzyme binds permanently to the substrate"]
+    a: 2
+    e: "In induced fit, the active site moulds around the substrate as it binds. This distorts substrate bonds and lowers the activation energy."
+  - q: "Why does an enzyme only catalyse one type of reaction?"
+    o: ["Only one substrate has a shape complementary to the active site", "Enzymes are only made for one reaction per cell", "The active site is identical in shape to the substrate", "Each enzyme contains only one amino acid"]
+    a: 0
+    e: "The active site's specific tertiary shape is complementary to only one substrate, so only that substrate can form an enzyme–substrate complex."
+  - q: "Why does the rate of an enzyme-controlled reaction fall above the optimum temperature?"
+    o: ["The substrate molecules move too slowly", "Hydrogen and ionic bonds break, the active site changes shape, and fewer enzyme–substrate complexes form", "Peptide bonds in the primary structure break", "The enzyme runs out of ATP"]
+    a: 1
+    e: "High temperature breaks the hydrogen and ionic bonds holding the tertiary structure. The active site changes shape and is no longer complementary to the substrate. The enzyme is denatured."
+  - q: "Why does the rate of reaction rise as temperature increases up to the optimum?"
+    o: ["Enzymes and substrates gain kinetic energy, so there are more successful collisions and more enzyme–substrate complexes", "The active site becomes larger", "More enzymes are made", "The activation energy increases"]
+    a: 0
+    e: "More kinetic energy means more frequent collisions between substrate and active site, so more enzyme–substrate complexes form per second."
+  - q: "How does a change in pH affect an enzyme?"
+    o: ["It changes the primary structure", "It increases kinetic energy", "It alters hydrogen and ionic bonds in the tertiary structure, changing the shape of the active site", "It breaks peptide bonds immediately"]
+    a: 2
+    e: "H⁺ and OH⁻ ions interact with charged R groups. This disrupts ionic and hydrogen bonds, changing the shape of the active site."
+  - q: "On a graph of rate against substrate concentration, why does the curve level off?"
+    o: ["The enzyme is denatured", "The substrate has run out", "Temperature becomes the limiting factor", "All active sites are occupied, so enzyme concentration is limiting"]
+    a: 3
+    e: "At high substrate concentration, every active site is in use at any moment. Adding more substrate makes no difference, so enzyme concentration limits the rate."
+  - q: "A competitive inhibitor reduces the rate of reaction because it:"
+    o: ["Binds to the active site, so fewer substrate molecules can bind", "Binds elsewhere and changes the active site's shape", "Denatures the enzyme permanently", "Lowers the activation energy"]
+    a: 0
+    e: "A competitive inhibitor has a similar shape to the substrate and occupies the active site, so fewer enzyme–substrate complexes form."
+  - q: "How can the effect of a competitive inhibitor be reduced?"
+    o: ["By raising the temperature well above the optimum", "By increasing the substrate concentration", "By adding a non-competitive inhibitor", "It cannot be reduced"]
+    a: 1
+    e: "With more substrate, substrate molecules are more likely than inhibitor molecules to collide with active sites. The maximum rate can still be reached."
+  - q: "Where does a non-competitive inhibitor bind?"
+    o: ["To the active site", "To the substrate", "To a site other than the active site, changing the active site's shape", "To the enzyme–substrate complex only"]
+    a: 2
+    e: "Non-competitive inhibitors bind at an allosteric site. This changes the tertiary structure so the active site no longer fits the substrate."
+  - q: "Why does adding more substrate not reduce the effect of a non-competitive inhibitor?"
+    o: ["Substrate and inhibitor don't compete for the same site, and affected active sites can't bind substrate anyway", "The inhibitor is used up by the substrate", "The substrate denatures the inhibitor", "Non-competitive inhibitors are always permanent"]
+    a: 0
+    e: "The inhibitor binds away from the active site, so substrate can't displace it. While it is bound, the altered active site can't form complexes."
+  - q: "In the required practical on enzyme rate, why is the initial rate measured?"
+    o: ["Because the enzyme denatures over time", "Because temperature rises during the reaction", "Because the reaction only starts after a delay", "Because substrate concentration falls as the reaction proceeds, so the rate slows"]
+    a: 3
+    e: "As substrate is used up, the rate falls. The initial rate, found from a tangent at t = 0, reflects only the independent variable."
+  - q: "Why are enzyme and substrate solutions left separately in the water bath before mixing?"
+    o: ["To denature any contaminating enzymes", "So both reach the test temperature before the reaction starts", "To allow the enzyme to bind the buffer", "To increase the concentration of enzyme"]
+    a: 1
+    e: "Equilibrating separately means the reaction runs at the intended temperature from the start."
+  - q: "Which control best shows that the enzyme caused the change in a rate experiment?"
+    o: ["Using a higher substrate concentration", "Running the reaction without a buffer", "Using enzyme that has been boiled and cooled", "Using a different water bath"]
+    a: 2
+    e: "Boiled enzyme is denatured. If no reaction happens, the change in the test must be due to active enzyme."
+  - q: "Which type of bond in a protein is NOT broken by moderately high temperatures?"
+    o: ["Hydrogen bonds", "Ionic bonds", "Weak interactions between R groups", "Disulfide bridges"]
+    a: 3
+    e: "Disulfide bridges are strong covalent bonds between sulfur atoms in cysteine. Heat mainly breaks the weaker hydrogen and ionic bonds."

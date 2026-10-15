@@ -1,0 +1,129 @@
+id: "3.5d"
+order: 19
+section: "3.5"
+spec: "3.5.4"
+title: "Nutrient cycles"
+desc: "The nitrogen and phosphorus cycles, saprobionts and mycorrhizae, natural and artificial fertilisers, leaching and eutrophication."
+practicals: []
+summary:
+  - h: "Saprobionts and mycorrhizae"
+    p:
+      - "Nutrients are recycled within natural ecosystems. Microorganisms play a vital role."
+      - "**Saprobionts** (saprotrophs) feed on dead organisms and waste by **extracellular digestion**: they secrete enzymes and absorb the products. This releases nutrients such as ammonium and phosphate ions."
+      - "**Mycorrhizae** are associations between **fungi and plant roots**. Fungal hyphae act as an extension of the root system, increasing **surface area** for absorbing water and mineral ions (especially phosphate). The fungus gets organic compounds such as sugars."
+  - h: "The nitrogen cycle"
+    p:
+      - "**Ammonification**: saprobionts break down nitrogen-containing compounds (proteins, urea, DNA) in dead organisms and waste into **ammonia/ammonium ions (NH₄⁺)**."
+      - "**Nitrification**: **nitrifying bacteria** oxidise ammonium to **nitrites (NO₂⁻)** and then to **nitrates (NO₃⁻)**. Needs **oxygen** (aerobic)."
+      - "**Nitrogen fixation**: **nitrogen-fixing bacteria** convert N₂ gas into ammonia. Some are free-living in soil; others live in **root nodules of legumes** (mutualism)."
+      - "**Denitrification**: **denitrifying bacteria** convert nitrates back to **N₂ gas**. Happens in **anaerobic** (waterlogged) soil."
+      - "Plants absorb nitrates and ammonium to make proteins, nucleic acids and ATP."
+  - h: "The phosphorus cycle"
+    p:
+      - "Phosphate ions are released from **rocks** by **weathering**, and absorbed by plants (helped by mycorrhizae)."
+      - "Phosphorus passes along food chains. Saprobionts release phosphate from dead organisms and waste."
+      - "Phosphate can be carried into water and form **sediments**, which become rock over very long timescales. There is **no gas phase**, so the cycle is slow."
+      - "Phosphate is used to make DNA, RNA, ATP and phospholipids."
+  - h: "Fertilisers"
+    p:
+      - "Harvesting crops removes nutrients from the soil, so fertilisers replace them, increasing productivity."
+      - "**Natural** fertilisers: manure, compost. **Artificial** fertilisers: inorganic chemicals with exact amounts of nitrate, phosphate and potassium."
+  - h: "Environmental effects of fertilisers"
+    p:
+      - "**Reduced species diversity**: fast-growing species such as grasses and nettles outcompete others."
+      - "**Leaching**: water-soluble ions are washed out of soil into rivers and lakes."
+      - "**Eutrophication**: nitrate in water causes rapid **algal growth** (algal bloom). Algae block light, so plants below die. **Saprobionts** decompose dead material, using lots of **oxygen** in aerobic respiration. O₂ levels fall, so fish and other aerobic organisms die."
+pitfalls:
+  - "Nitrification is **aerobic**. Denitrification is **anaerobic**. Ploughing and draining soil favour nitrification."
+  - "Don't say algae use up the oxygen. It's mainly **saprobiont respiration** decomposing dead organisms."
+  - "Nitrogen fixation turns N₂ into **ammonia/ammonium**, not nitrate."
+  - "Mycorrhizae increase **surface area**, not 'make nutrients'."
+questions:
+  - q: "How do saprobionts obtain nutrients?"
+    o: ["By photosynthesis", "By extracellular digestion: secreting enzymes onto dead material and absorbing the products", "By engulfing whole organisms", "By fixing nitrogen gas"]
+    a: 1
+    e: "Saprobionts secrete hydrolytic enzymes onto dead material and absorb the soluble products, releasing mineral ions."
+  - q: "What are mycorrhizae?"
+    o: ["Associations between fungi and plant roots that increase absorption of water and ions", "Nitrogen-fixing bacteria in root nodules", "Algae in lakes", "Denitrifying bacteria"]
+    a: 0
+    e: "Fungal hyphae extend the root surface area, improving uptake of water and ions such as phosphate. The fungus receives sugars."
+  - q: "What is ammonification?"
+    o: ["Conversion of N₂ to ammonia", "Conversion of nitrate to N₂", "Conversion of nitrogen-containing organic compounds into ammonia by saprobionts", "Conversion of nitrite to nitrate"]
+    a: 2
+    e: "Saprobionts decompose proteins, urea and nucleic acids in dead matter and waste, releasing ammonia or ammonium."
+  - q: "What do nitrifying bacteria do?"
+    o: ["Convert N₂ to ammonia", "Convert nitrates to N₂", "Decompose dead organisms", "Oxidise ammonium to nitrites and then nitrates"]
+    a: 3
+    e: "Nitrification is the oxidation of ammonium to nitrite, then nitrate. It needs oxygen."
+  - q: "Why does waterlogged soil reduce the amount of nitrate available to plants?"
+    o: ["Anaerobic conditions favour denitrifying bacteria, which convert nitrate to N₂ gas", "Water dilutes the nitrate", "Nitrogen-fixing bacteria are more active", "Plants absorb too much nitrate"]
+    a: 0
+    e: "Waterlogged soil lacks oxygen. Denitrifying bacteria thrive and remove nitrate, while aerobic nitrifying bacteria are inhibited."
+  - q: "What do nitrogen-fixing bacteria produce from N₂?"
+    o: ["Nitrate", "Ammonia (ammonium ions)", "Nitrite", "Proteins only"]
+    a: 1
+    e: "Nitrogen fixation reduces N₂ gas to ammonia, which can be used to make amino acids."
+  - q: "Where are nitrogen-fixing bacteria found in legumes?"
+    o: ["In leaf stomata", "In the xylem", "In root nodules", "In seeds only"]
+    a: 2
+    e: "Rhizobium bacteria live in root nodules of legumes such as peas and clover, in a mutualistic relationship."
+  - q: "Why does ploughing soil increase nitrate levels?"
+    o: ["It adds nitrogen gas", "It kills nitrifying bacteria", "It increases denitrification", "It aerates soil, favouring aerobic nitrifying bacteria"]
+    a: 3
+    e: "Ploughing adds oxygen, which helps nitrifying bacteria and inhibits anaerobic denitrifiers."
+  - q: "Why is the phosphorus cycle slower than the nitrogen cycle?"
+    o: ["It has no gas phase, and phosphate is locked in rock for long periods", "Phosphate is rare", "Plants don't need phosphate", "Bacteria fix phosphate quickly"]
+    a: 0
+    e: "Phosphorus has no significant atmospheric form. It is released slowly by weathering of rocks."
+  - q: "How does phosphate enter the soil from rocks?"
+    o: ["Nitrogen fixation", "Weathering", "Denitrification", "Photosynthesis"]
+    a: 1
+    e: "Weathering of rocks releases phosphate ions into soil and water."
+  - q: "Which molecules require phosphate to be made?"
+    o: ["Glucose and starch", "Cellulose and glycogen", "DNA, RNA, ATP and phospholipids", "Proteins only"]
+    a: 2
+    e: "Phosphate is a component of nucleotides (DNA, RNA, ATP) and phospholipids."
+  - q: "Why are fertilisers used in agriculture?"
+    o: ["To kill weeds", "To kill pests", "To increase soil pH", "To replace nutrients removed when crops are harvested"]
+    a: 3
+    e: "Harvesting removes nutrients that would normally return to the soil, so fertilisers replace them and increase yield."
+  - q: "What is leaching?"
+    o: ["Water-soluble nutrients being washed out of soil into rivers and lakes", "Fixation of nitrogen", "Decomposition by saprobionts", "Absorption by roots"]
+    a: 0
+    e: "Rain carries soluble ions such as nitrate out of soil and into water bodies."
+  - q: "During eutrophication, why does oxygen in the water fall?"
+    o: ["Algae use all the oxygen in photosynthesis", "Saprobionts decompose dead plants and algae, using oxygen in aerobic respiration", "Fish use more oxygen", "Nitrate reacts with oxygen"]
+    a: 1
+    e: "Dead organisms provide food for saprobionts. Their population grows and their respiration uses up dissolved oxygen."
+  - q: "What is the correct sequence in eutrophication?"
+    o: ["Fish die, then algae grow, then nitrate is leached", "Oxygen rises, then plants grow", "Nitrate leached, algal bloom, plants die from lack of light, saprobionts respire, oxygen falls, fish die", "Saprobionts die first"]
+    a: 2
+    e: "Excess nitrate leads to algal bloom. Plants below die. Decomposition by saprobionts uses oxygen. Aerobic organisms die."
+  - q: "Why might fertilisers reduce species diversity in a field?"
+    o: ["They poison all plants", "They increase leaching", "They prevent pollination", "Fast-growing species such as grasses outcompete other species"]
+    a: 3
+    e: "Fertilisers favour fast-growing species, which outcompete slower-growing ones."
+  - q: "Why are natural fertilisers less likely to cause leaching than artificial ones?"
+    o: ["They release nutrients more slowly, as organic matter is decomposed", "They contain more nitrate", "They are more soluble", "They contain no nitrogen"]
+    a: 0
+    e: "Manure and compost must be decomposed by saprobionts first, so ions are released gradually."
+  - q: "Denitrifying bacteria convert nitrate into:"
+    o: ["Ammonium", "Nitrogen gas", "Nitrite only", "Proteins"]
+    a: 1
+    e: "Denitrification returns nitrogen to the atmosphere as N₂ gas."
+  - q: "What do plants use absorbed nitrate for?"
+    o: ["Making glucose", "Making cellulose", "Making amino acids, proteins and nucleic acids", "Making starch"]
+    a: 2
+    e: "Nitrogen is needed for amino acids, proteins, DNA, RNA and ATP."
+  - q: "What is the relationship between legumes and nitrogen-fixing bacteria?"
+    o: ["Parasitism", "Competition", "Predation", "Mutualism: bacteria get sugars, plant gets ammonium"]
+    a: 3
+    e: "Both benefit: the plant gets a nitrogen source, and the bacteria get carbohydrates and protection."
+  - q: "Which process requires oxygen?"
+    o: ["Nitrification", "Denitrification", "Weathering of rocks", "Leaching"]
+    a: 0
+    e: "Nitrifying bacteria are aerobic. They need oxygen to oxidise ammonium to nitrate."
+  - q: "What is the main advantage of artificial fertilisers over manure?"
+    o: ["They improve soil structure", "The exact amount of each nutrient is known", "They don't cause leaching", "They contain organic matter"]
+    a: 1
+    e: "Artificial fertilisers contain known amounts of nitrate, phosphate and potassium. Manure improves soil structure but nutrient content varies."

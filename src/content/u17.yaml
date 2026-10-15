@@ -1,0 +1,133 @@
+id: "3.5b"
+order: 17
+section: "3.5"
+spec: "3.5.2"
+title: "Respiration"
+desc: "Glycolysis, the link reaction, the Krebs cycle, oxidative phosphorylation, anaerobic respiration, and other respiratory substrates."
+practicals: [9]
+summary:
+  - h: "Glycolysis (cytoplasm)"
+    p:
+      - "First stage of both aerobic and anaerobic respiration. Happens in the **cytoplasm**."
+      - "Glucose is **phosphorylated** using **2 ATP**, forming a sugar bisphosphate, which splits into **two triose phosphate** molecules."
+      - "Each triose phosphate is **oxidised** to **pyruvate**. This produces ATP and **reduced NAD**."
+      - "Net yield per glucose: **2 ATP**, **2 reduced NAD** and **2 pyruvate**."
+  - h: "Link reaction (mitochondrial matrix)"
+    p:
+      - "Pyruvate is actively transported into the **matrix**."
+      - "It is **oxidised** to **acetate**, producing **CO₂** and **reduced NAD**."
+      - "Acetate combines with **coenzyme A** to form **acetylcoenzyme A**."
+  - h: "Krebs cycle (matrix)"
+    p:
+      - "Acetylcoenzyme A (2C) reacts with a **4-carbon** molecule (oxaloacetate), releasing coenzyme A and forming a **6-carbon** molecule (citrate)."
+      - "In a series of oxidation-reduction reactions, the 6C molecule is converted back to the 4C molecule, producing **reduced NAD**, **reduced FAD**, **ATP** (by substrate-level phosphorylation) and **CO₂**."
+      - "The cycle turns **twice** per glucose, because there are two pyruvates."
+  - h: "Oxidative phosphorylation (inner membrane)"
+    p:
+      - "Reduced NAD and reduced FAD release **electrons** and H⁺. Electrons pass along the **electron transfer chain** on the **cristae** (inner mitochondrial membrane)."
+      - "Energy released pumps **H⁺** into the **intermembrane space**, creating an electrochemical gradient."
+      - "H⁺ diffuses back into the matrix through **ATP synthase**, producing **ATP** (**chemiosmosis**)."
+      - "**Oxygen** is the **final electron acceptor**. It combines with electrons and H⁺ to form **water**. Without oxygen, the chain stops."
+  - h: "Anaerobic respiration"
+    p:
+      - "Only glycolysis happens, producing 2 ATP per glucose."
+      - "Pyruvate is converted to **lactate** (animals, some bacteria) or **ethanol and CO₂** (plants, yeast)."
+      - "This **regenerates NAD** (oxidises reduced NAD), so glycolysis can continue."
+  - h: "Other respiratory substrates"
+    p:
+      - "**Lipids**: hydrolysed to glycerol and fatty acids. Glycerol is converted to triose phosphate. Fatty acids are broken into 2-carbon fragments that form acetylcoenzyme A."
+      - "**Proteins**: hydrolysed to amino acids, which are **deaminated**. The remaining part enters the Krebs cycle or link reaction."
+pitfalls:
+  - "Glycolysis is in the **cytoplasm**. Link and Krebs in the **matrix**. Electron transfer chain on the **inner membrane (cristae)**."
+  - "Oxygen is the **final electron acceptor**. It isn't 'used to make ATP' directly."
+  - "Anaerobic respiration's key point: **NAD is regenerated** so glycolysis continues."
+  - "Krebs cycle produces only a small amount of ATP directly. Most ATP comes from oxidative phosphorylation."
+questions:
+  - q: "Where does glycolysis take place?"
+    o: ["Mitochondrial matrix", "Cytoplasm", "Inner mitochondrial membrane", "Stroma"]
+    a: 1
+    e: "Glycolysis happens in the cytoplasm. It doesn't need oxygen, so it occurs in both aerobic and anaerobic respiration."
+  - q: "What is the net yield of glycolysis per glucose molecule?"
+    o: ["2 ATP, 2 reduced NAD and 2 pyruvate", "4 ATP and 2 pyruvate", "36 ATP", "2 ATP and 2 lactate"]
+    a: 0
+    e: "Glycolysis uses 2 ATP and makes 4, so the net yield is 2 ATP, plus 2 reduced NAD and 2 pyruvate."
+  - q: "Why is glucose phosphorylated at the start of glycolysis?"
+    o: ["To make it into pyruvate", "To make CO₂", "To make it more reactive, so it can be split into two triose phosphates", "To produce reduced NAD"]
+    a: 2
+    e: "Adding phosphate from ATP makes glucose more reactive, so it can split into two triose phosphate molecules."
+  - q: "What happens in the link reaction?"
+    o: ["Glucose is split into pyruvate", "Electrons are passed to oxygen", "Citrate is formed", "Pyruvate is oxidised to acetate, producing CO₂ and reduced NAD"]
+    a: 3
+    e: "Pyruvate loses CO₂ and hydrogen (to NAD), forming acetate, which combines with coenzyme A."
+  - q: "Where does the link reaction take place?"
+    o: ["Mitochondrial matrix", "Cytoplasm", "Intermembrane space", "Thylakoids"]
+    a: 0
+    e: "Pyruvate is actively transported into the matrix of the mitochondrion, where the link reaction happens."
+  - q: "In the Krebs cycle, acetylcoenzyme A combines with a 4-carbon molecule to form:"
+    o: ["A 2-carbon molecule", "A 6-carbon molecule", "A 3-carbon molecule", "A 5-carbon molecule"]
+    a: 1
+    e: "Acetyl (2C) + oxaloacetate (4C) gives citrate (6C). This is gradually converted back to the 4C molecule."
+  - q: "Which is NOT produced in the Krebs cycle?"
+    o: ["Reduced NAD", "Reduced FAD", "Oxygen", "CO₂"]
+    a: 2
+    e: "The Krebs cycle produces reduced NAD, reduced FAD, ATP and CO₂. Oxygen is used at the end of the electron transfer chain, not produced."
+  - q: "How many times does the Krebs cycle turn for each glucose molecule?"
+    o: ["Once", "Four times", "Six times", "Twice"]
+    a: 3
+    e: "Each glucose produces two pyruvate, which give two acetylcoenzyme A, so the cycle turns twice."
+  - q: "Where is the electron transfer chain in mitochondria?"
+    o: ["On the inner membrane (cristae)", "In the matrix", "On the outer membrane", "In the cytoplasm"]
+    a: 0
+    e: "The electron carriers and ATP synthase are embedded in the inner mitochondrial membrane, folded into cristae."
+  - q: "What is the role of oxygen in aerobic respiration?"
+    o: ["It splits glucose", "It is the final electron acceptor, combining with electrons and H⁺ to form water", "It forms CO₂", "It phosphorylates ADP"]
+    a: 1
+    e: "Oxygen accepts electrons at the end of the chain. Without it, electrons can't flow and oxidative phosphorylation stops."
+  - q: "Where are H⁺ ions pumped during oxidative phosphorylation?"
+    o: ["Into the matrix", "Into the cytoplasm", "Into the intermembrane space", "Into the thylakoid space"]
+    a: 2
+    e: "Energy from electrons pumps H⁺ from the matrix into the intermembrane space. They diffuse back through ATP synthase."
+  - q: "What is chemiosmosis?"
+    o: ["Movement of water across a membrane", "Splitting of glucose", "Production of ATP directly in the Krebs cycle", "H⁺ diffusing through ATP synthase down an electrochemical gradient, driving ATP synthesis"]
+    a: 3
+    e: "The H⁺ gradient provides energy. As H⁺ flows through ATP synthase, ADP is phosphorylated to ATP."
+  - q: "A respiratory inhibitor blocks the electron transfer chain. What happens?"
+    o: ["Oxidative phosphorylation stops, so much less ATP is made", "More ATP is made", "Glycolysis stops completely", "Oxygen use increases"]
+    a: 0
+    e: "Without electron flow, no H⁺ gradient forms, so ATP synthase can't make ATP. Only a small amount comes from glycolysis."
+  - q: "In anaerobic respiration in mammals, pyruvate is converted to:"
+    o: ["Ethanol and CO₂", "Lactate", "Acetylcoenzyme A", "Glucose"]
+    a: 1
+    e: "Mammalian muscle converts pyruvate to lactate, regenerating NAD."
+  - q: "What does yeast produce in anaerobic respiration?"
+    o: ["Lactate", "Oxygen", "Ethanol and CO₂", "Citrate"]
+    a: 2
+    e: "Yeast and plants convert pyruvate to ethanol and carbon dioxide."
+  - q: "Why is pyruvate converted to lactate or ethanol in anaerobic respiration?"
+    o: ["To make more ATP", "To store energy", "To produce oxygen", "To regenerate NAD so glycolysis can continue"]
+    a: 3
+    e: "Reduced NAD from glycolysis is oxidised back to NAD. Without this, glycolysis would stop for lack of NAD."
+  - q: "Why does anaerobic respiration produce much less ATP than aerobic?"
+    o: ["Only glycolysis happens; the link reaction, Krebs cycle and oxidative phosphorylation don't", "Glucose isn't used", "Lactate is toxic", "ATP synthase works backwards"]
+    a: 0
+    e: "Without oxygen, the electron transfer chain stops, and so do the Krebs cycle and link reaction. Only 2 ATP come from glycolysis."
+  - q: "How are fatty acids used in respiration?"
+    o: ["They are converted to glucose", "They are broken into 2-carbon fragments that form acetylcoenzyme A", "They are deaminated", "They are used only in glycolysis"]
+    a: 1
+    e: "Fatty acids are split into many 2C units that enter the Krebs cycle as acetylcoenzyme A. This releases a lot of energy."
+  - q: "How are amino acids used as respiratory substrates?"
+    o: ["Directly in glycolysis", "Converted into lipids first", "They are deaminated, and the rest enters the Krebs cycle or link reaction", "They can't be used"]
+    a: 2
+    e: "The amino group is removed (deamination). The remaining carbon skeleton enters respiration at various points."
+  - q: "In a respirometer for RP9, what is the role of soda lime?"
+    o: ["To provide oxygen", "To keep temperature constant", "To feed the yeast", "To absorb CO₂, so movement of the liquid shows O₂ uptake"]
+    a: 3
+    e: "With CO₂ absorbed, any volume change is due to oxygen being used, so the liquid moves toward the organisms."
+  - q: "In RP9, the liquid moves 25 mm in 10 minutes in a capillary of radius 0.5 mm. What is the rate of O₂ uptake?"
+    o: ["1.96 mm³ min⁻¹", "19.6 mm³ min⁻¹", "2.5 mm³ min⁻¹", "0.79 mm³ min⁻¹"]
+    a: 0
+    e: "Volume = πr²h = 3.14 × 0.25 × 25 = 19.6 mm³. Rate = 19.6 ÷ 10 = 1.96 mm³ min⁻¹."
+  - q: "Where is ATP made by substrate-level phosphorylation in aerobic respiration?"
+    o: ["Only in the electron transfer chain", "In glycolysis and the Krebs cycle", "Only in the link reaction", "In ATP synthase"]
+    a: 1
+    e: "Substrate-level phosphorylation transfers phosphate directly from a substrate to ADP, in glycolysis and the Krebs cycle."

@@ -1,0 +1,128 @@
+id: "3.4c"
+order: 14
+section: "3.4"
+spec: "3.4.4"
+title: "Genetic diversity and adaptation"
+desc: "Genetic diversity, natural selection, directional and stabilising selection, types of adaptation, and antibiotic resistance in bacteria."
+practicals: []
+summary:
+  - h: "Genetic diversity"
+    p:
+      - "**Genetic diversity** is the **number of different alleles of genes** in a population."
+      - "It is a factor enabling **natural selection**: more diversity means more chance some individuals survive an environmental change."
+      - "New alleles arise by **random mutation**. Genetic diversity falls in small or isolated populations (e.g. after a bottleneck)."
+  - h: "Natural selection"
+    p:
+      - "Random **mutation** produces new alleles. Some are **advantageous** in the current environment."
+      - "Individuals with the advantageous allele are more likely to **survive and reproduce** (selection pressure, e.g. predation, disease, competition)."
+      - "They **pass the allele on** to offspring."
+      - "Over **many generations**, the **frequency of the advantageous allele increases** in the population."
+  - h: "Types of selection"
+    p:
+      - "**Directional selection**: individuals with an **extreme** phenotype are favoured, so the mean shifts. Example: **antibiotic resistance** in bacteria."
+      - "**Stabilising selection**: individuals with phenotypes **near the mean** are favoured, so the range narrows. Example: **human birth weight** (very low and very high weights have higher mortality)."
+  - h: "Adaptations"
+    p:
+      - "Natural selection leads to organisms that are better adapted to their environment."
+      - "**Anatomical**: body structure, e.g. thick fur in Arctic animals."
+      - "**Physiological**: processes inside the body, e.g. hibernation lowering metabolic rate."
+      - "**Behavioural**: how an organism acts, e.g. migration or courtship."
+  - h: "Antibiotic resistance"
+    p:
+      - "A random **mutation** gives a bacterium an allele for resistance (e.g. an enzyme that breaks down the antibiotic)."
+      - "When the antibiotic is used, non-resistant bacteria die. Resistant bacteria survive and reproduce by **binary fission**."
+      - "The resistance allele is passed on (vertical transmission) and can also spread between bacteria on **plasmids** (horizontal transmission)."
+      - "Frequency of the resistance allele increases, e.g. MRSA."
+pitfalls:
+  - "Mutations are **random**. Bacteria don't mutate 'because of' the antibiotic or 'in order to' survive."
+  - "Say the **frequency of the allele** increases in the population. Individuals don't evolve; populations do."
+  - "Always mention **reproduce and pass on the allele**. Surviving alone isn't enough marks."
+questions:
+  - q: "What is genetic diversity?"
+    o: ["The number of species in a habitat", "The number of different alleles of genes in a population", "The number of individuals in a population", "The number of chromosomes in a cell"]
+    a: 1
+    e: "Genetic diversity is the number of different alleles of genes present in a population."
+  - q: "How do new alleles arise?"
+    o: ["By random mutation", "By natural selection", "By crossing over only", "By the environment directly changing genes"]
+    a: 0
+    e: "New alleles come from random mutations in DNA. Selection then acts on the variation that already exists."
+  - q: "Why is genetic diversity important for a population?"
+    o: ["It prevents mutations", "It makes all individuals identical", "It increases the chance some individuals survive an environmental change", "It stops natural selection"]
+    a: 2
+    e: "With more alleles, it is more likely some individuals have characteristics allowing them to survive new conditions."
+  - q: "What is the correct sequence in natural selection?"
+    o: ["Environment causes mutation, then survival", "Organism decides to adapt", "Survival, then mutation", "Random mutation, advantage, survival and reproduction, allele passed on, allele frequency increases"]
+    a: 3
+    e: "Mutation produces variation. Those with an advantageous allele survive and reproduce more, so the allele becomes more common over generations."
+  - q: "What is directional selection?"
+    o: ["Individuals with an extreme phenotype are favoured, so the mean shifts", "Individuals near the mean are favoured", "Both extremes are favoured", "No phenotype is favoured"]
+    a: 0
+    e: "In directional selection, one extreme has an advantage, so the population's mean moves in that direction."
+  - q: "Which is an example of stabilising selection?"
+    o: ["Antibiotic resistance in bacteria", "Human birth weight", "Peppered moth colour after industrial pollution", "Increasing beak size in a drought"]
+    a: 1
+    e: "Babies of average birth weight have the highest survival rates, so very low and very high birth weights are selected against."
+  - q: "How does stabilising selection affect a population over time?"
+    o: ["The mean shifts to one side", "The range of phenotypes increases", "The range of phenotypes narrows around the mean", "Two new species form"]
+    a: 2
+    e: "Extremes are selected against, so variation around the mean decreases and the curve becomes narrower and taller."
+  - q: "Hibernation is an example of which type of adaptation?"
+    o: ["Anatomical", "Behavioural only", "Structural", "Physiological"]
+    a: 3
+    e: "Hibernation involves changes in body processes, such as lowering metabolic rate, so it is physiological."
+  - q: "Thick fur in Arctic mammals is an example of which type of adaptation?"
+    o: ["Anatomical", "Physiological", "Behavioural", "Biochemical"]
+    a: 0
+    e: "Anatomical adaptations are structural features of the body, like fur or body shape."
+  - q: "Birds migrating to warmer climates in winter is which type of adaptation?"
+    o: ["Physiological", "Behavioural", "Anatomical", "Genetic drift"]
+    a: 1
+    e: "Migration is something the organism does, so it is a behavioural adaptation."
+  - q: "How does antibiotic resistance first appear in a bacterial population?"
+    o: ["Bacteria choose to become resistant", "The antibiotic causes the mutation", "A random mutation produces an allele for resistance", "Bacteria absorb antibodies"]
+    a: 2
+    e: "Resistance arises by chance mutation. The antibiotic then acts as a selection pressure."
+  - q: "Why does the frequency of an antibiotic resistance allele increase when an antibiotic is used?"
+    o: ["Antibiotics cause mutations", "All bacteria become resistant at once", "Resistant bacteria are larger", "Non-resistant bacteria die; resistant ones survive, reproduce and pass on the allele"]
+    a: 3
+    e: "The antibiotic kills susceptible bacteria. Resistant bacteria survive, divide by binary fission and pass on the allele."
+  - q: "How can antibiotic resistance alleles spread between different bacteria?"
+    o: ["On plasmids, passed between bacteria (horizontal transmission)", "Through the air", "By meiosis", "By antibodies"]
+    a: 0
+    e: "Plasmids carrying resistance genes can be transferred between bacteria, even of different species."
+  - q: "Antibiotic resistance is an example of which type of selection?"
+    o: ["Stabilising", "Directional", "Disruptive", "Random"]
+    a: 1
+    e: "The extreme phenotype (resistance) is favoured, so the population shifts in that direction."
+  - q: "Why is genetic diversity low in a population that has gone through a bottleneck?"
+    o: ["Mutation rate increased", "Selection favoured the mean", "Few individuals survived, so many alleles were lost", "The population grew rapidly"]
+    a: 2
+    e: "When a population is drastically reduced, many alleles are lost. Even if numbers recover, diversity stays low."
+  - q: "Which statement about natural selection is correct?"
+    o: ["Individual organisms evolve during their lifetime", "Mutations occur to meet the organism's needs", "Selection creates new alleles", "Allele frequencies change in a population over many generations"]
+    a: 3
+    e: "Evolution is a change in allele frequency in a population over generations. Individuals don't evolve."
+  - q: "Doctors are advised not to prescribe antibiotics unnecessarily. Why?"
+    o: ["To reduce the selection pressure that favours resistant bacteria", "Because antibiotics cause mutations", "Because antibiotics kill viruses", "Because they increase genetic diversity"]
+    a: 0
+    e: "Each use of an antibiotic selects for resistant bacteria. Less use means less selection for resistance."
+  - q: "What is a selection pressure?"
+    o: ["A type of mutation", "An environmental factor that affects the chance of survival and reproduction", "The pressure in the xylem", "Pressure of blood in capillaries"]
+    a: 1
+    e: "Selection pressures include predation, disease, competition and climate. They determine which phenotypes survive and reproduce best."
+  - q: "Why must patients complete a full course of antibiotics?"
+    o: ["To help them build antibodies", "To prevent viral infection", "To kill all the bacteria, including those that are slightly more resistant", "To increase the mutation rate"]
+    a: 2
+    e: "Stopping early may leave the most resistant bacteria alive, which then multiply."
+  - q: "In a population of rabbits, fur colour that matches the background increases over generations. What is the most likely cause?"
+    o: ["Rabbits change their fur to match", "Mutations are caused by the background", "Stabilising selection removes all variation", "Rabbits with matching fur are less likely to be eaten, so they survive and reproduce more"]
+    a: 3
+    e: "Predation is the selection pressure. Camouflaged rabbits survive and reproduce, passing on the allele for that fur colour."
+  - q: "MRSA is an example of:"
+    o: ["A bacterium resistant to several antibiotics", "A virus", "A vaccine", "An antibiotic"]
+    a: 0
+    e: "MRSA (methicillin-resistant Staphylococcus aureus) is a bacterium that has evolved resistance to several antibiotics."
+  - q: "How does a mutation become an adaptation?"
+    o: ["It immediately helps every individual", "If it is advantageous, natural selection increases its frequency over many generations", "It is copied by other organisms", "It replaces all other genes"]
+    a: 1
+    e: "An advantageous allele is passed on more often, so over many generations it becomes common and the population is adapted."

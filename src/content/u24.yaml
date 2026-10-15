@@ -1,0 +1,132 @@
+id: "3.6e"
+order: 24
+section: "3.6"
+spec: "3.6.4.3"
+title: "Control of blood water potential"
+desc: "Nephron structure, ultrafiltration, selective reabsorption, the loop of Henle, and control of water potential by ADH."
+practicals: []
+summary:
+  - h: "The nephron"
+    p:
+      - "Kidneys contain about a million **nephrons**. Parts: **glomerulus** and **Bowman's capsule**, **proximal convoluted tubule (PCT)**, **loop of Henle**, **distal convoluted tubule (DCT)** and **collecting duct**."
+      - "Blood enters the glomerulus through the wider **afferent arteriole** and leaves through the narrower **efferent arteriole**."
+  - h: "Ultrafiltration"
+    p:
+      - "The efferent arteriole is narrower than the afferent, so **hydrostatic pressure** in the glomerulus is high."
+      - "This forces small molecules (water, glucose, urea, mineral ions, amino acids) out of the capillary and into the Bowman's capsule, forming **glomerular filtrate**."
+      - "**Large proteins** and **blood cells** are too big to pass through, so they stay in the blood."
+  - h: "Selective reabsorption in the PCT"
+    p:
+      - "All **glucose**, most water and many ions are reabsorbed from the filtrate in the PCT."
+      - "Epithelial cells have **microvilli** (large surface area) and many **mitochondria** (ATP for active transport)."
+      - "Na⁺ is actively transported out of the epithelial cells into the blood. Na⁺ then diffuses into the cells from the filtrate, **co-transporting glucose** and amino acids."
+      - "Water follows by **osmosis**."
+  - h: "Loop of Henle"
+    p:
+      - "The loop creates a **gradient of water potential** in the **medulla**, which becomes more negative deeper in."
+      - "**Ascending limb**: Na⁺ and Cl⁻ are **actively transported out** into the medulla. The ascending limb is **impermeable to water**."
+      - "This **lowers the water potential** of the medulla tissue fluid."
+      - "**Descending limb**: permeable to water, so water leaves by osmosis into the medulla and is carried away by capillaries."
+      - "Water then leaves the **collecting duct** by osmosis as it passes down through the medulla."
+      - "Animals in dry habitats have **longer loops of Henle**, creating a steeper gradient so more water is reabsorbed."
+  - h: "Control by ADH"
+    p:
+      - "**Osmoreceptors** in the **hypothalamus** detect changes in blood water potential."
+      - "When water potential **falls** (e.g. dehydration), the hypothalamus sends signals and the **posterior pituitary** releases more **ADH** (antidiuretic hormone)."
+      - "ADH binds to receptors on cells of the **DCT and collecting duct**, causing **aquaporins** (water channels) to be inserted into their membranes. Walls become **more permeable to water**."
+      - "More water is reabsorbed into the blood, so a **smaller volume of more concentrated urine** is produced."
+      - "When water potential rises (too much water), less ADH is released, so less water is reabsorbed."
+pitfalls:
+  - "The **ascending** limb is impermeable to water and actively pumps out ions. The **descending** limb lets water out."
+  - "ADH makes the collecting duct **more permeable**. It doesn't actively 'pump' water."
+  - "Glucose in urine means **not all** glucose was reabsorbed, because carrier proteins were saturated (e.g. untreated diabetes)."
+  - "ADH is **made in the hypothalamus** and **released from the posterior pituitary**."
+questions:
+  - q: "Why is the hydrostatic pressure in the glomerulus high?"
+    o: ["The efferent arteriole is narrower than the afferent arteriole", "The heart pumps directly into it", "The afferent arteriole is narrower", "The glomerulus contains muscle"]
+    a: 0
+    e: "Blood enters through a wider vessel and leaves through a narrower one, building up pressure that forces fluid out."
+  - q: "Which substance is NOT normally found in the glomerular filtrate?"
+    o: ["Glucose", "Urea", "Large plasma proteins", "Water"]
+    a: 2
+    e: "Large proteins and blood cells are too big to pass through the filtration barrier."
+  - q: "Where is all the glucose reabsorbed in a healthy nephron?"
+    o: ["Loop of Henle", "Collecting duct", "Distal convoluted tubule", "Proximal convoluted tubule"]
+    a: 3
+    e: "All glucose is reabsorbed in the PCT by co-transport with sodium ions."
+  - q: "How are PCT epithelial cells adapted for reabsorption?"
+    o: ["They have microvilli and many mitochondria", "They have thick walls", "They have no carrier proteins", "They are impermeable to water"]
+    a: 0
+    e: "Microvilli give a large surface area, and mitochondria provide ATP for active transport of Na⁺."
+  - q: "How is glucose reabsorbed in the PCT?"
+    o: ["By osmosis", "By co-transport with Na⁺, which diffuses in after being actively transported out the other side", "By ultrafiltration", "By simple diffusion through the bilayer"]
+    a: 1
+    e: "Na⁺ is pumped out into the blood. Na⁺ then diffuses in from the filtrate, carrying glucose with it."
+  - q: "Why is glucose found in the urine of someone with untreated diabetes?"
+    o: ["The glomerulus filters too little", "ADH stops working", "Glucose concentration in the filtrate is so high that carrier proteins are saturated, so not all is reabsorbed", "Glucose is secreted into the urine"]
+    a: 2
+    e: "There is a limited number of co-transporters. When they are all working at maximum rate, excess glucose stays in the filtrate."
+  - q: "What happens in the ascending limb of the loop of Henle?"
+    o: ["Water leaves by osmosis", "Glucose is reabsorbed", "Urea is added", "Na⁺ and Cl⁻ are actively transported out, while the wall is impermeable to water"]
+    a: 3
+    e: "Ions are pumped into the medulla, lowering its water potential. Water can't follow because the wall is impermeable."
+  - q: "What happens in the descending limb of the loop of Henle?"
+    o: ["Water moves out by osmosis into the medulla", "Na⁺ is actively pumped out", "Glucose is reabsorbed", "ADH is made"]
+    a: 0
+    e: "The medulla has a low water potential, so water leaves the permeable descending limb by osmosis."
+  - q: "What is the main role of the loop of Henle?"
+    o: ["To filter the blood", "To create a low (more negative) water potential in the medulla, so water can be reabsorbed from the collecting duct", "To reabsorb glucose", "To secrete ADH"]
+    a: 1
+    e: "The gradient it creates lets water leave the collecting duct by osmosis as it passes through the medulla."
+  - q: "Desert rodents have very long loops of Henle. Why?"
+    o: ["To filter more blood", "To reabsorb more glucose", "To create a steeper water potential gradient in the medulla, so more water is reabsorbed", "To make more dilute urine"]
+    a: 2
+    e: "A longer loop pumps more ions into the medulla, making its water potential more negative, so more water is reabsorbed."
+  - q: "Where are osmoreceptors that detect blood water potential?"
+    o: ["In the kidney", "In the posterior pituitary", "In the aorta", "In the hypothalamus"]
+    a: 3
+    e: "Osmoreceptors in the hypothalamus detect changes in blood water potential."
+  - q: "Where is ADH released into the blood?"
+    o: ["Posterior pituitary gland", "Hypothalamus directly", "Kidney", "Pancreas"]
+    a: 0
+    e: "ADH is made in the hypothalamus and released into the blood from the posterior pituitary."
+  - q: "How does ADH increase water reabsorption?"
+    o: ["It actively pumps water into the blood", "It causes aquaporins to be inserted into the membranes of the DCT and collecting duct, increasing permeability to water", "It raises blood pressure in the glomerulus", "It increases the length of the loop of Henle"]
+    a: 1
+    e: "More aquaporins mean more water leaves the collecting duct by osmosis into the medulla and blood."
+  - q: "After a person drinks a lot of water, what happens?"
+    o: ["More ADH is released and urine becomes concentrated", "ADH release stays the same", "Less ADH is released, so less water is reabsorbed and a large volume of dilute urine is made", "Glucose appears in urine"]
+    a: 2
+    e: "Blood water potential rises, so the hypothalamus reduces ADH release. Collecting ducts become less permeable."
+  - q: "A person is dehydrated after exercise. What happens?"
+    o: ["Less ADH, more dilute urine", "No change", "Glucagon is released", "More ADH is released, so a small volume of concentrated urine is produced"]
+    a: 3
+    e: "Low blood water potential is detected, more ADH is released, and more water is reabsorbed."
+  - q: "What is the glomerular filtrate?"
+    o: ["The fluid forced from the glomerulus into the Bowman's capsule", "Urine", "Blood in the efferent arteriole", "Tissue fluid in the medulla"]
+    a: 0
+    e: "Filtrate contains water and small solutes forced out by ultrafiltration. Most is later reabsorbed."
+  - q: "What is the effect of a drug that blocks ADH receptors?"
+    o: ["Small volumes of concentrated urine", "Large volumes of dilute urine", "Glucose in urine", "No change in urine"]
+    a: 1
+    e: "Without ADH action, few aquaporins are inserted, so little water is reabsorbed from the collecting duct."
+  - q: "Which part of the nephron is impermeable to water?"
+    o: ["Descending limb of the loop of Henle", "Proximal convoluted tubule", "Ascending limb of the loop of Henle", "Collecting duct with ADH"]
+    a: 2
+    e: "The ascending limb doesn't let water out, so the ions it pumps out lower the medulla's water potential."
+  - q: "How does water move from the collecting duct into the blood?"
+    o: ["Active transport", "Co-transport", "Ultrafiltration", "Osmosis"]
+    a: 3
+    e: "Water moves by osmosis down a water potential gradient into the medulla, then into capillaries."
+  - q: "Which structure receives blood from the renal artery and forms the filtration site?"
+    o: ["Glomerulus", "Loop of Henle", "Collecting duct", "Ureter"]
+    a: 0
+    e: "The glomerulus is a knot of capillaries inside the Bowman's capsule where ultrafiltration happens."
+  - q: "What is the effect of ADH on urine?"
+    o: ["It increases urine volume", "It decreases urine volume and makes it more concentrated", "It adds glucose", "It removes urea"]
+    a: 1
+    e: "ADH increases water reabsorption, so less water ends up in urine."
+  - q: "Why does the medulla have a lower water potential deeper down?"
+    o: ["Glucose builds up there", "Water is pumped in", "Ions pumped out of the ascending limb accumulate, concentrating towards the deepest part", "ADH is made there"]
+    a: 2
+    e: "Ions are pumped out along the ascending limb, and the concentration builds up towards the bottom of the loop."

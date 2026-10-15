@@ -1,0 +1,127 @@
+id: "3.5c"
+order: 18
+section: "3.5"
+spec: "3.5.3"
+title: "Energy and ecosystems"
+desc: "Biomass and its measurement, gross and net primary production, net production of consumers, efficiency of energy transfer, and farming practices."
+practicals: []
+summary:
+  - h: "Biomass"
+    p:
+      - "Plants use sugars from photosynthesis to make other biological molecules, which form their **biomass**."
+      - "Biomass can be measured as **mass of carbon** or **dry mass** of tissue per given area (e.g. kg m⁻²), sometimes per year."
+      - "Dry mass is found by heating samples at low temperature until **constant mass** (all water removed)."
+      - "The chemical energy store in dry biomass can be estimated by **calorimetry**: burning a sample and measuring the temperature rise of a known mass of water."
+  - h: "Primary production"
+    p:
+      - "**Gross primary production (GPP)**: the chemical energy store in plant biomass, in a given area or volume."
+      - "**Net primary production (NPP)**: the chemical energy store after **respiratory losses** are taken into account."
+      - "`NPP = GPP − R`, where R is respiratory losses."
+      - "NPP is available for **plant growth and reproduction**, and to other **trophic levels**."
+      - "Units are often kJ m⁻² year⁻¹ (energy per area per time)."
+  - h: "Net production of consumers"
+    p:
+      - "`N = I − (F + R)`"
+      - "I = chemical energy store in **ingested** food, F = energy lost in **faeces and urine**, R = energy lost by **respiration**."
+      - "Only a small fraction of energy passes to the next trophic level, because of respiration (heat), parts not eaten, and parts not digested."
+      - "`Efficiency of transfer = (energy at higher level ÷ energy at lower level) × 100`"
+  - h: "Farming practices"
+    p:
+      - "Farming aims to increase the efficiency of energy transfer to people."
+      - "**Simplifying food webs**: removing pests and weeds with pesticides and herbicides, so less energy goes to other organisms."
+      - "**Reducing respiratory losses** in livestock: keeping animals in warm sheds and restricting movement, so more energy goes to growth. This raises ethical concerns about animal welfare."
+      - "Slaughtering animals young, while they are still growing efficiently, also helps."
+pitfalls:
+  - "Show NPP = GPP − R clearly, with units, in every calculation."
+  - "In N = I − (F + R), add F and R first, then subtract from I."
+  - "Respiration losses are mainly **heat**. Energy isn't 'used up' or 'destroyed'."
+  - "Dry mass is used because water content varies and holds no chemical energy."
+questions:
+  - q: "Why is dry mass used to measure biomass rather than fresh mass?"
+    o: ["Water content varies a lot between organisms and over time", "Dry mass is always larger", "Water contains a lot of energy", "Fresh mass can't be measured"]
+    a: 0
+    e: "Water content varies with conditions and contains no chemical energy, so dry mass gives a more reliable measure."
+  - q: "How is dry mass found?"
+    o: ["Burning the sample", "Heating at low temperature until the mass stays constant", "Freezing the sample", "Weighing it fresh and halving it"]
+    a: 1
+    e: "Samples are dried in an oven at low temperature and reweighed until the mass doesn't change, showing all water is gone."
+  - q: "What is gross primary production (GPP)?"
+    o: ["Energy available to herbivores", "Energy lost in respiration", "The chemical energy store in plant biomass, in a given area or volume", "Energy in faeces"]
+    a: 2
+    e: "GPP is the total chemical energy stored by plants through photosynthesis in a given area over a given time."
+  - q: "Which equation gives net primary production?"
+    o: ["NPP = GPP + R", "NPP = I − (F + R)", "NPP = R − GPP", "NPP = GPP − R"]
+    a: 3
+    e: "NPP is the energy left after plant respiratory losses: NPP = GPP − R."
+  - q: "GPP is 25 000 kJ m⁻² year⁻¹ and respiratory losses are 15 000 kJ m⁻² year⁻¹. What is NPP?"
+    o: ["10 000 kJ m⁻² year⁻¹", "40 000 kJ m⁻² year⁻¹", "1.67 kJ m⁻² year⁻¹", "15 000 kJ m⁻² year⁻¹"]
+    a: 0
+    e: "NPP = GPP − R = 25 000 − 15 000 = 10 000 kJ m⁻² year⁻¹."
+  - q: "What is NPP available for?"
+    o: ["Only respiration", "Plant growth and reproduction, and other trophic levels", "Only decomposers", "Photosynthesis"]
+    a: 1
+    e: "NPP is the energy stored in new plant biomass, used for growth and reproduction and available to consumers."
+  - q: "In N = I − (F + R), what does F represent?"
+    o: ["Food eaten", "Energy for growth", "Energy lost in faeces and urine", "Energy lost in respiration"]
+    a: 2
+    e: "F is the chemical energy lost in faeces and urine, which is not absorbed or is excreted."
+  - q: "A cow ingests 3000 kJ. 1800 kJ is lost in faeces and urine and 1000 kJ in respiration. What is its net production?"
+    o: ["2000 kJ", "800 kJ", "4800 kJ", "200 kJ"]
+    a: 3
+    e: "N = I − (F + R) = 3000 − (1800 + 1000) = 200 kJ."
+  - q: "Energy at trophic level 1 is 20 000 kJ and at level 2 is 1 500 kJ. What is the efficiency of transfer?"
+    o: ["7.5%", "13.3%", "75%", "0.075%"]
+    a: 0
+    e: "Efficiency = (1500 ÷ 20 000) × 100 = 7.5%."
+  - q: "Why is energy transfer between trophic levels inefficient?"
+    o: ["Energy is destroyed", "Energy is lost as heat in respiration, and some parts are not eaten or digested", "All energy is used in photosynthesis", "Consumers don't need energy"]
+    a: 1
+    e: "Much energy is lost as heat from respiration. Some biomass isn't eaten (e.g. roots, bones) or isn't digested and is lost in faeces."
+  - q: "How does calorimetry estimate the energy in biomass?"
+    o: ["By measuring CO₂ given off", "By weighing the sample", "By burning the sample and measuring the temperature rise of a known mass of water", "By measuring oxygen produced"]
+    a: 2
+    e: "Energy released by burning heats the water. Temperature rise × mass of water × specific heat capacity gives the energy."
+  - q: "Why do farmers keep livestock in warm sheds with restricted movement?"
+    o: ["To increase respiratory losses", "To increase the number of trophic levels", "To make animals eat less", "To reduce respiratory losses, so more energy goes into growth"]
+    a: 3
+    e: "Less energy is used keeping warm and moving, so more energy is converted to biomass. This raises animal welfare concerns."
+  - q: "How does using pesticides increase the efficiency of energy transfer to crops?"
+    o: ["It simplifies food webs, so less energy is lost to pests", "It increases photosynthesis directly", "It increases the number of species", "It raises the temperature"]
+    a: 0
+    e: "Pests eat crop biomass. Removing them means more of the crop's energy is available to humans."
+  - q: "Why do herbicides increase crop yield?"
+    o: ["They kill insects", "They remove weeds that compete with crops for light, water and nutrients", "They add nitrogen", "They increase respiration"]
+    a: 1
+    e: "Without competition from weeds, crops get more resources for photosynthesis, so more energy is stored in the crop."
+  - q: "Which unit is most suitable for primary production?"
+    o: ["kJ", "g", "kJ m⁻² year⁻¹", "m² year⁻¹"]
+    a: 2
+    e: "Production is a rate of energy storage per area: e.g. kJ per square metre per year."
+  - q: "Why is a food chain rarely longer than four or five trophic levels?"
+    o: ["Predators don't eat other predators", "Plants don't photosynthesise enough", "There is too much energy at the top", "Too little energy is left at higher levels to support another population"]
+    a: 3
+    e: "Energy is lost at each transfer, so after a few levels there isn't enough to sustain another trophic level."
+  - q: "Why is the energy in roots of grass often not passed to grazing animals?"
+    o: ["Roots are not eaten", "Roots contain no energy", "Roots are always digested", "Roots respire too fast"]
+    a: 0
+    e: "Grazing animals eat leaves, not roots, so the energy stored in roots is not transferred to them."
+  - q: "Which statement best explains why carnivores often absorb more of their food's energy than herbivores?"
+    o: ["Carnivores eat less", "Meat contains less cellulose and is easier to digest, so less is lost in faeces", "Carnivores don't respire", "Plant material contains more energy"]
+    a: 1
+    e: "Herbivores eat a lot of cellulose, which is hard to digest, so more energy is lost in faeces."
+  - q: "Why does slaughtering animals young increase the efficiency of meat production?"
+    o: ["Young animals respire more", "Young animals eat more", "Young animals convert a larger proportion of their food into new biomass", "Older animals contain no energy"]
+    a: 2
+    e: "Growing animals convert more energy into body mass. Adults use more energy for maintenance."
+  - q: "A plant has an NPP of 6 000 kJ m⁻² year⁻¹ and a herbivore gains 600 kJ m⁻² year⁻¹ from it. What percentage of NPP is transferred?"
+    o: ["1%", "60%", "0.1%", "10%"]
+    a: 3
+    e: "(600 ÷ 6000) × 100 = 10%."
+  - q: "What is the main ethical concern with intensive livestock farming?"
+    o: ["Animal welfare, because movement is restricted", "It increases biodiversity", "It reduces food production", "It uses too few antibiotics"]
+    a: 0
+    e: "Restricting movement and keeping animals in small spaces raises welfare concerns."
+  - q: "What does R represent in NPP = GPP − R?"
+    o: ["Energy in faeces", "Respiratory losses", "Reproduction", "Radiation absorbed"]
+    a: 1
+    e: "R is the energy plants lose through respiration."

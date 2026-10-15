@@ -1,0 +1,136 @@
+id: "3.6b"
+order: 21
+section: "3.6"
+spec: "3.6.2"
+title: "Nerve impulses and synaptic transmission"
+desc: "Resting and action potentials, the refractory period, saltatory conduction, cholinergic synapses, summation, inhibitory synapses and drugs."
+practicals: []
+summary:
+  - h: "Resting potential"
+    p:
+      - "At rest, the inside of the axon is **negative** relative to the outside: about **−70 mV**."
+      - "The **sodium-potassium pump** actively transports **3 Na⁺ out** for every **2 K⁺ in**, using ATP."
+      - "The membrane is **more permeable to K⁺** than Na⁺ (more K⁺ channels open), so K⁺ diffuses back out. This keeps the inside negative."
+  - h: "Action potential"
+    p:
+      - "**Depolarisation**: a stimulus opens some voltage-gated **Na⁺ channels**. Na⁺ diffuses in. If the **threshold** (about −55 mV) is reached, many more Na⁺ channels open, and the potential rises to about **+40 mV**."
+      - "**Repolarisation**: Na⁺ channels close and voltage-gated **K⁺ channels open**. K⁺ diffuses out, so the potential falls."
+      - "**Hyperpolarisation**: K⁺ channels are slow to close, so the potential briefly falls below −70 mV. The pump then restores resting potential."
+      - "**All-or-nothing**: if threshold is reached, an action potential of the same size is always produced. A **stronger stimulus** gives a **higher frequency** of action potentials, not bigger ones."
+  - h: "Refractory period"
+    p:
+      - "After an action potential, Na⁺ channels can't reopen for a short time."
+      - "This means action potentials are **discrete** (separate), travel in **one direction** only, and there is a **limit to their frequency**."
+  - h: "Speed of conduction"
+    p:
+      - "**Myelination**: in myelinated axons, depolarisation only happens at the **nodes of Ranvier**, so the impulse jumps between nodes (**saltatory conduction**). This is much faster."
+      - "**Axon diameter**: wider axons conduct faster (less resistance, less leakage of ions)."
+      - "**Temperature**: higher temperature speeds up ion diffusion and the pump, up to the point where proteins denature."
+  - h: "Cholinergic synapses"
+    p:
+      - "An action potential arrives at the presynaptic knob. **Voltage-gated Ca²⁺ channels** open, and Ca²⁺ diffuses in."
+      - "Ca²⁺ causes **vesicles** of **acetylcholine (ACh)** to move to and fuse with the presynaptic membrane, releasing ACh into the synaptic cleft by **exocytosis**."
+      - "ACh diffuses across the cleft and binds to **receptors** on the postsynaptic membrane. **Na⁺ channels open**, Na⁺ enters, and if threshold is reached, an action potential starts."
+      - "**Acetylcholinesterase** hydrolyses ACh into choline and ethanoic acid, which diffuse back and are recycled. This stops continuous stimulation."
+      - "Synapses are **unidirectional**: only the presynaptic side has vesicles, and only the postsynaptic side has receptors."
+  - h: "Summation and inhibition"
+    p:
+      - "**Spatial summation**: several presynaptic neurones release neurotransmitter onto one postsynaptic neurone, together reaching threshold."
+      - "**Temporal summation**: one presynaptic neurone releases neurotransmitter **repeatedly** in quick succession, building up to threshold."
+      - "**Inhibitory synapses**: neurotransmitter opens **Cl⁻ channels** (Cl⁻ in) and K⁺ channels (K⁺ out), causing **hyperpolarisation**, so threshold is harder to reach."
+      - "**Neuromuscular junctions** are like cholinergic synapses, but are always excitatory, and the postsynaptic cell is a muscle fibre."
+      - "**Drugs** can stimulate (e.g. mimic a neurotransmitter, or block acetylcholinesterase) or inhibit (e.g. block receptors) synaptic transmission."
+pitfalls:
+  - "Na⁺ enters during **depolarisation**. K⁺ leaves during **repolarisation**. Learn which channel is which."
+  - "A bigger stimulus increases **frequency** of action potentials, not their size."
+  - "Myelin itself doesn't 'speed up' the impulse. It means depolarisation happens only at **nodes**, so the impulse jumps."
+  - "Ca²⁺ is what triggers vesicle release. It's a common 6-mark sequence question."
+questions:
+  - q: "What is the typical resting potential of a neurone?"
+    o: ["+40 mV", "−70 mV", "0 mV", "−55 mV"]
+    a: 1
+    e: "At rest, the inside of the axon is about 70 mV more negative than the outside."
+  - q: "How does the sodium-potassium pump help maintain resting potential?"
+    o: ["It actively transports 3 Na⁺ out for every 2 K⁺ in", "It moves 2 Na⁺ in and 3 K⁺ out", "It allows Na⁺ to diffuse in freely", "It pumps Cl⁻ out"]
+    a: 0
+    e: "More positive ions leave than enter, and the membrane is more permeable to K⁺, which diffuses out, so the inside stays negative."
+  - q: "What happens during depolarisation?"
+    o: ["K⁺ channels open and K⁺ diffuses out", "The Na⁺/K⁺ pump stops", "Voltage-gated Na⁺ channels open and Na⁺ diffuses into the axon", "Cl⁻ ions enter"]
+    a: 2
+    e: "Once threshold is reached, many voltage-gated Na⁺ channels open. The inside becomes positive, around +40 mV."
+  - q: "What causes repolarisation?"
+    o: ["Na⁺ channels opening", "Ca²⁺ entering", "ACh binding", "Na⁺ channels closing and voltage-gated K⁺ channels opening, so K⁺ diffuses out"]
+    a: 3
+    e: "K⁺ leaves the axon, making the inside negative again."
+  - q: "Why does hyperpolarisation occur?"
+    o: ["K⁺ channels are slow to close, so too many K⁺ ions diffuse out", "Na⁺ channels stay open", "The pump stops", "Cl⁻ ions leave"]
+    a: 0
+    e: "The delay in K⁺ channels closing lets extra K⁺ leave, so the potential briefly drops below −70 mV."
+  - q: "What does 'all-or-nothing' mean for action potentials?"
+    o: ["Larger stimuli produce larger action potentials", "If threshold is reached, an action potential of the same size is always produced", "Action potentials only travel in one direction", "Every stimulus produces an action potential"]
+    a: 1
+    e: "Above threshold, the action potential is always the same size. Below it, none occurs."
+  - q: "How does the nervous system indicate a stronger stimulus?"
+    o: ["Larger action potentials", "Faster action potentials", "A higher frequency of action potentials", "A longer refractory period"]
+    a: 2
+    e: "Because action potentials are all-or-nothing, intensity is coded by how often they occur."
+  - q: "Which is a consequence of the refractory period?"
+    o: ["Action potentials travel in both directions", "Action potentials merge", "There is no limit to frequency", "Action potentials travel in one direction only"]
+    a: 3
+    e: "The region behind the action potential can't be stimulated again immediately, so the impulse moves forward only."
+  - q: "What is saltatory conduction?"
+    o: ["Depolarisation only at nodes of Ranvier, so the impulse jumps between nodes", "Conduction along unmyelinated axons", "Diffusion of ACh across the cleft", "Conduction through Purkyne tissue"]
+    a: 0
+    e: "Myelin insulates the axon. Ion movement happens only at the gaps (nodes), so the action potential jumps, which is faster."
+  - q: "Which axon conducts impulses fastest?"
+    o: ["Narrow and unmyelinated", "Wide and myelinated", "Narrow and myelinated, at a low temperature", "Wide and unmyelinated"]
+    a: 1
+    e: "Myelination allows saltatory conduction, and a wider diameter reduces resistance. Both increase speed."
+  - q: "What causes vesicles to release acetylcholine at a synapse?"
+    o: ["Na⁺ entering the presynaptic knob", "K⁺ leaving", "Ca²⁺ diffusing into the presynaptic knob", "ACh binding to receptors"]
+    a: 2
+    e: "An action potential opens voltage-gated Ca²⁺ channels. Ca²⁺ causes vesicles to fuse with the membrane."
+  - q: "How is acetylcholine released into the synaptic cleft?"
+    o: ["Active transport", "Facilitated diffusion", "Osmosis", "Exocytosis"]
+    a: 3
+    e: "Vesicles fuse with the presynaptic membrane and release ACh by exocytosis."
+  - q: "What happens when ACh binds to the postsynaptic membrane?"
+    o: ["Na⁺ channels open, Na⁺ enters and the membrane depolarises", "K⁺ channels open and the membrane hyperpolarises", "Ca²⁺ channels open", "The membrane becomes impermeable"]
+    a: 0
+    e: "ACh binding opens Na⁺ channels. If enough Na⁺ enters to reach threshold, an action potential begins."
+  - q: "What is the role of acetylcholinesterase?"
+    o: ["It makes ACh", "It hydrolyses ACh, stopping continuous stimulation and recycling choline", "It opens Ca²⁺ channels", "It pumps Na⁺ out"]
+    a: 1
+    e: "Hydrolysing ACh removes it from receptors, so the postsynaptic neurone isn't continuously stimulated. The products are recycled."
+  - q: "Why are synapses unidirectional?"
+    o: ["Na⁺ only moves one way", "The cleft is narrow", "Only the presynaptic side has vesicles of neurotransmitter, and only the postsynaptic side has receptors", "Acetylcholinesterase is on both sides"]
+    a: 2
+    e: "Neurotransmitter is released from one side and detected on the other, so transmission is one-way."
+  - q: "What is temporal summation?"
+    o: ["Several presynaptic neurones release neurotransmitter at the same time", "Impulses travel faster", "Inhibitory neurotransmitters hyperpolarise the membrane", "One presynaptic neurone releases neurotransmitter repeatedly in quick succession, building up to threshold"]
+    a: 3
+    e: "Repeated release from one neurone adds up over time until enough neurotransmitter has been released to reach threshold."
+  - q: "What is spatial summation?"
+    o: ["Several presynaptic neurones release neurotransmitter onto one postsynaptic neurone, together reaching threshold", "One neurone fires repeatedly", "The refractory period increases", "Neurotransmitter is recycled"]
+    a: 0
+    e: "Neurotransmitter from several neurones combines to reach threshold in the postsynaptic neurone."
+  - q: "How do inhibitory synapses work?"
+    o: ["They open Na⁺ channels", "They open Cl⁻ channels (and K⁺ channels), hyperpolarising the postsynaptic membrane", "They release more ACh", "They destroy receptors"]
+    a: 1
+    e: "Cl⁻ entering and K⁺ leaving make the inside more negative, so more excitatory input is needed to reach threshold."
+  - q: "A drug inhibits acetylcholinesterase. What is the effect?"
+    o: ["Less ACh is released", "Fewer action potentials in the postsynaptic neurone", "ACh stays bound to receptors, so the postsynaptic neurone is stimulated continuously", "Ca²⁺ channels close"]
+    a: 2
+    e: "ACh isn't broken down, so Na⁺ channels stay open and the postsynaptic membrane keeps depolarising."
+  - q: "A drug has a similar shape to ACh and binds to its receptors without opening Na⁺ channels. What is the effect?"
+    o: ["Increased stimulation", "Faster impulses", "More Ca²⁺ enters", "Fewer action potentials, because ACh can't bind"]
+    a: 3
+    e: "The drug blocks the receptors, so ACh can't open Na⁺ channels. Synaptic transmission is inhibited."
+  - q: "How does a neuromuscular junction differ from a cholinergic synapse between neurones?"
+    o: ["It is always excitatory, and the postsynaptic cell is a muscle fibre", "It uses noradrenaline only", "It is inhibitory", "It has no acetylcholinesterase"]
+    a: 0
+    e: "At a neuromuscular junction, ACh always stimulates the muscle fibre. Synapses between neurones can be excitatory or inhibitory."
+  - q: "Why does temperature affect the speed of nerve impulses?"
+    o: ["It changes the myelin sheath", "Higher temperature increases the rate of ion diffusion and pump activity (until proteins denature)", "It changes axon diameter", "It reduces threshold"]
+    a: 1
+    e: "Ions diffuse faster at higher temperatures, and the proteins involved work faster, up to the point where they denature."

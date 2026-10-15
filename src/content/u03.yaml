@@ -1,0 +1,141 @@
+id: "3.1c"
+order: 3
+section: "3.1"
+spec: "3.1.5–3.1.8"
+title: "Nucleic acids, ATP, water and ions"
+desc: "DNA and RNA structure, semi-conservative replication, ATP hydrolysis and synthesis, properties of water, and inorganic ions."
+practicals: []
+summary:
+  - h: "Nucleotides, DNA and RNA"
+    p:
+      - "A **nucleotide** has a **pentose sugar**, a **phosphate group** and a **nitrogen-containing organic base**."
+      - "DNA nucleotide: sugar is **deoxyribose**, and bases are adenine (A), thymine (T), cytosine (C) and guanine (G). RNA nucleotide: sugar is **ribose**, and **uracil (U)** replaces thymine."
+      - "Nucleotides join by condensation, forming **phosphodiester bonds** between the phosphate of one and the sugar of the next. This makes a **sugar-phosphate backbone**."
+      - "DNA is a **double helix** of two antiparallel polynucleotide strands joined by **hydrogen bonds** between **complementary base pairs**: A–T and C–G."
+      - "RNA is a relatively short **single** polynucleotide chain."
+  - h: "Why DNA suits its function"
+    p:
+      - "The sugar-phosphate backbone protects the bases inside the helix. Many hydrogen bonds make the molecule stable."
+      - "Weak hydrogen bonds let the strands **separate** for replication and transcription."
+      - "Complementary base pairing allows **accurate copying**. DNA is very long, so it holds a lot of information."
+  - h: "Semi-conservative replication"
+    p:
+      - "**DNA helicase** breaks the hydrogen bonds between bases, so the double helix unwinds and separates."
+      - "Each strand acts as a **template**. Free DNA nucleotides line up by **complementary base pairing**."
+      - "**DNA polymerase** joins adjacent nucleotides by condensation, forming phosphodiester bonds."
+      - "Each new DNA molecule has **one original strand and one new strand**, which is why it is called semi-conservative."
+      - "**Meselson and Stahl** grew bacteria in heavy ¹⁵N, then moved them to light ¹⁴N. After one generation all DNA was **intermediate** density. After two, there was half intermediate and half light. This supported semi-conservative replication."
+  - h: "ATP"
+    p:
+      - "**ATP** (adenosine triphosphate) is a nucleotide derivative: **ribose**, **adenine** and **three phosphate groups**."
+      - "**ATP hydrolase** catalyses hydrolysis: ATP + H₂O → ADP + Pi, releasing a small, manageable amount of energy."
+      - "The released Pi can **phosphorylate** other compounds, often making them more reactive."
+      - "**ATP synthase** resynthesises ATP from ADP and Pi by condensation during respiration and photosynthesis."
+  - h: "Water"
+    p:
+      - "Water is **polar**, so hydrogen bonds form between molecules."
+      - "**Metabolite**: used in condensation and hydrolysis reactions."
+      - "**Solvent**: metabolic reactions happen in solution, and it transports substances."
+      - "**High specific heat capacity**: buffers temperature changes, so habitats and body temperature are stable."
+      - "**High latent heat of vaporisation**: evaporating sweat gives cooling with little water loss."
+      - "**Strong cohesion**: supports columns of water in xylem and gives surface tension."
+  - h: "Inorganic ions"
+    p:
+      - "**H⁺**: determines pH, which affects enzymes. Involved in chemiosmosis."
+      - "**Fe²⁺**: part of the haem group in haemoglobin, which binds oxygen."
+      - "**Na⁺**: needed for co-transport of glucose and amino acids, and for nerve impulses."
+      - "**PO₄³⁻**: part of DNA, RNA and ATP, and phospholipids."
+pitfalls:
+  - "DNA has **deoxyribose** and thymine. RNA has **ribose** and uracil. Don't mix them up."
+  - "DNA polymerase joins nucleotides. **Helicase** separates strands. Neither is 'unzipping enzyme'."
+  - "ATP releases a **small** amount of energy per molecule. That is a key advantage, not a weakness."
+  - "In Meselson–Stahl questions, the first generation rules out conservative replication. The second generation rules out dispersive."
+questions:
+  - q: "What are the three components of a nucleotide?"
+    o: ["A pentose sugar, a phosphate group and a nitrogen-containing base", "Glycerol, a fatty acid and a phosphate group", "An amine group, a carboxyl group and an R group", "A hexose sugar, a phosphate group and a base"]
+    a: 0
+    e: "Every nucleotide has a pentose sugar (deoxyribose or ribose), a phosphate group and a nitrogen-containing base."
+  - q: "Which statement correctly compares DNA and RNA nucleotides?"
+    o: ["DNA contains ribose and uracil", "RNA contains deoxyribose and thymine", "DNA contains deoxyribose and thymine; RNA contains ribose and uracil", "Both contain ribose"]
+    a: 2
+    e: "DNA: deoxyribose with A, T, C, G. RNA: ribose with A, U, C, G."
+  - q: "What type of bond joins nucleotides in a polynucleotide chain?"
+    o: ["Peptide bond", "Phosphodiester bond", "Hydrogen bond", "Glycosidic bond"]
+    a: 1
+    e: "Phosphodiester bonds form by condensation between the phosphate of one nucleotide and the sugar of the next."
+  - q: "What holds the two strands of a DNA double helix together?"
+    o: ["Phosphodiester bonds between the backbones", "Disulfide bridges", "Ionic bonds between phosphates", "Hydrogen bonds between complementary bases"]
+    a: 3
+    e: "A pairs with T and C pairs with G by hydrogen bonds. These are weak individually but strong in large numbers."
+  - q: "A DNA sample contains 22% thymine. What percentage is guanine?"
+    o: ["28%", "22%", "44%", "56%"]
+    a: 0
+    e: "T = A = 22%, so A + T = 44%. That leaves 56% for C + G. G = 56 ÷ 2 = 28%."
+  - q: "What is the role of DNA helicase in replication?"
+    o: ["It joins adjacent nucleotides", "It breaks hydrogen bonds between bases, separating the strands", "It adds free nucleotides to the template", "It forms phosphodiester bonds"]
+    a: 1
+    e: "Helicase unwinds the double helix by breaking hydrogen bonds between complementary bases."
+  - q: "What is the role of DNA polymerase?"
+    o: ["It breaks hydrogen bonds", "It attaches free nucleotides to the template by hydrogen bonds", "It joins adjacent nucleotides by condensation, forming phosphodiester bonds", "It removes introns"]
+    a: 2
+    e: "DNA polymerase catalyses condensation reactions between adjacent nucleotides, forming the new sugar-phosphate backbone."
+  - q: "Why is DNA replication described as semi-conservative?"
+    o: ["Half the genes are copied", "Each new DNA molecule contains one original strand and one new strand", "Only one strand acts as a template", "Half the bases are replaced by uracil"]
+    a: 1
+    e: "Each original strand acts as a template, so each daughter molecule has one parent strand and one new strand."
+  - q: "In the Meselson–Stahl experiment, bacteria grown in ¹⁵N were moved to ¹⁴N for one generation. What did they observe?"
+    o: ["One heavy band and one light band", "Only a heavy band", "Only a light band", "Only an intermediate band"]
+    a: 3
+    e: "All DNA was intermediate density, with one ¹⁵N strand and one ¹⁴N strand. This ruled out conservative replication."
+  - q: "After two generations in ¹⁴N, what did Meselson and Stahl find?"
+    o: ["Half intermediate and half light DNA", "All intermediate DNA", "Half heavy and half light DNA", "All heavy DNA"]
+    a: 0
+    e: "Two bands, intermediate and light, in equal amounts. Dispersive replication would have given a single band, so this supports semi-conservative."
+  - q: "What is ATP made of?"
+    o: ["Deoxyribose, adenine and three phosphate groups", "Ribose, adenine and three phosphate groups", "Ribose, adenine and one phosphate group", "Glucose and three phosphate groups"]
+    a: 1
+    e: "ATP is adenine + ribose (together adenosine) with three phosphate groups."
+  - q: "Which enzyme catalyses the breakdown of ATP to release energy?"
+    o: ["ATP synthase", "DNA polymerase", "Helicase", "ATP hydrolase"]
+    a: 3
+    e: "ATP hydrolase catalyses hydrolysis of ATP into ADP and inorganic phosphate, releasing energy."
+  - q: "Why is ATP a good immediate energy source?"
+    o: ["It releases a small, manageable amount of energy in a single step", "It stores large amounts of energy for long periods", "It can be transported easily between cells", "It is a polymer of glucose"]
+    a: 0
+    e: "ATP hydrolysis is a single reaction releasing a small amount of energy, so little is wasted as heat. It is quickly resynthesised."
+  - q: "How can inorganic phosphate released from ATP be used?"
+    o: ["It forms peptide bonds", "It phosphorylates other compounds, often making them more reactive", "It acts as a solvent", "It binds oxygen in haemoglobin"]
+    a: 1
+    e: "Pi can be added to other molecules (phosphorylation), lowering their activation energy or changing their shape, e.g. in active transport."
+  - q: "Which property of water reduces temperature fluctuations in aquatic habitats?"
+    o: ["Strong cohesion", "Being a metabolite", "High specific heat capacity", "Being a solvent"]
+    a: 2
+    e: "Many hydrogen bonds must be broken to raise water's temperature, so it takes a lot of energy to heat. Its temperature changes slowly."
+  - q: "Sweating cools mammals effectively because water has:"
+    o: ["A high latent heat of vaporisation", "A low specific heat capacity", "Weak cohesion", "No polarity"]
+    a: 0
+    e: "Evaporating water absorbs a lot of heat energy from the skin, giving effective cooling for little water lost."
+  - q: "Which property of water allows columns of water to be pulled up xylem?"
+    o: ["High specific heat capacity", "Strong cohesion between water molecules due to hydrogen bonds", "Being a metabolite", "Low density as ice"]
+    a: 1
+    e: "Hydrogen bonds make water molecules stick together (cohesion), so a continuous column can be pulled up the xylem."
+  - q: "Water acts as a metabolite in which kind of reaction?"
+    o: ["Hydrolysis reactions only", "Condensation and hydrolysis reactions", "Only in photosynthesis", "Only in respiration"]
+    a: 1
+    e: "Water is used in hydrolysis, released in condensation, and is a reactant in photosynthesis. It is a metabolite in many reactions."
+  - q: "Which ion is a component of haemoglobin and binds oxygen?"
+    o: ["Na⁺", "PO₄³⁻", "H⁺", "Fe²⁺"]
+    a: 3
+    e: "Fe²⁺ in the haem group binds oxygen."
+  - q: "Which ion is needed for co-transport of glucose into ileum epithelial cells?"
+    o: ["Na⁺", "Fe²⁺", "H⁺", "Cl⁻"]
+    a: 0
+    e: "Na⁺ moves down its concentration gradient into the cell through a co-transporter protein, carrying glucose with it against its gradient."
+  - q: "The concentration of which ion determines pH?"
+    o: ["PO₄³⁻", "Na⁺", "H⁺", "Fe²⁺"]
+    a: 2
+    e: "pH is a measure of H⁺ concentration. More H⁺ means lower pH."
+  - q: "Phosphate ions are a component of which molecules?"
+    o: ["DNA, RNA, ATP and phospholipids", "Triglycerides and starch", "Haemoglobin and enzymes", "Cellulose and glycogen"]
+    a: 0
+    e: "Phosphate is in nucleotides (DNA, RNA, ATP) and in phospholipids."

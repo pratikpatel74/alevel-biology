@@ -1,0 +1,122 @@
+id: "3.8a"
+order: 29
+section: "3.8"
+spec: "3.8.1–3.8.2.1"
+title: "Gene mutations and stem cells"
+desc: "Types of gene mutation and their effects, totipotent, pluripotent, multipotent and unipotent stem cells, induced pluripotent stem cells and their uses."
+practicals: []
+summary:
+  - h: "Types of gene mutation"
+    p:
+      - "Gene mutations can involve **addition**, **deletion**, **substitution**, **inversion**, **duplication** or **translocation** of bases."
+      - "**Substitution**: one base replaced. May change one amino acid, or none (degenerate code), or create a stop codon."
+      - "**Addition, deletion** (and duplication): cause a **frame shift**, changing every triplet after the mutation."
+      - "**Inversion**: a group of bases is reversed. **Translocation**: a group of bases moves to a different place, possibly on another chromosome."
+      - "Mutations can change the amino acid sequence, so the **tertiary structure** and **function** of the protein may change."
+      - "Mutations happen **spontaneously**. The rate is increased by **mutagenic agents**. Some mutations are harmful, some neutral, a few beneficial."
+  - h: "Stem cells"
+    p:
+      - "**Stem cells** are **undifferentiated** cells that can divide continuously and become specialised."
+      - "**Totipotent**: can divide and produce **any type of body cell**, including extra-embryonic (placenta) cells. Found only in the early embryo."
+      - "During development, totipotent cells **translate only part of their DNA**, so they become specialised."
+      - "**Pluripotent**: found in **embryos**; can become almost any cell type, but not extra-embryonic cells."
+      - "**Multipotent**: found in **mature mammals**; can become a **limited number** of cell types, e.g. bone marrow stem cells forming blood cells."
+      - "**Unipotent**: can become only **one type** of cell, e.g. the cells that form **cardiomyocytes** (heart muscle cells)."
+  - h: "Induced pluripotent stem cells (iPS cells)"
+    p:
+      - "**iPS cells** are made from adult **unipotent** body cells by using appropriate **transcription factors** to switch on genes that had been switched off."
+      - "Uses: treating disorders, e.g. replacing damaged cells. Because iPS cells come from the patient's own cells, there is less risk of **rejection**."
+      - "Ethical issues: embryonic stem cells involve destroying embryos. iPS cells avoid this, but they may carry a risk of causing tumours."
+pitfalls:
+  - "Totipotent cells can also form **placenta** cells. Pluripotent can't. That is the key difference."
+  - "Cells specialise because only **part of the DNA is translated**. All cells still contain the full genome."
+  - "iPS cells are made using **transcription factors**, not by changing the DNA sequence."
+questions:
+  - q: "Which type of mutation causes a frame shift?"
+    o: ["Substitution", "Deletion", "Inversion within a triplet", "Silent mutation"]
+    a: 1
+    e: "Removing a base shifts the reading frame, so every following triplet changes."
+  - q: "What is a translocation mutation?"
+    o: ["A group of bases moves to a different position, possibly on another chromosome", "One base is replaced", "Bases are reversed", "A base is added"]
+    a: 0
+    e: "In translocation, a section of DNA breaks off and attaches elsewhere in the genome."
+  - q: "What is an inversion mutation?"
+    o: ["One base is deleted", "A section is copied", "A section of bases is reversed", "A section moves to another chromosome"]
+    a: 2
+    e: "In an inversion, a group of bases breaks off and rejoins in reverse order."
+  - q: "What is a duplication mutation?"
+    o: ["A base is replaced", "Bases are reversed", "A base is removed", "One or more bases are repeated"]
+    a: 3
+    e: "Duplication repeats bases. Like addition, it can cause a frame shift."
+  - q: "A substitution produces a stop codon in the middle of a gene. What is the likely effect?"
+    o: ["A shortened, usually non-functional polypeptide", "No change", "A longer polypeptide", "A frame shift"]
+    a: 0
+    e: "Translation stops early, so the polypeptide is incomplete and likely won't fold correctly."
+  - q: "How can a gene mutation change the function of a protein?"
+    o: ["It changes the DNA into RNA", "It changes the amino acid sequence, so the tertiary structure changes", "It removes all peptide bonds", "It stops transcription in all cells"]
+    a: 1
+    e: "A different primary structure can change how the protein folds, altering its shape and function."
+  - q: "What is a stem cell?"
+    o: ["A specialised cell", "A cell in the plant stem only", "An undifferentiated cell that can divide and become specialised", "A cell that can't divide"]
+    a: 2
+    e: "Stem cells are undifferentiated, keep the ability to divide, and can develop into other cell types."
+  - q: "Which type of stem cell can produce any body cell, including placenta cells?"
+    o: ["Pluripotent", "Multipotent", "Unipotent", "Totipotent"]
+    a: 3
+    e: "Totipotent cells, from the very early embryo, can form all body cells and extra-embryonic cells."
+  - q: "Where are pluripotent stem cells found?"
+    o: ["In embryos", "Only in bone marrow", "In heart muscle", "In plant roots only"]
+    a: 0
+    e: "Pluripotent stem cells are found in embryos and can become almost any type of cell."
+  - q: "Bone marrow stem cells can form several types of blood cell. What type are they?"
+    o: ["Totipotent", "Multipotent", "Unipotent", "Pluripotent"]
+    a: 1
+    e: "Multipotent stem cells in adults can produce a limited range of cell types."
+  - q: "What is an example of unipotent stem cells?"
+    o: ["Embryonic cells", "Bone marrow cells", "Cells that form cardiomyocytes (heart muscle cells)", "Zygotes"]
+    a: 2
+    e: "Unipotent cells can only differentiate into one type of cell, such as cardiomyocytes."
+  - q: "How do totipotent cells become specialised?"
+    o: ["They lose genes", "They mutate", "They gain DNA", "Only part of their DNA is translated"]
+    a: 3
+    e: "All the genes are still present, but only some are expressed, so the cell develops specific proteins and functions."
+  - q: "How are induced pluripotent stem cells (iPS cells) made?"
+    o: ["Adult unipotent cells are treated with transcription factors that switch on genes that had been switched off", "Embryos are destroyed", "Bone marrow is transplanted", "Cells are exposed to radiation"]
+    a: 0
+    e: "Specific transcription factors reactivate genes, making the adult cells behave like pluripotent stem cells."
+  - q: "Why are iPS cells less likely to be rejected than donor stem cells?"
+    o: ["They have no antigens", "They are made from the patient's own cells, so they have the patient's own antigens", "They are made from embryos", "They divide more slowly"]
+    a: 1
+    e: "Cells with the patient's own antigens aren't recognised as foreign by the immune system."
+  - q: "What is the main ethical advantage of iPS cells over embryonic stem cells?"
+    o: ["They are cheaper", "They divide faster", "No embryos are destroyed", "They can form placenta"]
+    a: 2
+    e: "Obtaining embryonic stem cells destroys embryos. iPS cells come from adult tissue."
+  - q: "Which is a possible risk of using stem cells in treatment?"
+    o: ["They can't divide", "They have no DNA", "They are always rejected", "They might divide uncontrollably and form tumours"]
+    a: 3
+    e: "Because stem cells keep dividing, there is a risk they form tumours."
+  - q: "Mutations occur spontaneously. What effect do mutagenic agents have?"
+    o: ["They increase the rate of mutation", "They prevent mutation", "They repair DNA", "They cause only beneficial mutations"]
+    a: 0
+    e: "Agents such as UV, ionising radiation and some chemicals increase how often mutations happen."
+  - q: "Why might a substitution mutation have no effect on the protein?"
+    o: ["It causes a frame shift", "The new triplet codes for the same amino acid (degenerate code)", "It always produces a stop codon", "It changes many amino acids"]
+    a: 1
+    e: "Because the code is degenerate, some substitutions don't change the amino acid."
+  - q: "Which type of stem cell can become almost any cell type but not extra-embryonic cells?"
+    o: ["Totipotent", "Unipotent", "Pluripotent", "Multipotent"]
+    a: 2
+    e: "Pluripotent cells can form all body cell types, but not the placenta."
+  - q: "Why does an addition mutation usually have a larger effect than an inversion?"
+    o: ["It changes only one amino acid", "Inversions always cause frame shifts", "Additions are always silent", "An addition causes a frame shift, changing all following triplets"]
+    a: 3
+    e: "An inversion changes bases only within one section. An addition shifts every triplet after it."
+  - q: "Stem cells could be used to treat which kind of condition?"
+    o: ["Conditions where cells are damaged or lost, e.g. heart damage or some blood disorders", "Bacterial infections", "Viral infections only", "Broken bones only"]
+    a: 0
+    e: "Stem cells can replace damaged or lost cells, e.g. bone marrow transplants for blood disorders."
+  - q: "All specialised cells in an organism contain the same genes. Why do they have different functions?"
+    o: ["They contain different chromosomes", "Different genes are expressed in different cells", "Some cells lose their nucleus", "They mutate differently"]
+    a: 1
+    e: "Each cell type switches on the genes it needs and switches off others."

@@ -1,0 +1,119 @@
+id: "3.7b"
+order: 26
+section: "3.7"
+spec: "3.7.2"
+title: "Populations and Hardy–Weinberg"
+desc: "Gene pools and allele frequencies, the Hardy–Weinberg principle and its conditions, and calculating allele, genotype and phenotype frequencies."
+practicals: []
+summary:
+  - h: "Key terms"
+    p:
+      - "A **species** exists as one or more **populations**."
+      - "A **population** is a group of organisms of the **same species** occupying a particular space at a particular time that can **potentially interbreed**."
+      - "A **gene pool** is **all the alleles** of all the genes in a population at a given time."
+      - "**Allele frequency** is the proportion of a particular allele in the gene pool."
+  - h: "Hardy–Weinberg principle"
+    p:
+      - "Predicts that **allele frequencies will not change** from generation to generation, provided certain conditions are met."
+      - "Conditions: **large** population, **no mutation**, **no migration** in or out, **no natural selection**, and **random mating**."
+      - "`p + q = 1` (allele frequencies), where p = frequency of the **dominant** allele and q = frequency of the **recessive** allele."
+      - "`p² + 2pq + q² = 1` (genotype frequencies), where p² = homozygous dominant, 2pq = heterozygous, q² = homozygous recessive."
+  - h: "How to calculate"
+    p:
+      - "Start from the **homozygous recessive** frequency, because it is the only genotype you can identify from the phenotype."
+      - "Example: 1 in 2500 people has cystic fibrosis. q² = 1/2500 = 0.0004, so q = √0.0004 = 0.02. Then p = 1 − 0.02 = 0.98."
+      - "Carriers (heterozygous) = 2pq = 2 × 0.98 × 0.02 = **0.0392**, about 3.9%, or roughly 1 in 25."
+      - "If allele frequencies in real populations **do change** over time, at least one condition isn't met, e.g. selection is acting."
+pitfalls:
+  - "Don't take the square root of the dominant phenotype frequency. **p² + 2pq** together give the dominant phenotype."
+  - "q² is a **genotype** frequency. q is an **allele** frequency. Keep track of which you're asked for."
+  - "If asked for a percentage or 'number of people', convert the frequency at the end."
+questions:
+  - q: "What is a population?"
+    o: ["All the species in an area", "A group of organisms of the same species in a particular space at a particular time that can interbreed", "All the alleles in a species", "Organisms that look the same"]
+    a: 1
+    e: "A population is a group of interbreeding organisms of one species living in the same place at the same time."
+  - q: "What is a gene pool?"
+    o: ["All the alleles of all the genes in a population at a given time", "All the genes in one cell", "The number of individuals", "The DNA of one organism"]
+    a: 0
+    e: "The gene pool is the total collection of alleles in an interbreeding population."
+  - q: "What does the Hardy–Weinberg principle predict?"
+    o: ["Allele frequencies always increase", "Dominant alleles become more common", "Allele frequencies stay constant between generations, if certain conditions are met", "Populations always evolve"]
+    a: 2
+    e: "In an ideal population, allele frequencies don't change from one generation to the next."
+  - q: "Which is NOT a condition for the Hardy–Weinberg principle?"
+    o: ["Large population", "No mutation", "Random mating", "Strong natural selection"]
+    a: 3
+    e: "Hardy–Weinberg requires no natural selection. Selection would change allele frequencies."
+  - q: "In the Hardy–Weinberg equation, what does 2pq represent?"
+    o: ["Frequency of heterozygotes", "Frequency of the dominant allele", "Frequency of homozygous dominants", "Frequency of the recessive phenotype"]
+    a: 0
+    e: "p² = homozygous dominant, 2pq = heterozygous, q² = homozygous recessive."
+  - q: "The frequency of a recessive allele (q) is 0.3. What is p?"
+    o: ["0.3", "0.7", "0.09", "0.49"]
+    a: 1
+    e: "p + q = 1, so p = 1 − 0.3 = 0.7."
+  - q: "q = 0.3. What is the frequency of homozygous recessive individuals?"
+    o: ["0.3", "0.6", "0.09", "0.42"]
+    a: 2
+    e: "Homozygous recessive frequency = q² = 0.3² = 0.09."
+  - q: "p = 0.7 and q = 0.3. What is the frequency of heterozygotes?"
+    o: ["0.21", "0.49", "0.09", "0.42"]
+    a: 3
+    e: "2pq = 2 × 0.7 × 0.3 = 0.42."
+  - q: "In a population, 16% of individuals show the recessive phenotype. What is q?"
+    o: ["0.4", "0.16", "0.84", "0.6"]
+    a: 0
+    e: "q² = 0.16, so q = √0.16 = 0.4."
+  - q: "In a population, 16% show the recessive phenotype. What proportion are heterozygous?"
+    o: ["0.36", "0.48", "0.16", "0.24"]
+    a: 1
+    e: "q = 0.4, p = 0.6. 2pq = 2 × 0.6 × 0.4 = 0.48."
+  - q: "In a population, 36% show the recessive phenotype. What percentage show the dominant phenotype?"
+    o: ["36%", "40%", "64%", "48%"]
+    a: 2
+    e: "Dominant phenotype = p² + 2pq = 1 − q² = 1 − 0.36 = 0.64, so 64%."
+  - q: "Why do Hardy–Weinberg calculations start from the homozygous recessive frequency?"
+    o: ["It is always the largest", "It equals p", "Dominant individuals are rare", "It is the only genotype that can be identified directly from the phenotype"]
+    a: 3
+    e: "Homozygous dominant and heterozygous individuals look the same, but homozygous recessive individuals have a distinct phenotype."
+  - q: "1 in 10 000 people has a recessive condition. What is the frequency of the recessive allele?"
+    o: ["0.01", "0.0001", "0.1", "0.99"]
+    a: 0
+    e: "q² = 1/10 000 = 0.0001. q = √0.0001 = 0.01."
+  - q: "1 in 10 000 people has a recessive condition. What is the frequency of carriers?"
+    o: ["0.0001", "Approximately 0.0198", "0.99", "0.01"]
+    a: 1
+    e: "q = 0.01, p = 0.99. 2pq = 2 × 0.99 × 0.01 = 0.0198, about 2%."
+  - q: "Why is a large population a condition of Hardy–Weinberg?"
+    o: ["Large populations mutate more", "Large populations select more", "In small populations, chance events (genetic drift) can change allele frequencies", "Small populations always mate randomly"]
+    a: 2
+    e: "In small populations, random changes in which individuals breed can significantly change allele frequencies."
+  - q: "Why does migration affect Hardy–Weinberg predictions?"
+    o: ["It causes mutation", "It stops mating", "It removes all alleles", "Individuals moving in or out can bring or remove alleles, changing allele frequencies"]
+    a: 3
+    e: "Immigration and emigration (gene flow) add or remove alleles from the gene pool."
+  - q: "Allele frequencies in a population change significantly over several generations. What does this suggest?"
+    o: ["At least one Hardy–Weinberg condition is not being met, e.g. selection is acting", "The population is in equilibrium", "The calculation was wrong", "The population is very large"]
+    a: 0
+    e: "Changes in allele frequency mean something such as selection, mutation, migration or non-random mating is happening."
+  - q: "In p² + 2pq + q² = 1, what does p² represent?"
+    o: ["Heterozygous frequency", "Homozygous dominant frequency", "Dominant allele frequency", "Recessive phenotype frequency"]
+    a: 1
+    e: "p² is the frequency of individuals with two dominant alleles."
+  - q: "In a population of 5000 plants, q = 0.2. How many plants would be expected to be homozygous recessive?"
+    o: ["1000", "100", "200", "800"]
+    a: 2
+    e: "q² = 0.04. 0.04 × 5000 = 200 plants."
+  - q: "What is the sum of p and q always equal to?"
+    o: ["0", "2", "0.5", "1"]
+    a: 3
+    e: "For a gene with two alleles, their frequencies add up to 1."
+  - q: "Why does non-random mating affect the Hardy–Weinberg principle?"
+    o: ["Some genotypes reproduce more than others, changing genotype and allele frequencies", "It causes mutation", "It increases population size", "It has no effect"]
+    a: 0
+    e: "If individuals choose mates based on phenotype, certain alleles are passed on more often."
+  - q: "The frequency of the dominant allele is 0.8. What proportion of the population is homozygous dominant?"
+    o: ["0.8", "0.64", "0.32", "0.04"]
+    a: 1
+    e: "p² = 0.8² = 0.64."

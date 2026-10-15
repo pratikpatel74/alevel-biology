@@ -1,0 +1,240 @@
+- n: 1
+  year: 1
+  unit: "3.1b"
+  spec: "3.1.4.2"
+  title: "Effect of a variable on the rate of an enzyme-controlled reaction"
+  aim: "Measure how one factor (usually temperature, pH, or enzyme or substrate concentration) changes the initial rate of an enzyme-controlled reaction, e.g. trypsin digesting casein in milk powder, or catalase breaking down hydrogen peroxide."
+  method:
+    - "Set up a water bath at the chosen temperature and let the enzyme and substrate solutions **equilibrate separately** for about 10 minutes before mixing."
+    - "Add a buffer of known pH so pH stays constant (unless pH is the independent variable)."
+    - "Mix the enzyme and substrate, start the stopwatch immediately and record the change over time, e.g. time for cloudy milk to clear, or volume of oxygen collected in a gas syringe at regular intervals."
+    - "Repeat at least three times at each value of the independent variable and calculate a mean."
+    - "Plot product formed (or substrate used) against time. Draw a **tangent at t = 0** to find the initial rate, or use rate = 1/time for end-point methods."
+  iv: "Temperature, pH, or enzyme or substrate concentration"
+  dv: "Rate of reaction, e.g. volume of O₂ per second or 1/time to clear"
+  cv: "Volumes and concentrations of the other reactant, pH (buffer), temperature (water bath), source of enzyme"
+  exam:
+    - "**Initial rate** is used because substrate concentration falls as the reaction goes on."
+    - "A control with **boiled (denatured) enzyme** shows that the enzyme causes the change."
+    - "Rate = 1/time has units of s⁻¹. Find the gradient of a tangent by dividing change in y by change in x and give units."
+    - "Using a colorimeter rather than judging an end point by eye reduces subjectivity."
+
+- n: 2
+  year: 1
+  unit: "3.2b"
+  spec: "3.2.2"
+  title: "Preparation of stained squashes of root tip cells and calculation of a mitotic index"
+  aim: "Prepare a root tip squash (e.g. garlic or onion), observe stages of mitosis with an optical microscope, and calculate the mitotic index."
+  method:
+    - "Cut about 5 mm from the tip of a growing root, where the **meristem** is."
+    - "Place it in warm **hydrochloric acid** (about 1 M at 60 °C) for a few minutes. This breaks down the middle lamella so cells separate and stops mitosis."
+    - "Rinse, then stain with a DNA stain such as **toluidine blue** or acetic orcein so the chromosomes are visible."
+    - "Put on a slide, add a coverslip and **squash** firmly with a blunt object (without sliding the coverslip) to make a single layer of cells."
+    - "Find cells under low power, then switch to high power. Count the cells in mitosis and the total number of cells in the field of view."
+  iv: "None needed for the basic task. Could be distance from the tip or a treatment"
+  dv: "Mitotic index"
+  cv: "Time in acid, temperature, stain time, same region of the tip"
+  exam:
+    - "`Mitotic index = number of cells in mitosis ÷ total number of cells`. It can be given as a decimal or percentage."
+    - "Only the tip is used because cells divide there. Further back, cells are elongating or differentiating."
+    - "Duration of a stage can be estimated as (cells in that stage ÷ total cells) × length of the cell cycle."
+    - "To reduce bias, count several fields of view chosen at random, and have a rule for cells cut by the edge of the field."
+
+- n: 3
+  year: 1
+  unit: "3.2c"
+  spec: "3.2.3"
+  title: "Producing a dilution series to find the water potential of plant tissue"
+  aim: "Use a dilution series of sucrose or salt solution to find the concentration where plant tissue (e.g. potato cylinders) neither gains nor loses mass. This gives the water potential of the tissue."
+  method:
+    - "Make a **serial or simple dilution** of 1 M sucrose with distilled water, e.g. 0.0, 0.2, 0.4, 0.6, 0.8 and 1.0 M."
+    - "Cut potato cylinders of the **same diameter and length** with a cork borer, blot them dry and weigh them."
+    - "Put each cylinder in a different concentration for a set time, e.g. 20 minutes or overnight, at constant temperature."
+    - "Remove, **blot dry the same way** and reweigh. Calculate the **percentage change in mass**."
+    - "Plot percentage change in mass against concentration. Where the line crosses **0% change**, the solution has the same water potential as the tissue."
+  iv: "Concentration of sucrose solution"
+  dv: "Percentage change in mass"
+  cv: "Size and source of tissue, volume of solution, time, temperature, blotting method"
+  exam:
+    - "**Percentage** change is used because the starting masses differ."
+    - "Serial dilution formula: C₁V₁ = C₂V₂."
+    - "Gain in mass means water entered by osmosis, so the solution had a **higher (less negative)** water potential than the tissue."
+    - "Read the x-intercept, then convert to water potential using a calibration table if one is given."
+
+- n: 4
+  year: 1
+  unit: "3.2c"
+  spec: "3.2.3"
+  title: "Effect of a named variable on the permeability of cell-surface membranes"
+  aim: "Find how temperature (or a solvent such as ethanol) affects membrane permeability, using beetroot. Damaged membranes leak the red pigment betalain."
+  method:
+    - "Cut beetroot cubes of equal size and **rinse** them to remove pigment from cells cut open during preparation."
+    - "Put each cube in the same volume of distilled water at a different temperature, e.g. 20–70 °C, for a set time."
+    - "Remove the cubes and measure the absorbance of each solution with a **colorimeter**, using a blue-green filter. Zero it with distilled water first."
+    - "Higher absorbance means more pigment leaked out, so the membrane is more permeable."
+  iv: "Temperature (or concentration of ethanol)"
+  dv: "Absorbance of the surrounding solution"
+  cv: "Cube size and surface area, volume of water, time in water, beetroot source"
+  exam:
+    - "Higher temperature makes phospholipids move more, so the bilayer becomes more fluid. Membrane **proteins denature** above about 40–45 °C, leaving gaps."
+    - "Ethanol dissolves lipids, so higher concentrations disrupt the bilayer and increase permeability."
+    - "A colorimeter gives quantitative results and avoids subjective judgement of colour."
+
+- n: 5
+  year: 1
+  unit: "3.3c"
+  spec: "3.3.4"
+  title: "Dissection of animal or plant gas exchange or mass transport system, or of an organ in such a system"
+  aim: "Dissect a structure such as a mammalian heart, lungs or a fish gill, identify its parts and relate structure to function."
+  method:
+    - "Carry out a **risk assessment**: use a sharp scalpel cutting away from you and onto a dissecting board, wear gloves, and disinfect surfaces afterwards."
+    - "Heart: identify the ventricles (left has the thicker wall), atria, aorta, pulmonary artery, and coronary arteries on the surface."
+    - "Cut down through each side to see the chambers, atrioventricular valves with tendinous cords, and semilunar valves in the arteries."
+    - "Record observations with **labelled scientific drawings**: sharp single lines, no shading, label lines that don't cross, and a magnification or scale."
+  iv: "Not applicable (observational)"
+  dv: "Not applicable (observational)"
+  cv: "Not applicable"
+  exam:
+    - "Left ventricle wall is thicker because it pumps blood at higher pressure around the whole body."
+    - "Artery walls are thicker and more elastic than vein walls. Veins have a larger lumen."
+    - "Ethical points: use tissue from the food industry, and dispose of it properly."
+
+- n: 6
+  year: 1
+  unit: "3.2a"
+  spec: "AS practical (links to 3.2.1 prokaryotes)"
+  title: "Use of aseptic techniques to investigate the effect of antimicrobial substances on microbial growth"
+  aim: "Grow a bacterial lawn on agar and measure the clear zones (zones of inhibition) around discs soaked in different antibiotics, antiseptics or concentrations."
+  method:
+    - "Disinfect the bench, work near a **Bunsen burner** (the updraught carries microbes away), and flame the neck of the culture bottle."
+    - "Spread a known volume of broth culture evenly over the agar with a sterile spreader to make a lawn."
+    - "Use sterile forceps to place paper discs soaked in each antimicrobial (and a control disc with sterile water) on the plate."
+    - "Tape the lid on with two short strips (not sealed all round), label the base, and incubate **upside down at 25 °C** for 48 hours."
+    - "Measure the diameter of each clear zone and calculate its **area** using πr²."
+  iv: "Type or concentration of antimicrobial substance"
+  dv: "Area of the clear zone"
+  cv: "Volume of culture, type of agar, disc size, volume of substance on disc, incubation time and temperature"
+  exam:
+    - "Incubate at **25 °C** in school labs (not 37 °C) to reduce the risk of growing human pathogens."
+    - "Plates are inverted so condensation doesn't drip onto the agar."
+    - "Not sealing the lid completely stops anaerobic bacteria (which include more pathogens) growing."
+    - "A bigger clear zone may mean the substance is more effective, or simply that it diffuses faster through agar."
+
+- n: 7
+  year: 2
+  unit: "3.5a"
+  spec: "3.5.1"
+  title: "Use of chromatography to investigate the pigments isolated from leaves"
+  aim: "Separate photosynthetic pigments from leaf extracts by paper or thin-layer chromatography (TLC) and identify them using Rf values."
+  method:
+    - "Grind leaves with a solvent such as propanone and sand to extract the pigments."
+    - "Draw a **pencil** origin line on the chromatography paper or TLC plate and spot the extract repeatedly on one point, drying between spots, to build a concentrated spot."
+    - "Stand it in a sealed container with solvent **below the origin line**."
+    - "Remove when the solvent front nears the top, mark the front immediately and measure how far each pigment moved."
+    - "Calculate `Rf = distance moved by spot ÷ distance moved by solvent front` and compare with known values."
+  iv: "Source of leaf, e.g. sun vs shade, or species"
+  dv: "Rf values and number of pigments"
+  cv: "Solvent, temperature, type of paper or plate"
+  exam:
+    - "Pencil is used because ink would dissolve and run with the solvent."
+    - "Solvent must start below the origin or the pigments would dissolve into the solvent pool."
+    - "Typical order from the top: carotene, then xanthophyll, then chlorophyll a, then chlorophyll b. Several pigments absorb a wider range of wavelengths."
+    - "Wear goggles and keep solvents away from flames because they are volatile and flammable."
+
+- n: 8
+  year: 2
+  unit: "3.5a"
+  spec: "3.5.1"
+  title: "Investigation into the effect of a named factor on the rate of dehydrogenase activity in extracts of chloroplasts"
+  aim: "Use the blue redox indicator DCPIP, which turns colourless when reduced, to measure the rate of the light-dependent reaction in isolated chloroplasts."
+  method:
+    - "Blend leaves in **ice-cold, buffered, isotonic** solution, filter, then centrifuge to get a chloroplast pellet. Resuspend it in the same solution."
+    - "Add chloroplast suspension to DCPIP and expose to the factor being tested, e.g. light intensity (distance from lamp)."
+    - "Measure the time to decolourise, or the fall in absorbance with a colorimeter at regular intervals."
+    - "Controls: a tube kept **in the dark**, and one with no chloroplasts, should stay blue."
+  iv: "Light intensity, light wavelength, temperature or an inhibitor"
+  dv: "Rate of DCPIP decolourisation"
+  cv: "Volume and concentration of chloroplasts and DCPIP, temperature"
+  exam:
+    - "**Ice-cold** slows enzymes that would damage chloroplasts. **Buffer** keeps pH stable. **Isotonic** stops osmotic swelling or shrinking."
+    - "DCPIP accepts electrons released by the photolysis of water in the light-dependent reaction, so it acts in place of NADP."
+    - "Light intensity is proportional to 1/d², where d is distance from the lamp."
+
+- n: 9
+  year: 2
+  unit: "3.5b"
+  spec: "3.5.2"
+  title: "Investigation into the effect of a named variable on the rate of respiration of cultures of single-celled organisms"
+  aim: "Measure how a factor (e.g. temperature or sugar type) affects the respiration rate of yeast, using a respirometer, gas syringe or redox indicator such as methylene blue."
+  method:
+    - "Add equal volumes of yeast suspension to a buffered glucose solution and leave in a water bath to equilibrate."
+    - "Aerobic respiration: use a **respirometer** with soda lime or KOH to absorb CO₂, so movement of the coloured liquid shows O₂ uptake."
+    - "Anaerobic: put a layer of oil over the mixture to keep O₂ out, then measure CO₂ produced, e.g. bubbles or gas syringe volume."
+    - "Alternatively, add methylene blue and time how long it takes to turn colourless (dehydrogenases reduce it)."
+    - "Repeat and calculate mean rates."
+  iv: "Temperature, type or concentration of respiratory substrate"
+  dv: "Volume of gas per minute, or 1/time to decolourise"
+  cv: "Volume and concentration of yeast, volume and concentration of substrate, pH (buffer)"
+  exam:
+    - "Volume of gas = πr²h, where r is the capillary tube radius and h is the distance the liquid moves."
+    - "Leave the apparatus to equilibrate with the tap open before starting, so pressure and temperature are stable."
+    - "A control tube with glass beads (or boiled yeast) of the same volume accounts for temperature and pressure changes."
+
+- n: 10
+  year: 2
+  unit: "3.6a"
+  spec: "3.6.1.1"
+  title: "Investigation into the effect of an environmental variable on the movement of an animal using either a choice chamber or a maze"
+  aim: "Use a choice chamber (or a maze) to show whether invertebrates such as woodlice show taxis or kinesis in response to humidity or light."
+  method:
+    - "Make a choice chamber with one side **dry** (silica gel or anhydrous calcium chloride under the mesh) and the other **humid** (water under the mesh)."
+    - "Let the chamber equilibrate, then put the same number of woodlice (e.g. 10) in the centre."
+    - "Record the number on each side at regular intervals, e.g. every 30 s for 10 minutes."
+    - "Repeat with fresh animals and handle them gently with a soft paintbrush. Return them to their habitat afterwards."
+  iv: "Humidity or light intensity"
+  dv: "Number of animals in each region"
+  cv: "Temperature, number and species of animals, time"
+  exam:
+    - "**Taxis** is directional movement towards or away from a stimulus. **Kinesis** is non-directional: speed or rate of turning changes."
+    - "Woodlice move faster and turn less in dry conditions (kinesis), so they end up in damp areas and lose less water."
+    - "A **chi-squared** test can check whether the distribution differs significantly from 50:50."
+    - "Use a cobalt chloride paper strip to confirm humidity: blue when dry, pink when damp."
+
+- n: 11
+  year: 2
+  unit: "3.6d"
+  spec: "3.6.4.2"
+  title: "Production of a dilution series of a glucose solution and use of colorimetric techniques to produce a calibration curve"
+  aim: "Make glucose solutions of known concentration, measure the colour each gives with Benedict's reagent, and plot a calibration curve to find the glucose concentration of an unknown sample, e.g. simulated urine."
+  method:
+    - "Make a **dilution series** of glucose from a stock solution, e.g. 0, 2, 4, 6, 8 and 10 mmol dm⁻³."
+    - "Add **the same volume** of Benedict's reagent to each and heat in a boiling water bath for the **same time**."
+    - "Filter or centrifuge out the precipitate. Measure the absorbance (or transmission) of the remaining blue solution in a **colorimeter** with a red filter, zeroed with distilled water."
+    - "Plot absorbance against glucose concentration to make the calibration curve."
+    - "Test the unknown in exactly the same way and read its concentration off the curve."
+  iv: "Glucose concentration (known solutions)"
+  dv: "Absorbance or transmission"
+  cv: "Volume of Benedict's, heating time and temperature, colorimeter filter"
+  exam:
+    - "More glucose means more Cu²⁺ is reduced to the red Cu₂O precipitate, so **less blue** remains and absorbance falls (transmission rises)."
+    - "The unknown can only be read reliably if it falls **within the range** of the standards."
+    - "Glucose oxidase test strips are a more specific alternative."
+
+- n: 12
+  year: 2
+  unit: "3.7d"
+  spec: "3.7.4"
+  title: "Investigation into the effect of a named environmental factor on the distribution of a given species"
+  aim: "Use quadrats along a transect (or random quadrats) to see how a factor such as light intensity, soil moisture or trampling affects the abundance of a plant species."
+  method:
+    - "**Random sampling** for comparing two areas: lay two tape measures at right angles and use random number generators for coordinates."
+    - "**Systematic sampling** (belt or interrupted transect) when there is a gradient, e.g. from woodland edge into a field, placing quadrats at regular intervals."
+    - "In each quadrat record **percentage cover**, frequency or density of the species, and measure the abiotic factor (e.g. light meter, soil moisture probe)."
+    - "Use enough quadrats that the running mean levels off."
+  iv: "Environmental factor, e.g. distance from a path or light intensity"
+  dv: "Abundance (percentage cover, frequency or density)"
+  cv: "Quadrat size, time of day and weather, same person estimating cover"
+  exam:
+    - "Spearman's rank correlation tests whether abundance is correlated with the factor. Correlation does not prove causation."
+    - "Percentage cover is used when individual plants are hard to count, e.g. grasses."
+    - "Mark-release-recapture is for **mobile** animals: `population size = (number in sample 1 × number in sample 2) ÷ number marked in sample 2`."

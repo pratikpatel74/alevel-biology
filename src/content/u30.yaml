@@ -1,0 +1,128 @@
+id: "3.8b"
+order: 30
+section: "3.8"
+spec: "3.8.2.2–3.8.2.3"
+title: "Gene expression, epigenetics and cancer"
+desc: "Transcription factors and oestrogen, RNA interference, epigenetic control by methylation and acetylation, tumours, oncogenes and tumour suppressor genes."
+practicals: []
+summary:
+  - h: "Regulating transcription"
+    p:
+      - "In eukaryotes, transcription of target genes can be **stimulated or inhibited** when specific **transcription factors** move from the **cytoplasm into the nucleus**."
+      - "Transcription factors bind to a specific **promoter** region of DNA, helping or blocking **RNA polymerase** binding."
+      - "**Oestrogen** is a lipid-soluble steroid hormone. It **diffuses** through the cell membrane and binds to a **receptor** on a transcription factor in the cytoplasm."
+      - "This changes the transcription factor's shape, releasing it from an inhibitor. It enters the nucleus, binds to DNA and **stimulates transcription**."
+  - h: "Epigenetics"
+    p:
+      - "**Epigenetics**: heritable changes in gene function **without changes to the base sequence** of DNA. Caused by changes in the environment that **inhibit transcription**."
+      - "**Increased methylation of DNA**: methyl groups added to **cytosine** in the promoter region. This prevents transcription factors binding, so the gene is **switched off**."
+      - "**Decreased acetylation of histones**: DNA wraps more **tightly** around histones (condensed chromatin), so transcription factors can't access it. The gene is **switched off**."
+      - "Epigenetic changes can be passed on to daughter cells, and may play a role in diseases such as cancer. Drugs can target these marks."
+  - h: "RNA interference (RNAi)"
+    p:
+      - "Translation of mRNA can be inhibited by **RNA interference**."
+      - "Small double-stranded RNA (e.g. **siRNA**) is processed into single strands that bind to a protein complex."
+      - "The single strand binds to **complementary mRNA**, and the mRNA is **cut up** (hydrolysed), so it can't be translated."
+  - h: "Tumours and cancer"
+    p:
+      - "A **tumour** forms from **uncontrolled cell division** (mitosis)."
+      - "**Benign** tumours: grow slowly, are surrounded by a capsule, don't spread, and cells stay specialised."
+      - "**Malignant** tumours (cancers): grow rapidly, can **spread** to other tissues (**metastasis**) through the blood or lymph, and cells become unspecialised."
+      - "**Oncogenes**: mutated forms of **proto-oncogenes**. They can be **permanently activated**, causing continuous cell division."
+      - "**Tumour suppressor genes** normally slow cell division or cause apoptosis. Mutation can **inactivate** them, so division is uncontrolled."
+      - "**Abnormal methylation**: **hypermethylation** of tumour suppressor genes switches them off. **Hypomethylation** of oncogenes switches them on."
+      - "**Increased oestrogen** concentrations are linked to some **breast cancers**, by stimulating transcription of genes that promote cell division."
+pitfalls:
+  - "Epigenetic changes **don't alter the base sequence**. That's the defining feature."
+  - "**More** methylation switches genes **off**. **Less** acetylation also switches genes **off**."
+  - "Oncogenes cause cancer when **activated**. Tumour suppressor genes cause cancer when **inactivated**."
+  - "RNAi works on **mRNA**, after transcription, not on DNA."
+questions:
+  - q: "What is a transcription factor?"
+    o: ["An enzyme that joins nucleotides", "A protein that binds to a specific DNA promoter region to stimulate or inhibit transcription", "A type of mRNA", "A hormone made in the nucleus"]
+    a: 1
+    e: "Transcription factors move from the cytoplasm into the nucleus and bind to promoters, controlling whether RNA polymerase can transcribe a gene."
+  - q: "How does oestrogen enter a cell?"
+    o: ["It diffuses through the phospholipid bilayer because it is lipid-soluble", "By active transport", "Through a channel protein", "By co-transport"]
+    a: 0
+    e: "Oestrogen is a steroid hormone, so it can diffuse straight through the membrane."
+  - q: "How does oestrogen stimulate transcription?"
+    o: ["It binds directly to RNA polymerase", "It changes the DNA sequence", "It binds to a receptor on a transcription factor, releasing it to enter the nucleus and bind DNA", "It cuts mRNA"]
+    a: 2
+    e: "Binding changes the transcription factor's shape, freeing it from an inhibitor so it can activate transcription."
+  - q: "What is epigenetics?"
+    o: ["Changes in the base sequence of DNA", "Mutation of a gene", "Translation of mRNA", "Heritable changes in gene function without changes to the base sequence of DNA"]
+    a: 3
+    e: "Epigenetic changes affect whether genes are expressed, without altering the DNA sequence."
+  - q: "How does increased methylation of DNA affect a gene?"
+    o: ["It inhibits transcription, switching the gene off", "It stimulates transcription", "It causes a frame shift", "It creates a stop codon"]
+    a: 0
+    e: "Methyl groups on cytosine in the promoter stop transcription factors binding, so the gene isn't transcribed."
+  - q: "How does decreased acetylation of histones affect transcription?"
+    o: ["DNA becomes looser and transcription increases", "Chromatin becomes more condensed, so transcription factors can't access the DNA and transcription is inhibited", "It has no effect", "It creates more histones"]
+    a: 1
+    e: "Less acetylation makes histones bind DNA more tightly, so the gene is less accessible."
+  - q: "Which base is methylated in epigenetic control?"
+    o: ["Adenine", "Thymine", "Cytosine", "Uracil"]
+    a: 2
+    e: "Methyl groups are added to cytosine bases, usually in promoter regions."
+  - q: "What is RNA interference?"
+    o: ["Addition of methyl groups to DNA", "Splicing of pre-mRNA", "Binding of transcription factors", "Small RNA binding to complementary mRNA, causing it to be cut up so it isn't translated"]
+    a: 3
+    e: "siRNA guides a protein complex to complementary mRNA, which is then broken down."
+  - q: "At which stage does RNA interference affect gene expression?"
+    o: ["Translation", "Transcription", "DNA replication", "Mitosis"]
+    a: 0
+    e: "RNAi destroys mRNA, so translation is prevented. Transcription has already happened."
+  - q: "Which is a feature of a malignant tumour?"
+    o: ["Grows slowly and stays in one place", "Can spread to other parts of the body (metastasis)", "Is surrounded by a capsule", "Cells remain specialised"]
+    a: 1
+    e: "Malignant tumours invade nearby tissue and can spread through the blood or lymph to form secondary tumours."
+  - q: "Which is a feature of a benign tumour?"
+    o: ["Spreads by metastasis", "Grows very rapidly", "Is usually surrounded by a capsule and doesn't spread", "Cells become unspecialised"]
+    a: 2
+    e: "Benign tumours grow slowly within a capsule and don't invade other tissues, though they can still cause harm by pressure."
+  - q: "What is an oncogene?"
+    o: ["A gene that slows cell division", "A gene that causes apoptosis", "A gene for methylation", "A mutated proto-oncogene that can cause uncontrolled cell division"]
+    a: 3
+    e: "Oncogenes are permanently activated versions of genes that normally stimulate cell division."
+  - q: "How can a mutated tumour suppressor gene lead to cancer?"
+    o: ["It becomes inactivated, so it no longer slows cell division", "It becomes overactive", "It produces too many antibodies", "It stops mitosis"]
+    a: 0
+    e: "Tumour suppressor genes normally restrain division. Inactivation removes this brake."
+  - q: "Hypermethylation of a tumour suppressor gene would:"
+    o: ["Increase its transcription", "Switch it off, increasing the risk of uncontrolled division", "Cause a deletion", "Have no effect"]
+    a: 1
+    e: "Too much methylation stops transcription, so the protective protein isn't made."
+  - q: "Hypomethylation of an oncogene would:"
+    o: ["Switch it off", "Remove the gene", "Switch it on, increasing cell division", "Repair it"]
+    a: 2
+    e: "Less methylation allows transcription, so the oncogene is expressed more."
+  - q: "How might increased oestrogen be linked to some breast cancers?"
+    o: ["It destroys tumour suppressor genes", "It causes mutations directly", "It stops apoptosis completely", "It stimulates transcription of genes that promote cell division"]
+    a: 3
+    e: "Oestrogen activates transcription factors, which can switch on genes that increase cell division in breast tissue."
+  - q: "Where do transcription factors move from and to?"
+    o: ["From the cytoplasm into the nucleus", "From the nucleus to the ribosome", "From the blood to the nucleus", "From the mitochondria to the nucleus"]
+    a: 0
+    e: "Transcription factors are made in the cytoplasm and move through nuclear pores into the nucleus."
+  - q: "What is a promoter region?"
+    o: ["The start codon on mRNA", "A region of DNA where transcription factors and RNA polymerase bind", "An intron", "A histone"]
+    a: 1
+    e: "The promoter is the DNA sequence near a gene where transcription begins."
+  - q: "Why can epigenetic changes be passed to daughter cells?"
+    o: ["They change the base sequence", "They are stored in mRNA", "Methylation and histone patterns can be copied when cells divide", "They are carried in the blood"]
+    a: 2
+    e: "Epigenetic marks can be maintained through mitosis, so daughter cells inherit the same pattern of gene expression."
+  - q: "What could cause epigenetic changes?"
+    o: ["Only mutations", "Only viruses", "Only meiosis", "Environmental factors such as diet, stress or chemicals"]
+    a: 3
+    e: "Epigenetic changes are triggered by environmental factors that affect methylation or acetylation."
+  - q: "A drug increases acetylation of histones. What would it likely do to a silenced tumour suppressor gene?"
+    o: ["Switch it back on by loosening chromatin", "Silence it further", "Delete it", "Methylate it"]
+    a: 0
+    e: "More acetylation loosens DNA from histones, making genes accessible for transcription again."
+  - q: "Which statement about cancer is correct?"
+    o: ["It is always caused by viruses", "It results from uncontrolled cell division caused by mutations or epigenetic changes", "It only affects old cells", "It is caused by meiosis"]
+    a: 1
+    e: "Cancer involves loss of control of the cell cycle, through mutations or abnormal gene expression."

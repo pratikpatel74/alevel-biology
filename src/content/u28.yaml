@@ -1,0 +1,131 @@
+id: "3.7d"
+order: 28
+section: "3.7"
+spec: "3.7.4"
+title: "Populations in ecosystems"
+desc: "Ecosystems, niches and carrying capacity, factors affecting population size, sampling methods and mark-release-recapture, succession and conservation."
+practicals: [12]
+summary:
+  - h: "Ecosystems and niches"
+    p:
+      - "An **ecosystem** includes all the **communities** (populations of different species) and the **non-living (abiotic)** components of an area."
+      - "Each species occupies a **niche**, governed by its adaptation to both abiotic and biotic conditions."
+      - "Two species can't occupy exactly the same niche: one would outcompete the other."
+      - "An ecosystem supports a certain size of population of a species, called the **carrying capacity**."
+  - h: "Factors affecting population size"
+    p:
+      - "**Abiotic** factors: temperature, light, pH, water, humidity."
+      - "**Biotic** factors: **interspecific competition** (between species), **intraspecific competition** (within a species), and **predation**."
+      - "Predator and prey populations often fluctuate in cycles: prey numbers rise, then predators rise, so prey fall, then predators fall."
+  - h: "Sampling methods"
+    p:
+      - "**Randomly placed quadrats**: compare two areas. Use a grid and random number generator for coordinates."
+      - "**Quadrats along a belt transect**: show how a species' distribution changes along an environmental gradient."
+      - "Measure **percentage cover**, **frequency** or **density**."
+      - "**Mark-release-recapture** for **mobile animals**: capture a sample, mark them, release, then capture a second sample."
+      - "`Estimated population size = (number in first sample × number in second sample) ÷ number of marked individuals recaptured`"
+      - "Assumptions: marks don't affect survival or behaviour, marks aren't lost, marked individuals mix fully, no births, deaths or migration between samples."
+  - h: "Succession"
+    p:
+      - "**Primary succession** starts on bare rock or sand. **Pioneer species** colonise first (e.g. lichens). They are adapted to harsh conditions."
+      - "Each stage **changes the environment** (especially the **abiotic** conditions, e.g. forming soil), making it **less hostile** for new species, which may outcompete earlier ones."
+      - "Over time, **biodiversity** and **biomass** usually increase. The final stable community is the **climax community**."
+      - "**Secondary succession** happens where soil already exists, e.g. after a fire."
+  - h: "Conservation"
+    p:
+      - "Conservation of habitats often involves **managing succession**, e.g. grazing or mowing to stop a climax community forming and keep a heathland or meadow."
+      - "There is often **conflict** between conservation and human needs such as farming or development, so management must balance them."
+pitfalls:
+  - "Use **random** sampling to compare areas, and **systematic** (transect) sampling when there is a gradient."
+  - "Mark-release-recapture is only valid if the **assumptions** hold. Learn them."
+  - "In succession, each stage changes the **abiotic** environment so it suits new species. Pioneer species don't 'want' to help others."
+  - "Interspecific = between species. Intraspecific = within a species."
+questions:
+  - q: "What is an ecosystem?"
+    o: ["All the individuals of one species", "All the communities and the non-living components of an area", "A single habitat", "The role of a species"]
+    a: 1
+    e: "An ecosystem includes the living community and the abiotic factors, and the interactions between them."
+  - q: "What is a niche?"
+    o: ["The role of a species in its habitat, governed by its adaptation to biotic and abiotic conditions", "Where an organism lives", "The number of individuals", "A type of community"]
+    a: 0
+    e: "A niche includes how a species interacts with its environment and other organisms, not just where it lives."
+  - q: "What is carrying capacity?"
+    o: ["The number of species in an area", "The rate of population growth", "The maximum population size an ecosystem can support", "The energy in a food chain"]
+    a: 2
+    e: "Carrying capacity is the largest population a habitat can sustain given its resources."
+  - q: "What is interspecific competition?"
+    o: ["Competition between members of the same species", "Predation", "Mutualism", "Competition between different species for the same resources"]
+    a: 3
+    e: "Interspecific competition is between individuals of different species, e.g. red and grey squirrels."
+  - q: "What is intraspecific competition?"
+    o: ["Competition between individuals of the same species", "Competition between predators and prey", "Competition between different species", "Cooperation between species"]
+    a: 0
+    e: "Individuals of the same species compete for the same resources, such as food, mates and territory."
+  - q: "Why do predator and prey populations often fluctuate in cycles?"
+    o: ["They both depend on light", "More prey lets predators increase; more predators reduce prey; fewer prey then reduce predators", "Predators are always more numerous", "Prey mutate more often"]
+    a: 1
+    e: "Changes in one population affect the other with a time lag, creating cycles."
+  - q: "When should random quadrats be used rather than a transect?"
+    o: ["When studying a gradient", "When studying mobile animals", "When comparing the abundance of a species in two different areas", "When counting birds"]
+    a: 2
+    e: "Random sampling avoids bias when comparing two areas. Transects are used along gradients."
+  - q: "When is a belt transect most suitable?"
+    o: ["For counting mobile animals", "For comparing two random fields", "For estimating population size of fish", "To study how distribution changes along an environmental gradient"]
+    a: 3
+    e: "A transect samples at regular intervals along a line, showing changes across a gradient such as from a shore inland."
+  - q: "In mark-release-recapture, 40 snails are marked. In a second sample of 50, 10 are marked. What is the estimated population?"
+    o: ["200", "100", "500", "2000"]
+    a: 0
+    e: "Population = (40 × 50) ÷ 10 = 200."
+  - q: "Which is an assumption of mark-release-recapture?"
+    o: ["Marked individuals stay in one place", "Marking doesn't affect the survival of individuals", "Many births occur between samples", "Marks wash off quickly"]
+    a: 1
+    e: "If marks made animals more visible to predators, fewer would be recaptured, giving an overestimate."
+  - q: "Why must marked animals mix fully with the population before recapture?"
+    o: ["So they can reproduce", "So marks dry", "So the proportion marked in the second sample represents the whole population", "So they can't be recaptured"]
+    a: 2
+    e: "If marked animals stay together, the second sample might contain too many or too few marked individuals."
+  - q: "What are pioneer species?"
+    o: ["The last species to colonise", "Climax species", "Predators", "The first species to colonise bare ground, adapted to harsh conditions"]
+    a: 3
+    e: "Pioneer species, such as lichens, can survive with little soil or water, and start soil formation."
+  - q: "How does each stage of succession allow the next stage to colonise?"
+    o: ["It changes the abiotic environment, making it less hostile, e.g. forming soil", "It removes all nutrients", "It increases predation", "It makes the habitat more extreme"]
+    a: 0
+    e: "Organisms change conditions, e.g. adding organic matter to soil, so new species can survive and may outcompete earlier ones."
+  - q: "What usually happens to biodiversity during succession?"
+    o: ["It decreases", "It increases", "It stays the same", "It drops to zero"]
+    a: 1
+    e: "As conditions become less hostile, more species can survive, so biodiversity generally increases."
+  - q: "What is a climax community?"
+    o: ["The first community to colonise", "A community after a fire", "The final stable community at the end of succession", "A community of pioneer species"]
+    a: 2
+    e: "The climax community is stable and stays the same unless disturbed."
+  - q: "How is succession managed to conserve a heathland?"
+    o: ["By planting trees", "By leaving it untouched", "By adding fertilisers", "By grazing, mowing or controlled burning to prevent later stages taking over"]
+    a: 3
+    e: "Stopping succession from progressing keeps the plagioclimax community, such as heathland, and its species."
+  - q: "What is secondary succession?"
+    o: ["Succession on land where soil already exists, e.g. after a fire", "Succession on bare rock", "Succession in the sea", "The final stage of succession"]
+    a: 0
+    e: "Secondary succession starts from soil, so it is usually faster than primary succession."
+  - q: "Percentage cover is used rather than counting individual plants when:"
+    o: ["Plants are large", "Individual plants are hard to count, e.g. grass", "Plants are rare", "The area is small"]
+    a: 1
+    e: "For plants that grow in mats or clumps, estimating cover is quicker and more practical."
+  - q: "Which statistical test checks whether the abundance of a species is correlated with an environmental factor?"
+    o: ["Chi-squared", "Standard deviation", "Spearman's rank correlation", "Hardy–Weinberg"]
+    a: 2
+    e: "Spearman's rank tests for a correlation between two variables. Correlation doesn't prove causation."
+  - q: "Which is an abiotic factor?"
+    o: ["Predation", "Competition", "Disease", "Soil pH"]
+    a: 3
+    e: "Abiotic factors are non-living, such as pH, light, temperature and water."
+  - q: "Why is there often conflict over conservation?"
+    o: ["Human needs such as farming or building compete with protecting habitats", "Conservation increases biodiversity", "All species are protected", "Succession stops naturally"]
+    a: 0
+    e: "Land used for food or development can't also be a protected habitat, so management balances different needs."
+  - q: "In RP12, why should many quadrats be used?"
+    o: ["To increase bias", "So that the sample is representative; use enough that the running mean levels off", "To reduce the area sampled", "Because quadrats are cheap"]
+    a: 1
+    e: "A larger sample reduces the effect of anomalies and gives a more reliable mean."

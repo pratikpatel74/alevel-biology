@@ -1,0 +1,136 @@
+id: "3.2a"
+order: 4
+section: "3.2"
+spec: "3.2.1"
+title: "Cell structure and studying cells"
+desc: "Eukaryotic organelles, prokaryotic cells and viruses, light and electron microscopes, magnification calculations and cell fractionation."
+practicals: [6]
+summary:
+  - h: "Eukaryotic organelles"
+    p:
+      - "**Nucleus**: nuclear envelope with pores, chromatin and nucleolus. Holds genetic information and controls the cell's activities. The nucleolus makes ribosomal RNA."
+      - "**Mitochondria**: double membrane, inner membrane folded into **cristae**, with a matrix. Site of **aerobic respiration**, producing ATP."
+      - "**Chloroplasts** (plants and algae): double membrane, **thylakoids** stacked into **grana**, fluid **stroma**. Site of photosynthesis."
+      - "**Golgi apparatus and vesicles**: modify, package and transport proteins and lipids. Golgi also forms **lysosomes**."
+      - "**Lysosomes**: contain hydrolytic enzymes (lysozymes). Digest invading cells and break down worn-out organelles."
+      - "**Ribosomes**: made of RNA and protein, site of protein synthesis. Cytoplasm of eukaryotes has larger **80S** ribosomes."
+      - "**Rough ER** (ribosomes on surface) synthesises and transports proteins. **Smooth ER** synthesises and processes lipids."
+      - "**Cell wall**: cellulose in plants and algae, chitin in fungi. Provides strength."
+      - "**Cell vacuole** (plants): contains cell sap, keeps the cell turgid."
+  - h: "Specialised cells"
+    p:
+      - "In complex multicellular organisms, cells are specialised and organised into **tissues**, **organs** and **organ systems**."
+      - "Specialised cells have more of the organelles they need, e.g. many mitochondria in muscle cells, microvilli on epithelial cells of the ileum."
+  - h: "Prokaryotic cells and viruses"
+    p:
+      - "Prokaryotes are much **smaller**, have **no membrane-bound organelles**, no nucleus, smaller **70S ribosomes**, and **circular DNA not associated with histones**."
+      - "Their cell wall contains **murein** (a glycoprotein). Some also have **plasmids**, a **capsule** and one or more **flagella**."
+      - "Prokaryotes divide by **binary fission** (see Cell division)."
+      - "**Viruses** are acellular and non-living. They have genetic material, a **capsid** (protein coat) and **attachment proteins**. Some also have a lipid envelope and enzymes such as reverse transcriptase."
+  - h: "Microscopes and magnification"
+    p:
+      - "`magnification = size of image ÷ size of real object`. Convert units first: 1 mm = 1000 µm, and 1 µm = 1000 nm."
+      - "**Resolution** is the minimum distance two objects can be apart and still be seen as separate. **Magnification** is how many times larger the image is than the object."
+      - "**Optical (light) microscope**: low resolution (about 0.2 µm) because of the long wavelength of light. Living cells can be seen, in colour."
+      - "**TEM**: electrons pass through a thin specimen, giving very high resolution and internal detail. The image is 2D, specimens must be in a vacuum (so dead), and preparation can create **artefacts**."
+      - "**SEM**: electrons are scattered off the surface, giving a 3D image. Lower resolution than TEM."
+      - "Use a **stage micrometer** to calibrate an **eyepiece graticule** at each magnification."
+  - h: "Cell fractionation and ultracentrifugation"
+    p:
+      - "Homogenise tissue in a solution that is **cold** (slows enzymes that break down organelles), **isotonic** (stops osmotic damage) and **buffered** (keeps pH stable, so proteins aren't denatured)."
+      - "**Filter** to remove large debris and whole cells."
+      - "**Ultracentrifugation** (differential centrifugation): spin at increasing speeds. The heaviest organelles form a pellet first: **nuclei**, then **chloroplasts** (plant cells) and **mitochondria**, then lysosomes, then ER and **ribosomes**."
+pitfalls:
+  - "Resolution and magnification are different. Higher magnification without higher resolution just gives a bigger blur."
+  - "Prokaryotic DNA is **not associated with histones**. Eukaryotic DNA is."
+  - "Viruses are **not** prokaryotes: they are acellular and have no ribosomes."
+  - "Explain each condition of fractionation separately: cold, isotonic and buffered, each with its own reason."
+questions:
+  - q: "Which organelle is the site of aerobic respiration?"
+    o: ["Chloroplast", "Golgi apparatus", "Mitochondrion", "Ribosome"]
+    a: 2
+    e: "Mitochondria are the site of aerobic respiration, producing ATP. The folded inner membrane (cristae) gives a large surface area for respiratory enzymes."
+  - q: "What is the function of the Golgi apparatus?"
+    o: ["Modifies and packages proteins and lipids, and forms lysosomes", "Synthesises proteins", "Contains hydrolytic enzymes that digest invading cells", "Produces ATP"]
+    a: 0
+    e: "The Golgi apparatus modifies proteins (e.g. adding carbohydrate), packages them into vesicles and makes lysosomes."
+  - q: "Lysosomes contain:"
+    o: ["Chlorophyll", "DNA", "Ribosomes", "Hydrolytic enzymes"]
+    a: 3
+    e: "Lysosomes are a type of Golgi vesicle containing hydrolytic enzymes, which digest pathogens and old organelles."
+  - q: "What is the main difference between rough and smooth endoplasmic reticulum?"
+    o: ["Rough ER has ribosomes and makes proteins; smooth ER makes and processes lipids", "Smooth ER has ribosomes and makes proteins", "Rough ER is found only in plants", "Smooth ER is the site of respiration"]
+    a: 0
+    e: "Ribosomes on rough ER make proteins, which are transported through it. Smooth ER has no ribosomes and synthesises and processes lipids."
+  - q: "Which feature is found in prokaryotic cells but not in eukaryotic cells?"
+    o: ["80S ribosomes", "A cell wall containing murein", "A nucleus", "Mitochondria"]
+    a: 1
+    e: "Prokaryotic cell walls contain murein. Eukaryotes have 80S ribosomes and membrane-bound organelles such as the nucleus and mitochondria."
+  - q: "How does prokaryotic DNA differ from eukaryotic nuclear DNA?"
+    o: ["It is linear and associated with histones", "It is made of RNA", "It is circular and not associated with histones", "It is found inside a nucleus"]
+    a: 2
+    e: "Prokaryotic DNA is a circular molecule, not associated with histone proteins. Eukaryotic DNA is linear and wound around histones."
+  - q: "What size are the ribosomes in prokaryotic cells?"
+    o: ["80S", "70S", "90S", "They have no ribosomes"]
+    a: 1
+    e: "Prokaryotes have smaller 70S ribosomes. Eukaryotic cytoplasmic ribosomes are 80S."
+  - q: "Which of these structures is found in all viruses?"
+    o: ["A capsid and attachment proteins", "Ribosomes", "A cell wall", "Plasmids"]
+    a: 0
+    e: "Viruses are acellular and contain genetic material, a protein capsid and attachment proteins. They have no ribosomes or cytoplasm."
+  - q: "An image of a mitochondrion is 30 mm long. The magnification is ×15 000. What is the actual length?"
+    o: ["0.5 µm", "20 µm", "45 µm", "2 µm"]
+    a: 3
+    e: "Actual size = image ÷ magnification = 30 mm ÷ 15 000 = 0.002 mm = 2 µm."
+  - q: "A cell is 50 µm long and its image is 25 mm long. What is the magnification?"
+    o: ["×500", "×50", "×2", "×5000"]
+    a: 0
+    e: "Convert 25 mm to 25 000 µm. Magnification = 25 000 ÷ 50 = ×500."
+  - q: "What is meant by the resolution of a microscope?"
+    o: ["How many times larger the image is than the object", "The minimum distance between two objects at which they can still be seen as separate", "The depth of the specimen", "The brightness of the image"]
+    a: 1
+    e: "Resolution is the ability to distinguish two close objects. Electron microscopes have higher resolution because electrons have a shorter wavelength than light."
+  - q: "Why does a transmission electron microscope have higher resolution than an optical microscope?"
+    o: ["It uses a stronger lens", "It uses a thinner specimen", "It produces a 3D image", "Electrons have a much shorter wavelength than light"]
+    a: 3
+    e: "Resolution depends on wavelength. Electron beams have a far shorter wavelength than light, so much finer detail can be resolved."
+  - q: "Which is a limitation of the transmission electron microscope?"
+    o: ["It has a lower resolution than a light microscope", "Specimens must be in a vacuum, so living cells cannot be viewed", "It can only show the surface of specimens", "It produces colour images"]
+    a: 1
+    e: "TEM requires a vacuum, so specimens are dead. It also needs very thin sections, which can create artefacts. Images are 2D and black and white."
+  - q: "How does a scanning electron microscope differ from a TEM?"
+    o: ["SEM scatters electrons off the surface to give a 3D image, with lower resolution", "SEM passes electrons through the specimen", "SEM uses light", "SEM has higher resolution"]
+    a: 0
+    e: "SEM scans a beam over the surface and detects scattered electrons, producing a 3D image of the surface. Its resolution is lower than TEM."
+  - q: "Why must an eyepiece graticule be calibrated with a stage micrometer?"
+    o: ["To focus the image", "Because the graticule divisions represent different real distances at each magnification", "To increase resolution", "To stain the specimen"]
+    a: 1
+    e: "The graticule stays the same size but the specimen is magnified differently by each objective, so the real length of one division changes."
+  - q: "Why is tissue homogenised in ice-cold solution during cell fractionation?"
+    o: ["To keep the pH constant", "To prevent osmosis", "To reduce the activity of enzymes that break down organelles", "To make organelles heavier"]
+    a: 2
+    e: "Low temperature slows enzyme activity, so enzymes released during homogenisation don't digest the organelles."
+  - q: "Why is an isotonic solution used for cell fractionation?"
+    o: ["To keep enzymes inactive", "So the water potential is the same as the organelles, preventing them bursting or shrinking", "To keep pH constant", "To help the homogeniser break cells"]
+    a: 1
+    e: "An isotonic solution has the same water potential as the organelles, so no net water movement by osmosis damages them."
+  - q: "Why is a buffer used in cell fractionation?"
+    o: ["To stop organelles bursting by osmosis", "To slow down enzymes", "To separate organelles by density", "To keep the pH constant so proteins are not denatured"]
+    a: 3
+    e: "A buffer resists pH changes, so enzymes and other proteins in organelles keep their shape."
+  - q: "In ultracentrifugation of liver cells, which organelle forms the first pellet?"
+    o: ["Ribosomes", "Mitochondria", "Nuclei", "Lysosomes"]
+    a: 2
+    e: "Nuclei are the largest and densest organelles, so they sediment first at the lowest speed."
+  - q: "During ultracentrifugation, the supernatant from the nuclei pellet is spun at higher speed. What forms the next pellet in an animal cell?"
+    o: ["Mitochondria", "Ribosomes", "Nuclei", "Cell walls"]
+    a: 0
+    e: "After nuclei, mitochondria are next densest and form the next pellet. Ribosomes need the highest speeds."
+  - q: "What are microvilli on epithelial cells of the ileum an adaptation for?"
+    o: ["Movement of the cell", "Increasing surface area for absorption", "Producing mucus", "Protein synthesis"]
+    a: 1
+    e: "Microvilli are folds of the cell-surface membrane that increase surface area for absorption of digested food."
+  - q: "Which structures might be present in some, but not all, prokaryotic cells?"
+    o: ["Ribosomes and a cell-surface membrane", "Cytoplasm and DNA", "Plasmids, a capsule and flagella", "A murein cell wall and ribosomes"]
+    a: 2
+    e: "All prokaryotes have cytoplasm, ribosomes, a membrane, a murein wall and DNA. Plasmids, a capsule and flagella are present in some."

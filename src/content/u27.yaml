@@ -1,0 +1,123 @@
+id: "3.7c"
+order: 27
+section: "3.7"
+spec: "3.7.3"
+title: "Evolution and speciation"
+desc: "Causes of variation, stabilising, directional and disruptive selection, genetic drift, and allopatric and sympatric speciation."
+practicals: []
+summary:
+  - h: "Variation"
+    p:
+      - "Individuals in a population vary in phenotype because of **genetic factors** and **environmental factors**."
+      - "Genetic variation arises from **mutation**, **meiosis** (independent segregation and crossing over), and **random fertilisation** of gametes."
+  - h: "Natural selection and evolution"
+    p:
+      - "Predation, disease and **competition** for limited resources result in **differential survival and reproduction**."
+      - "Organisms with advantageous alleles survive and reproduce, passing on these alleles. **Allele frequencies change** over generations: this is **evolution**."
+      - "**Stabilising selection**: favours the **mean** phenotype; variation decreases."
+      - "**Directional selection**: favours **one extreme**; the mean shifts."
+      - "**Disruptive selection**: favours **both extremes** over the mean; can lead to two distinct groups and eventually speciation."
+  - h: "Genetic drift"
+    p:
+      - "**Genetic drift**: allele frequencies change by **chance**, not because of selection."
+      - "It has a much bigger effect in **small populations**, e.g. after a **founder effect** (a few individuals start a new population) or a **bottleneck**."
+  - h: "Speciation"
+    p:
+      - "**Speciation** happens when populations become **reproductively isolated**: they can't interbreed to produce fertile offspring."
+      - "Isolated populations experience **different mutations**, **different selection pressures** and **genetic drift**, so their gene pools diverge."
+      - "**Allopatric speciation**: populations are separated **geographically** (e.g. by a river, mountain or sea)."
+      - "**Sympatric speciation**: populations in the **same area** become reproductively isolated, e.g. by mutations affecting courtship, mating times, or the shape of reproductive organs."
+      - "Types of reproductive isolation: **seasonal** (breed at different times), **mechanical** (incompatible genitalia), **behavioural** (different courtship)."
+pitfalls:
+  - "Genetic drift is **random**. Natural selection is not random, because it depends on advantage."
+  - "For speciation, always say populations are **reproductively isolated** and that **gene pools** change, until they can no longer produce **fertile** offspring."
+  - "Disruptive selection favours **both extremes**, and is the type most likely to lead to sympatric speciation."
+questions:
+  - q: "What are the two broad causes of phenotypic variation?"
+    o: ["Mitosis and meiosis", "Genetic factors and environmental factors", "Mutation and evolution", "Selection and drift"]
+    a: 1
+    e: "Phenotype depends on the alleles an individual has and the environment it develops in."
+  - q: "Which is NOT a source of genetic variation?"
+    o: ["Mitosis in body cells", "Mutation", "Crossing over in meiosis", "Random fertilisation"]
+    a: 0
+    e: "Mitosis produces genetically identical cells, so it doesn't create new genetic variation."
+  - q: "What is evolution?"
+    o: ["An individual changing to suit its environment", "Mutation in one organism", "A change in allele frequencies in a population over time", "The creation of a new organ"]
+    a: 2
+    e: "Evolution is a change in allele frequencies within a population, through natural selection or genetic drift."
+  - q: "What is disruptive selection?"
+    o: ["The mean phenotype is favoured", "One extreme is favoured", "No phenotype is favoured", "Both extremes are favoured over the mean"]
+    a: 3
+    e: "Individuals at both ends have an advantage. This can split a population into two groups."
+  - q: "Which type of selection reduces variation around the mean?"
+    o: ["Stabilising", "Directional", "Disruptive", "Genetic drift"]
+    a: 0
+    e: "Stabilising selection favours the mean and removes extremes, narrowing the range."
+  - q: "What is genetic drift?"
+    o: ["Change in allele frequency due to selection", "A change in allele frequencies due to chance", "Movement of alleles between populations", "Mutation of a gene"]
+    a: 1
+    e: "In genetic drift, alleles become more or less common by chance, not because they give an advantage."
+  - q: "Why does genetic drift have a greater effect in small populations?"
+    o: ["Small populations mutate more", "Selection is stronger", "Chance events affect a larger proportion of the gene pool", "Small populations mate randomly"]
+    a: 2
+    e: "When only a few individuals breed, random differences in who reproduces can quickly change allele frequencies."
+  - q: "What is the founder effect?"
+    o: ["A large population splitting", "Selection favouring extremes", "Rapid mutation", "A few individuals start a new population, so its gene pool differs from the original population"]
+    a: 3
+    e: "The founders carry only a sample of the original alleles, which may not be representative. Drift then acts strongly."
+  - q: "What is speciation?"
+    o: ["The formation of new species from existing ones", "Classification of species", "A mutation", "The extinction of species"]
+    a: 0
+    e: "Speciation is the evolution of a new species, when populations can no longer interbreed to produce fertile offspring."
+  - q: "What must happen for speciation to occur?"
+    o: ["Populations must stay in contact", "Populations must become reproductively isolated, so their gene pools diverge", "All individuals must mutate", "The population must grow"]
+    a: 1
+    e: "Reproductive isolation stops gene flow. Different mutations, selection and drift then change each gene pool."
+  - q: "What is allopatric speciation?"
+    o: ["Speciation in the same area", "Speciation caused by hybridisation", "Speciation after geographical separation of populations", "Speciation caused by drift only"]
+    a: 2
+    e: "A physical barrier separates populations. Different conditions lead to different changes in each gene pool."
+  - q: "What is sympatric speciation?"
+    o: ["Speciation after a mountain range forms", "Speciation in different continents", "Speciation caused by a river", "Speciation without geographical separation, e.g. due to changes in courtship or mating times"]
+    a: 3
+    e: "In sympatric speciation, populations living in the same area become reproductively isolated by other means."
+  - q: "Two populations of frogs breed in different months. What type of isolation is this?"
+    o: ["Seasonal", "Mechanical", "Geographical", "Behavioural"]
+    a: 0
+    e: "Breeding at different times of year is seasonal (temporal) isolation."
+  - q: "Two closely related insects have reproductive organs that are not compatible. What type of isolation is this?"
+    o: ["Seasonal", "Mechanical", "Behavioural", "Geographical"]
+    a: 1
+    e: "Differences in the shape of reproductive organs prevent mating: mechanical isolation."
+  - q: "Birds with different courtship songs don't mate. What type of isolation is this?"
+    o: ["Mechanical", "Seasonal", "Behavioural", "Geographical"]
+    a: 2
+    e: "Different courtship behaviour means individuals don't recognise each other as mates: behavioural isolation."
+  - q: "Why do separated populations' gene pools become different?"
+    o: ["They have identical environments", "They mutate in the same way", "They have more individuals", "They experience different mutations, selection pressures and genetic drift"]
+    a: 3
+    e: "With no gene flow between them, each population changes independently."
+  - q: "Which test confirms two populations have become separate species?"
+    o: ["They can no longer interbreed to produce fertile offspring", "They look different", "They live in different habitats", "They have different numbers"]
+    a: 0
+    e: "The biological species definition depends on producing fertile offspring."
+  - q: "Which type of selection is most likely to lead to sympatric speciation?"
+    o: ["Stabilising", "Disruptive", "Directional", "None"]
+    a: 1
+    e: "Disruptive selection favours two extremes, which can lead to two groups that become reproductively isolated."
+  - q: "How does competition contribute to natural selection?"
+    o: ["It increases mutation rate", "It stops reproduction", "Limited resources mean only some individuals survive and reproduce", "It causes genetic drift"]
+    a: 2
+    e: "When resources are limited, individuals with advantageous traits are more likely to get them, survive and reproduce."
+  - q: "A population of plants on a mountain is split by a landslide. Over thousands of years, the two groups can't interbreed. What has happened?"
+    o: ["Sympatric speciation", "Genetic drift only", "Stabilising selection", "Allopatric speciation"]
+    a: 3
+    e: "Geographical separation led to reproductive isolation and different gene pools: allopatric speciation."
+  - q: "Which statement about genetic drift and natural selection is correct?"
+    o: ["Drift is random; selection depends on advantage", "Both are random", "Selection only affects small populations", "Drift only happens in large populations"]
+    a: 0
+    e: "Natural selection favours alleles that give an advantage. Drift changes allele frequencies by chance."
+  - q: "Random fertilisation increases variation because:"
+    o: ["It produces mutations", "Any gamete can fuse with any other, giving new allele combinations", "It doubles the chromosome number", "It removes harmful alleles"]
+    a: 1
+    e: "Each gamete is unique, and which ones fuse is random, increasing the range of genotypes."

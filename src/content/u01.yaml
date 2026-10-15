@@ -1,0 +1,135 @@
+id: "3.1a"
+order: 1
+section: "3.1"
+spec: "3.1.1–3.1.3"
+title: "Monomers, carbohydrates and lipids"
+desc: "Condensation and hydrolysis, glucose isomers, disaccharides, starch, glycogen and cellulose, triglycerides and phospholipids, and food tests."
+practicals: []
+summary:
+  - h: "Monomers and polymers"
+    p:
+      - "**Monomers** are small units that join to form **polymers**. Examples: monosaccharides, amino acids and nucleotides."
+      - "A **condensation** reaction joins two molecules with a chemical bond and **releases a water molecule**."
+      - "A **hydrolysis** reaction breaks a chemical bond between two molecules and **uses a water molecule**."
+  - h: "Monosaccharides and disaccharides"
+    p:
+      - "Common monosaccharides: **glucose**, **galactose** and **fructose**."
+      - "Glucose has two isomers. In **α-glucose** the OH on carbon 1 is **below** the ring. In **β-glucose** it is **above** the ring."
+      - "Two monosaccharides join by condensation to form a **glycosidic bond**."
+      - "**Maltose** = glucose + glucose. **Sucrose** = glucose + fructose. **Lactose** = glucose + galactose."
+  - h: "Polysaccharides"
+    p:
+      - "**Starch** (plants) is a mix of amylose and amylopectin, made of **α-glucose**. Amylose is unbranched and coils into a helix (1,4 bonds), so it is compact. Amylopectin is branched (1,4 and 1,6 bonds), so enzymes can hydrolyse it quickly."
+      - "**Glycogen** (animals) is α-glucose with **many more branches**, so it can be hydrolysed rapidly to release glucose for respiration. It is compact."
+      - "Starch and glycogen are **insoluble**, so they don't affect water potential and can't diffuse out of cells."
+      - "**Cellulose** is made of **β-glucose**. Alternate monomers are inverted, so chains are **straight and unbranched**. Parallel chains are linked by **hydrogen bonds** to form **microfibrils**, which give strength to plant cell walls."
+  - h: "Lipids: triglycerides"
+    p:
+      - "A **triglyceride** forms when one **glycerol** molecule and **three fatty acids** join by condensation. The bonds are **ester bonds**, and **3 water** molecules are released."
+      - "**Saturated** fatty acids have no C=C double bonds. **Unsaturated** fatty acids have at least one C=C, which causes a kink in the chain."
+      - "Triglycerides are good energy stores because they have many C–H bonds (high energy to mass ratio). Being **insoluble**, they don't affect water potential. They release metabolic water when oxidised."
+  - h: "Lipids: phospholipids"
+    p:
+      - "In a **phospholipid**, one fatty acid is replaced by a **phosphate-containing group**."
+      - "The phosphate head is **hydrophilic**. The two fatty acid tails are **hydrophobic**. So phospholipids form a **bilayer** in water, which is the basis of cell membranes."
+  - h: "Biochemical tests"
+    p:
+      - "**Reducing sugars** (all monosaccharides, maltose, lactose): heat with Benedict's reagent. Blue changes to green, yellow, orange or **brick-red precipitate**."
+      - "**Non-reducing sugars** (sucrose): negative Benedict's first. Then boil with dilute **HCl** to hydrolyse, neutralise with **sodium hydrogencarbonate**, and repeat Benedict's. A brick-red precipitate is positive."
+      - "**Starch**: add iodine in potassium iodide solution. Orange-brown changes to **blue-black**."
+      - "**Lipids**: emulsion test. Shake with **ethanol**, then add water. A **milky white emulsion** is positive."
+      - "**Proteins**: biuret test. Blue changes to **purple**."
+pitfalls:
+  - "Say a glycosidic bond is formed by **condensation**, and broken by **hydrolysis**. Mentioning water alone isn't enough."
+  - "Cellulose gives strength because **hydrogen bonds link parallel chains**. Don't say cellulose chains are 'branched' or made of α-glucose."
+  - "Triglycerides have **ester** bonds, not glycosidic or peptide bonds."
+  - "Benedict's is semi-quantitative. For an exact concentration, use a colorimeter."
+questions:
+  - q: "Which reaction joins two monosaccharides together?"
+    o: ["Hydrolysis, which uses a water molecule", "Condensation, which releases a water molecule", "Oxidation, which releases carbon dioxide", "Phosphorylation, which uses ATP"]
+    a: 1
+    e: "Monosaccharides join by condensation, forming a glycosidic bond and releasing water. Hydrolysis is the reverse: it breaks the bond and uses water."
+  - q: "How does β-glucose differ from α-glucose?"
+    o: ["β-glucose has five carbon atoms", "The OH group on carbon 1 is above the ring in β-glucose", "β-glucose cannot form glycosidic bonds", "The OH group on carbon 4 is missing in β-glucose"]
+    a: 1
+    e: "Both are six-carbon isomers. In β-glucose the OH on carbon 1 is above the ring. In α-glucose it is below."
+  - q: "Which monosaccharides make up sucrose?"
+    o: ["Glucose and galactose", "Glucose and glucose", "Glucose and fructose", "Fructose and galactose"]
+    a: 2
+    e: "Sucrose = glucose + fructose. Maltose = glucose + glucose. Lactose = glucose + galactose."
+  - q: "Lactose is formed from which two monosaccharides?"
+    o: ["Glucose and galactose", "Glucose and fructose", "Galactose and fructose", "Two α-glucose molecules"]
+    a: 0
+    e: "Lactose, the sugar in milk, is a disaccharide of glucose and galactose."
+  - q: "Why is glycogen well suited as an energy store in animals?"
+    o: ["It is soluble, so it moves easily around the body", "It is highly branched, so it can be hydrolysed rapidly to release glucose", "It contains β-glucose, which forms strong fibres", "It contains many ester bonds which store energy"]
+    a: 1
+    e: "Glycogen's many branches give many ends for enzymes to work on, so glucose is released quickly. It is also insoluble and compact."
+  - q: "Amylose coils into a helix. What is the main advantage of this?"
+    o: ["It makes amylose soluble in water", "It allows hydrogen bonds to link it to cellulose", "It makes the molecule compact, so a lot can be stored in a small space", "It allows rapid hydrolysis from many ends"]
+    a: 2
+    e: "The unbranched 1,4-linked chain of amylose coils into a helix, making it compact for storage. Rapid hydrolysis from many ends is a feature of branched molecules such as amylopectin and glycogen."
+  - q: "Why are starch and glycogen insoluble, and why does this matter?"
+    o: ["They are large molecules, so they don't affect the water potential of the cell", "They are charged, so they cannot cross membranes", "They contain lipids, so they repel water", "They are small, so they don't trigger osmosis"]
+    a: 0
+    e: "Being large and insoluble, they don't lower water potential, so water doesn't move into cells by osmosis. They also can't diffuse out of the cell."
+  - q: "Which feature of cellulose gives plant cell walls their strength?"
+    o: ["Branched chains of α-glucose", "Ester bonds between chains", "Hydrogen bonds between parallel straight chains, forming microfibrils", "Disulfide bridges between chains"]
+    a: 2
+    e: "β-glucose chains are straight because alternate monomers are inverted. Parallel chains form many hydrogen bonds and group into microfibrils, which give strength."
+  - q: "In cellulose, why are alternate β-glucose molecules turned upside down?"
+    o: ["To allow branching at carbon 6", "Because the OH groups on carbons 1 and 4 are on opposite sides, so a glycosidic bond can only form if alternate molecules are inverted", "To make cellulose soluble", "To allow cellulose to form a helix"]
+    a: 1
+    e: "In β-glucose, the OH on carbon 1 points up and the OH on carbon 4 points down. So each monomer must be flipped relative to the next to form a 1,4 glycosidic bond, giving straight chains."
+  - q: "How many water molecules are released when a triglyceride is formed?"
+    o: ["One", "Two", "Four", "Three"]
+    a: 3
+    e: "Glycerol has three OH groups. Each condenses with one fatty acid, forming three ester bonds and releasing three water molecules."
+  - q: "What type of bond joins a fatty acid to glycerol?"
+    o: ["Ester bond", "Glycosidic bond", "Peptide bond", "Hydrogen bond"]
+    a: 0
+    e: "Fatty acids are joined to glycerol by ester bonds, formed in condensation reactions."
+  - q: "What is the difference between a saturated and an unsaturated fatty acid?"
+    o: ["Saturated fatty acids contain more oxygen", "Unsaturated fatty acids have no double bonds", "Saturated fatty acids are always shorter", "Unsaturated fatty acids have at least one C=C double bond"]
+    a: 3
+    e: "Saturated fatty acids have only single C–C bonds. Unsaturated fatty acids have at least one C=C double bond, which makes a kink in the chain."
+  - q: "Why do phospholipids form a bilayer in water?"
+    o: ["The fatty acid tails are hydrophilic and face the water", "The phosphate heads are hydrophilic and face the water, while the hydrophobic tails face inwards", "The phosphate heads repel each other", "Phospholipids are insoluble, so they sink to form a layer"]
+    a: 1
+    e: "The phosphate head is hydrophilic and faces water on both sides. The hydrophobic fatty acid tails face inward, away from water."
+  - q: "Which statement about triglycerides as energy stores is correct?"
+    o: ["They are soluble, so they are easily transported", "They have a low ratio of energy to mass", "They have many C–H bonds, so they release a lot of energy when oxidised", "They affect water potential, drawing water into cells"]
+    a: 2
+    e: "Triglycerides have many C–H bonds, a high energy-to-mass ratio, and are insoluble, so they don't affect water potential."
+  - q: "A student heats a solution with Benedict's reagent and gets a brick-red precipitate. What does this show?"
+    o: ["Starch is present", "A non-reducing sugar is present", "Protein is present", "A reducing sugar is present"]
+    a: 3
+    e: "A brick-red precipitate with Benedict's shows a reducing sugar, such as glucose, maltose or lactose."
+  - q: "Sucrose gives a negative Benedict's test. What must be done to show it is present?"
+    o: ["Boil with dilute HCl, neutralise with sodium hydrogencarbonate, then repeat Benedict's", "Add iodine solution", "Add biuret reagent and warm", "Shake with ethanol and add water"]
+    a: 0
+    e: "Acid hydrolyses sucrose into glucose and fructose, which are reducing sugars. Neutralise first, because Benedict's needs alkaline conditions."
+  - q: "Which test result shows starch is present?"
+    o: ["Purple colour with biuret reagent", "Milky emulsion with ethanol and water", "Blue-black colour with iodine solution", "Brick-red precipitate with Benedict's"]
+    a: 2
+    e: "Iodine in potassium iodide turns from orange-brown to blue-black with starch."
+  - q: "Describe a positive emulsion test for lipids."
+    o: ["The solution turns purple", "A milky white emulsion forms when water is added to the ethanol mixture", "A brick-red precipitate forms on heating", "The solution turns blue-black"]
+    a: 1
+    e: "Lipids dissolve in ethanol. When water is added, they come out of solution as tiny droplets, forming a milky white emulsion."
+  - q: "Which of these is a non-reducing sugar?"
+    o: ["Sucrose", "Maltose", "Glucose", "Lactose"]
+    a: 0
+    e: "Sucrose is non-reducing. All monosaccharides, maltose and lactose are reducing sugars."
+  - q: "Amylopectin differs from amylose because amylopectin:"
+    o: ["Is made of β-glucose", "Is unbranched", "Is found only in animals", "Has 1,6 glycosidic bonds that form branches"]
+    a: 3
+    e: "Amylopectin has 1,4 bonds in its chains and 1,6 bonds at branch points. Amylose has only 1,4 bonds and is unbranched."
+  - q: "Hydrolysis of maltose produces:"
+    o: ["Two α-glucose molecules", "Glucose and fructose", "Two β-glucose molecules", "Glucose and galactose"]
+    a: 0
+    e: "Maltose is two α-glucose molecules joined by a 1,4 glycosidic bond. Hydrolysis uses water to break the bond."
+  - q: "Why is a phospholipid different from a triglyceride?"
+    o: ["It has four fatty acids", "It contains no glycerol", "One fatty acid is replaced by a phosphate-containing group", "It contains glycosidic bonds"]
+    a: 2
+    e: "A phospholipid has glycerol, two fatty acids and a phosphate-containing group in place of the third fatty acid."

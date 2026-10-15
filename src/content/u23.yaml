@@ -1,0 +1,136 @@
+id: "3.6d"
+order: 23
+section: "3.6"
+spec: "3.6.4.1–3.6.4.2"
+title: "Homeostasis and blood glucose"
+desc: "Principles of homeostasis and negative feedback, insulin, glucagon and adrenaline, the second messenger model, and type I and type II diabetes."
+practicals: [11]
+summary:
+  - h: "Principles of homeostasis"
+    p:
+      - "**Homeostasis** is the maintenance of a **stable internal environment** within restricted limits, by physiological control systems."
+      - "**Core temperature** and **pH** are kept stable so enzymes and other proteins work efficiently and aren't denatured."
+      - "**Blood glucose** is kept stable to maintain the **water potential** of blood and to provide a constant supply of glucose for **respiration**."
+      - "**Negative feedback** restores systems to their original level. Having **separate mechanisms** for raising and lowering a level gives more control."
+      - "**Positive feedback** results in greater departure from normal, e.g. during an action potential, Na⁺ entry opens more Na⁺ channels."
+  - h: "Key processes in the liver"
+    p:
+      - "**Glycogenesis**: converting glucose into **glycogen**."
+      - "**Glycogenolysis**: hydrolysis of glycogen into **glucose**."
+      - "**Gluconeogenesis**: making glucose from **non-carbohydrates**, such as glycerol and amino acids."
+  - h: "Insulin: lowering blood glucose"
+    p:
+      - "High blood glucose is detected by **β cells** in the **islets of Langerhans** in the pancreas, which secrete **insulin**."
+      - "Insulin binds to specific receptors on cell membranes (e.g. liver and muscle cells)."
+      - "It causes **more glucose transport proteins (GLUT4)** to be inserted into membranes, so cells absorb more glucose."
+      - "It activates enzymes that convert glucose to glycogen (**glycogenesis**)."
+      - "Overall, blood glucose falls."
+  - h: "Glucagon and adrenaline: raising blood glucose"
+    p:
+      - "Low blood glucose is detected by **α cells**, which secrete **glucagon**."
+      - "Glucagon binds to receptors on **liver cells** and activates enzymes for **glycogenolysis** and **gluconeogenesis**. Blood glucose rises."
+      - "**Adrenaline** (from the adrenal glands, e.g. during stress) also activates glycogenolysis and inhibits glycogenesis."
+  - h: "Second messenger model"
+    p:
+      - "Glucagon or adrenaline (the **first messenger**) binds to a receptor on the liver cell membrane."
+      - "This activates **adenylate cyclase**, which converts **ATP** into **cyclic AMP (cAMP)**, the **second messenger**."
+      - "cAMP activates **protein kinase A**, which starts a cascade leading to **glycogenolysis**."
+  - h: "Diabetes"
+    p:
+      - "**Type I**: the body **can't produce insulin**, usually because the immune system destroys β cells. Controlled by **insulin injections**, matched to diet and exercise."
+      - "**Type II**: cells **don't respond properly to insulin** (receptors less responsive), often linked to **obesity**. Controlled by diet, exercise and sometimes drugs."
+      - "Evaluate health advice from the food industry and government on sugar intake and obesity."
+pitfalls:
+  - "**Glycogenesis**, **glycogenolysis** and **gluconeogenesis** are easily mixed up: genesis = making, lysis = splitting, neo = new."
+  - "Glucagon acts mainly on the **liver**. Muscle cells don't have glucagon receptors."
+  - "In the second messenger model, the hormone **doesn't enter** the cell. cAMP carries the signal inside."
+  - "Type I is about **not producing** insulin. Type II is about **not responding** to it."
+questions:
+  - q: "What is homeostasis?"
+    o: ["Changing the internal environment in response to temperature", "Maintenance of a stable internal environment within restricted limits", "The growth of cells", "The response of plants to light"]
+    a: 1
+    e: "Homeostasis keeps conditions like temperature, pH and glucose within narrow limits."
+  - q: "Why is it important to keep blood glucose concentration stable?"
+    o: ["To maintain the water potential of the blood and provide a steady supply of glucose for respiration", "To stop enzymes working", "To increase heart rate", "To store fat"]
+    a: 0
+    e: "Glucose affects water potential, and cells need a constant supply for respiration."
+  - q: "What is negative feedback?"
+    o: ["A change that moves conditions further from normal", "A response that stops all change", "A mechanism that restores a system to its original level", "A type of hormone"]
+    a: 2
+    e: "In negative feedback, a change from the norm triggers a response that reverses the change."
+  - q: "Why are separate mechanisms for raising and lowering a factor useful?"
+    o: ["They save energy", "They prevent all change", "They are faster to evolve", "They give a greater degree of control"]
+    a: 3
+    e: "Being able to actively raise and actively lower a factor gives finer and quicker control."
+  - q: "What is glycogenesis?"
+    o: ["Conversion of glucose into glycogen", "Hydrolysis of glycogen to glucose", "Making glucose from amino acids", "Breaking glucose down in respiration"]
+    a: 0
+    e: "Glycogenesis means 'glycogen making': glucose molecules are joined to form glycogen."
+  - q: "What is gluconeogenesis?"
+    o: ["Breakdown of glycogen", "Production of glucose from non-carbohydrate sources such as glycerol and amino acids", "Conversion of glucose to glycogen", "Release of insulin"]
+    a: 1
+    e: "Gluconeogenesis means 'making new glucose' from substances that aren't carbohydrates."
+  - q: "Which cells secrete insulin?"
+    o: ["α cells of the islets of Langerhans", "Liver cells", "β cells of the islets of Langerhans", "Adrenal glands"]
+    a: 2
+    e: "β cells in the islets of Langerhans secrete insulin when blood glucose is high."
+  - q: "How does insulin lower blood glucose?"
+    o: ["It breaks down glycogen", "It activates gluconeogenesis", "It increases glucagon release", "It increases glucose transport proteins in membranes and activates glycogenesis"]
+    a: 3
+    e: "Insulin causes more glucose carriers in cell membranes, so cells take up more glucose, and activates enzymes for glycogenesis."
+  - q: "Which hormone is secreted by α cells when blood glucose is low?"
+    o: ["Glucagon", "Insulin", "Adrenaline", "ADH"]
+    a: 0
+    e: "α cells secrete glucagon, which raises blood glucose."
+  - q: "Glucagon acts mainly on which cells?"
+    o: ["Muscle cells", "Liver cells", "Red blood cells", "Neurones"]
+    a: 1
+    e: "Liver cells have glucagon receptors. Glucagon activates glycogenolysis and gluconeogenesis there."
+  - q: "In the second messenger model, what does adenylate cyclase do?"
+    o: ["Breaks down glycogen directly", "Makes insulin", "Converts ATP into cyclic AMP", "Binds glucagon"]
+    a: 2
+    e: "Activated adenylate cyclase converts ATP into cAMP, the second messenger."
+  - q: "What is the role of cyclic AMP in the second messenger model?"
+    o: ["It binds to the receptor on the membrane", "It is the hormone", "It is secreted into the blood", "It activates protein kinase A, leading to glycogenolysis"]
+    a: 3
+    e: "cAMP activates protein kinase A, which triggers a cascade of enzyme reactions that break down glycogen."
+  - q: "Which is the first messenger in the second messenger model?"
+    o: ["The hormone, such as glucagon or adrenaline", "cAMP", "Protein kinase A", "ATP"]
+    a: 0
+    e: "The hormone binding to the outside of the cell is the first messenger. cAMP inside the cell is the second messenger."
+  - q: "How does adrenaline affect blood glucose?"
+    o: ["It lowers it by activating glycogenesis", "It raises it by activating glycogenolysis and inhibiting glycogenesis", "It has no effect", "It increases insulin secretion"]
+    a: 1
+    e: "Adrenaline prepares the body for action by releasing glucose from glycogen stores."
+  - q: "What is the cause of type I diabetes?"
+    o: ["Cells stop responding to insulin", "Too much insulin is made", "The body can't produce insulin, usually because β cells are destroyed", "Too much glucagon"]
+    a: 2
+    e: "In type I diabetes, the immune system usually destroys β cells, so little or no insulin is produced."
+  - q: "What is the main cause of type II diabetes?"
+    o: ["β cells are destroyed", "No glucagon is made", "A virus", "Cells become less responsive to insulin"]
+    a: 3
+    e: "In type II, insulin is produced but receptors respond less. It is strongly linked to obesity."
+  - q: "How is type I diabetes usually controlled?"
+    o: ["Insulin injections matched to diet and exercise", "Diet alone", "Glucagon injections", "Exercise only"]
+    a: 0
+    e: "People with type I diabetes inject insulin, balancing doses with carbohydrate intake and activity."
+  - q: "How is type II diabetes usually controlled at first?"
+    o: ["Insulin injections only", "Changes to diet and exercise, sometimes with drugs", "Glucagon injections", "Surgery"]
+    a: 1
+    e: "Weight loss, a healthy diet and exercise improve insulin sensitivity. Drugs or insulin may be added later."
+  - q: "Which is an example of positive feedback?"
+    o: ["Insulin lowering blood glucose", "Glucagon raising blood glucose", "Na⁺ entry during an action potential opening more Na⁺ channels", "Sweating when hot"]
+    a: 2
+    e: "Positive feedback amplifies a change. In an action potential, depolarisation opens more voltage-gated Na⁺ channels."
+  - q: "In RP11, why must all glucose solutions be heated with Benedict's for the same time and temperature?"
+    o: ["To dissolve the precipitate", "To kill bacteria", "To change the colour of the filter", "So that only glucose concentration affects the result"]
+    a: 3
+    e: "These are control variables. Differences in heating would affect how much precipitate forms."
+  - q: "In RP11, after filtering out the precipitate, a sample has high absorbance. What does this show?"
+    o: ["Low glucose concentration, because a lot of blue Cu²⁺ remains", "High glucose concentration", "No Benedict's was added", "The colorimeter is faulty"]
+    a: 0
+    e: "Less glucose reduces less Cu²⁺, so more blue copper remains in solution and absorbance is higher."
+  - q: "Why must the unknown sample's reading fall within the range of the calibration curve?"
+    o: ["To save time", "Because values outside the range can't be reliably read off the curve", "Because the colorimeter can't measure them", "Because Benedict's stops working"]
+    a: 1
+    e: "Extrapolating beyond the standards assumes the relationship continues, which may not be true."

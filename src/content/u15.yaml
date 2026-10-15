@@ -1,0 +1,130 @@
+id: "3.4d"
+order: 15
+section: "3.4"
+spec: "3.4.5–3.4.7"
+title: "Species, taxonomy and biodiversity"
+desc: "Species and courtship, phylogenetic classification and binomial names, species richness and the index of diversity, and measuring genetic diversity."
+practicals: []
+summary:
+  - h: "Species and courtship"
+    p:
+      - "A **species** is a group of organisms that can interbreed to produce **fertile offspring**."
+      - "**Courtship behaviour** helps organisms recognise members of their own species, identify a mate capable of breeding, form a pair bond, and synchronise mating."
+  - h: "Classification"
+    p:
+      - "**Phylogenetic classification** groups organisms based on their **evolutionary relationships**. It is **hierarchical**: smaller groups inside larger groups, with **no overlap**."
+      - "The hierarchy: **domain, kingdom, phylum, class, order, family, genus, species**."
+      - "The **binomial system** gives each species a two-part name: **genus** then **species**, e.g. *Homo sapiens*."
+      - "Advances in immunology and genome sequencing help clarify evolutionary relationships."
+  - h: "Biodiversity"
+    p:
+      - "**Biodiversity** can relate to a range of habitats, from a small local habitat to the Earth."
+      - "**Species richness**: the number of **different species** in a community."
+      - "**Index of diversity** also takes into account the **number of individuals of each species**."
+      - "`d = N(N − 1) ÷ Σn(n − 1)`, where N = total number of organisms of all species, and n = number of organisms of each species."
+      - "A **higher d** means greater diversity."
+      - "**Farming** reduces biodiversity: removing hedgerows, monoculture, pesticides and herbicides, and draining wetlands. Conservation schemes balance this against food production."
+  - h: "Investigating genetic diversity"
+    p:
+      - "Genetic diversity within or between species can be compared using: **observable characteristics**, **DNA base sequences**, **mRNA base sequences**, and **amino acid sequences** of proteins."
+      - "The more similar the sequences, the **more closely related** the species and the more recently they shared a common ancestor."
+      - "Gene technology has changed the methods: direct DNA sequencing is now used, rather than inferring diversity from observable characteristics."
+  - h: "Quantitative investigations"
+    p:
+      - "Collect data by **random sampling** and from a large enough sample to be representative."
+      - "Calculate the **mean** and **standard deviation**. Standard deviation shows the **spread** of data around the mean."
+      - "If error bars of ±2 standard deviations (roughly a 95% range) **overlap**, the difference between means is probably **not significant**."
+pitfalls:
+  - "In a species definition, include **fertile** offspring. Mules are infertile, so horses and donkeys are separate species."
+  - "Genus has a capital letter. Species doesn't. Both are in italics (or underlined when handwritten)."
+  - "Index of diversity: count **n(n − 1)** for each species, then sum. Don't square n."
+  - "Species richness ignores how many of each species there are. Index of diversity doesn't."
+questions:
+  - q: "What is a species?"
+    o: ["Organisms that look the same", "A group of organisms that can interbreed to produce fertile offspring", "All organisms in a habitat", "Organisms in the same genus"]
+    a: 1
+    e: "Members of a species can interbreed and produce fertile offspring."
+  - q: "How does courtship behaviour help reproduction?"
+    o: ["It allows recognition of the same species and identifies a mate capable of breeding", "It increases mutation rate", "It produces gametes", "It makes offspring identical"]
+    a: 0
+    e: "Courtship helps animals recognise their own species, a sexually mature partner, form a pair bond and synchronise mating."
+  - q: "What is the correct order of taxonomic ranks, from largest to smallest?"
+    o: ["Kingdom, domain, phylum, class, order, family, genus, species", "Domain, phylum, kingdom, order, class, family, genus, species", "Domain, kingdom, phylum, class, order, family, genus, species", "Species, genus, family, order, class, phylum, kingdom, domain"]
+    a: 2
+    e: "Domain, kingdom, phylum, class, order, family, genus, species. A common memory aid: 'Dear King Philip Came Over For Good Soup'."
+  - q: "What is meant by a phylogenetic classification?"
+    o: ["Grouping by habitat", "Grouping by size", "Grouping by diet", "Grouping based on evolutionary relationships"]
+    a: 3
+    e: "Phylogenetic classification groups organisms by how closely related they are through evolution."
+  - q: "What is meant by 'hierarchical' in classification?"
+    o: ["Smaller groups are placed within larger groups, with no overlap", "Groups overlap", "There are only two groups", "Organisms are ranked by size"]
+    a: 0
+    e: "In a hierarchy, each group fits entirely inside a larger group, and groups at the same level don't overlap."
+  - q: "In the binomial name Panthera leo, what does Panthera represent?"
+    o: ["Species", "Genus", "Family", "Kingdom"]
+    a: 1
+    e: "The first part is the genus (capital letter). The second part is the species."
+  - q: "What is species richness?"
+    o: ["The number of individuals of one species", "The genetic diversity of a population", "The number of different species in a community", "The index of diversity"]
+    a: 2
+    e: "Species richness is a simple count of how many different species are present."
+  - q: "Why is the index of diversity more useful than species richness?"
+    o: ["It counts only the most common species", "It ignores rare species", "It is easier to calculate", "It also takes into account the number of individuals of each species"]
+    a: 3
+    e: "The index of diversity accounts for both species number and evenness, so a community dominated by one species scores lower."
+  - q: "A community has 3 species with 2, 3 and 5 individuals. What is the index of diversity? (d = N(N−1) ÷ Σn(n−1))"
+    o: ["3.21", "1.67", "10.0", "2.50"]
+    a: 0
+    e: "N = 10, so N(N−1) = 90. Σn(n−1) = 2 + 6 + 20 = 28. d = 90 ÷ 28 = 3.21."
+  - q: "What does a higher index of diversity indicate?"
+    o: ["Fewer species", "Greater biodiversity", "More individuals of one species", "Less stable habitat"]
+    a: 1
+    e: "A higher value means more species and individuals spread more evenly among them."
+  - q: "Which farming practice reduces biodiversity?"
+    o: ["Planting hedgerows", "Leaving field margins uncultivated", "Monoculture", "Crop rotation"]
+    a: 2
+    e: "Growing a single crop over large areas supports fewer species. Removing hedgerows and using pesticides also reduce diversity."
+  - q: "Which of these is NOT used to compare genetic diversity directly?"
+    o: ["DNA base sequences", "mRNA base sequences", "Amino acid sequences", "The number of individuals in a population"]
+    a: 3
+    e: "Genetic diversity can be compared by observable characteristics, DNA and mRNA base sequences, and amino acid sequences. Population size doesn't show diversity."
+  - q: "Two species have very similar DNA base sequences. What does this suggest?"
+    o: ["They are closely related and shared a common ancestor recently", "They are distantly related", "They live in the same habitat", "They are the same size"]
+    a: 0
+    e: "Fewer differences in base sequence mean less time has passed since the species diverged."
+  - q: "Why might comparing amino acid sequences underestimate genetic differences?"
+    o: ["Amino acids are not made from DNA", "The genetic code is degenerate, so some DNA differences don't change amino acids", "Amino acid sequences change faster", "Proteins contain introns"]
+    a: 1
+    e: "Some base substitutions give the same amino acid, so differences in DNA may not appear in the protein."
+  - q: "Why is comparing DNA sequences better than comparing observable characteristics?"
+    o: ["It is cheaper", "It doesn't need a sample", "Observable characteristics can be affected by the environment and by many genes", "Observable characteristics never vary"]
+    a: 2
+    e: "Phenotype depends on the environment and many genes. DNA sequencing compares the genetic material directly."
+  - q: "What does standard deviation measure?"
+    o: ["The mean value", "The largest value", "The sample size", "The spread of data around the mean"]
+    a: 3
+    e: "Standard deviation measures how spread out data values are from the mean."
+  - q: "The error bars (mean ± 2 SD) for two groups overlap a lot. What can you conclude?"
+    o: ["The difference between the means is probably not significant", "The means are definitely different", "The data are invalid", "One group was not sampled"]
+    a: 0
+    e: "Large overlap suggests the difference could be due to chance, so it is likely not significant."
+  - q: "Why is random sampling used when investigating variation?"
+    o: ["To make calculations easier", "To avoid sampling bias, so the sample is representative", "To increase the mean", "To reduce the number of samples needed to one"]
+    a: 1
+    e: "Random sampling means every individual has an equal chance of selection, avoiding bias."
+  - q: "Horses and donkeys can breed to produce mules, which are infertile. Why are horses and donkeys separate species?"
+    o: ["They look different", "They live in different places", "Their offspring are not fertile", "They have the same number of chromosomes"]
+    a: 2
+    e: "Members of the same species produce fertile offspring. Mules are infertile, so horses and donkeys are separate species."
+  - q: "Which advance has most helped clarify evolutionary relationships?"
+    o: ["Better binoculars", "Larger museums", "More detailed drawings", "Genome sequencing"]
+    a: 3
+    e: "Genome sequencing allows direct comparison of DNA, giving more accurate evidence of relatedness. Immunological comparisons have also helped."
+  - q: "How is a species name correctly written?"
+    o: ["Genus with a capital letter, species with a lower-case letter, both in italics", "Both with capital letters", "Species first, then genus", "All in capital letters"]
+    a: 0
+    e: "E.g. Homo sapiens: genus capitalised, species lower case, both italicised (or underlined when handwritten)."
+  - q: "Species A has 100 individuals; species B has 1. Species C and D have 50 each. Which community has the higher index of diversity, AB or CD?"
+    o: ["AB, because it has more individuals", "CD, because the individuals are spread evenly across the species", "They are equal", "Neither can be calculated"]
+    a: 1
+    e: "Both have two species, but CD's individuals are evenly spread. AB is dominated by one species, so its index is lower."

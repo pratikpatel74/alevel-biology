@@ -1,0 +1,139 @@
+id: "3.8c"
+order: 31
+section: "3.8"
+spec: "3.8.3–3.8.4"
+title: "Genome projects and gene technologies"
+desc: "Genome sequencing, producing DNA fragments, PCR and in vivo cloning, genetic modification, DNA probes and screening, and genetic fingerprinting."
+practicals: []
+summary:
+  - h: "Genome projects"
+    p:
+      - "Sequencing projects have read the genomes of many organisms, from bacteria to humans."
+      - "In **simpler organisms** (e.g. bacteria), the genome can be used to determine the **proteome**, which could help identify antigens for **vaccines**."
+      - "In **complex organisms**, the genome can't easily be translated into the proteome, because of **non-coding DNA** and **regulatory genes**."
+      - "Sequencing methods are continually updated and **automated**, making them faster and cheaper."
+  - h: "Making DNA fragments"
+    p:
+      - "**Reverse transcriptase**: makes **cDNA** from **mRNA**. Useful because cells making a protein have lots of its mRNA, and it has **no introns**."
+      - "**Restriction endonucleases**: cut DNA at specific **recognition sequences**. Many make a staggered cut, leaving **sticky ends**."
+      - "**Gene machine**: synthesises the gene from nucleotides, based on a known amino acid sequence."
+  - h: "PCR (in vitro amplification)"
+    p:
+      - "**Polymerase chain reaction** makes many copies of a DNA fragment."
+      - "Mix: DNA, **primers**, free **nucleotides** and **Taq polymerase** (heat-stable DNA polymerase)."
+      - "**95 °C**: DNA strands separate (hydrogen bonds break). **55 °C**: primers **anneal** to complementary bases at the ends. **72 °C**: Taq polymerase joins nucleotides."
+      - "Each cycle **doubles** the DNA: after n cycles, there are 2ⁿ copies of each starting molecule."
+  - h: "In vivo cloning"
+    p:
+      - "Add a **promoter** and **terminator** region to the fragment, so it can be transcribed in the host."
+      - "Cut a **vector** (e.g. a **plasmid**) with the **same restriction enzyme**, so the sticky ends are complementary."
+      - "**DNA ligase** joins the fragment into the vector, forming **recombinant DNA**."
+      - "**Transform** host cells (e.g. bacteria) by taking up the vector, helped by calcium ions and heat shock."
+      - "Identify transformed cells using **marker genes**, e.g. antibiotic resistance, or genes for fluorescence or an enzyme that gives a colour change."
+      - "**GMOs** have uses in agriculture, industry and medicine (e.g. insulin-producing bacteria). Issues include ethics, financial costs, and patents that may limit access in poorer countries."
+      - "**Gene therapy** adds a working allele to treat a genetic disorder."
+  - h: "DNA probes and screening"
+    p:
+      - "A **DNA probe** is a short, single strand of DNA with a **label** (radioactive or fluorescent), complementary to a target allele."
+      - "**DNA hybridisation**: the probe binds to complementary single-stranded DNA. Detecting the label shows the allele is present."
+      - "Uses: **screening** for inherited conditions, drug responses, or health risks. Can lead to **genetic counselling** and **personalised medicine**."
+  - h: "Genetic fingerprinting"
+    p:
+      - "Genomes contain **variable number tandem repeats (VNTRs)**. The pattern of VNTR lengths is unique to each individual (except identical twins)."
+      - "DNA is extracted, amplified by PCR, cut with restriction enzymes, and separated by **gel electrophoresis**: DNA is negatively charged and moves towards the **positive electrode**; **smaller fragments move further**."
+      - "Fragments are labelled with probes and compared."
+      - "Uses: determining genetic relationships (paternity), genetic variability within a population, **forensic science**, medical diagnosis, and animal and plant **breeding**."
+pitfalls:
+  - "Use the **same** restriction enzyme to cut the vector and gene, so the sticky ends are complementary."
+  - "In PCR, **primers** stop the strands rejoining and give a starting point for Taq polymerase."
+  - "In gel electrophoresis, **smaller** fragments travel **further**."
+  - "cDNA from mRNA has **no introns**, which is why it works in bacteria (which can't splice)."
+questions:
+  - q: "Why is it easier to determine the proteome of a bacterium than of a human from its genome?"
+    o: ["Bacteria have more genes", "Human genomes contain much non-coding DNA and regulatory genes", "Bacteria have no DNA", "Humans have no proteome"]
+    a: 1
+    e: "Bacteria have little non-coding DNA. In complex organisms, non-coding and regulatory sequences make it hard to predict proteins from the genome."
+  - q: "What does reverse transcriptase do?"
+    o: ["Makes cDNA from mRNA", "Makes mRNA from DNA", "Cuts DNA", "Joins DNA fragments"]
+    a: 0
+    e: "Reverse transcriptase uses mRNA as a template to make complementary DNA (cDNA)."
+  - q: "Why is using mRNA a good way to obtain a gene for a protein?"
+    o: ["mRNA contains introns", "mRNA is double-stranded", "Cells making the protein contain lots of its mRNA, and it has no introns", "mRNA is very stable"]
+    a: 2
+    e: "Specialised cells produce many mRNA copies of the gene they express, and mRNA has already been spliced."
+  - q: "What are restriction endonucleases?"
+    o: ["Enzymes that join DNA fragments", "Enzymes that make DNA from RNA", "Heat-stable polymerases", "Enzymes that cut DNA at specific recognition sequences"]
+    a: 3
+    e: "Each restriction enzyme cuts at a particular base sequence, often leaving sticky ends."
+  - q: "What are sticky ends?"
+    o: ["Short single-stranded overhangs left by a staggered cut", "Methyl groups", "Primers", "Promoter regions"]
+    a: 0
+    e: "Staggered cuts leave unpaired bases that can base-pair with complementary sticky ends on other fragments."
+  - q: "What happens at 95 °C in PCR?"
+    o: ["Primers anneal", "DNA strands separate as hydrogen bonds break", "Taq polymerase joins nucleotides", "DNA is cut"]
+    a: 1
+    e: "High temperature breaks hydrogen bonds between complementary bases, separating the strands."
+  - q: "Why is Taq polymerase used in PCR?"
+    o: ["It cuts DNA", "It works at low temperatures", "It is heat-stable, so it isn't denatured at high PCR temperatures", "It joins sticky ends"]
+    a: 2
+    e: "Taq polymerase comes from a thermophilic bacterium, so it survives the 95 °C step."
+  - q: "What is the role of primers in PCR?"
+    o: ["To cut DNA", "To provide energy", "To label the DNA", "To bind to the ends of target DNA, giving Taq polymerase a starting point and stopping strands rejoining"]
+    a: 3
+    e: "Primers are short complementary sequences that anneal at 55 °C and mark where copying starts."
+  - q: "Starting with one DNA molecule, how many copies are there after 5 PCR cycles?"
+    o: ["32", "10", "25", "5"]
+    a: 0
+    e: "Each cycle doubles the DNA: 2⁵ = 32."
+  - q: "Why must the same restriction enzyme cut the vector and the DNA fragment?"
+    o: ["To make the DNA longer", "So the sticky ends are complementary and can join", "To remove introns", "To add a promoter"]
+    a: 1
+    e: "The same enzyme produces matching sticky ends, which base-pair and are then joined by DNA ligase."
+  - q: "What is the role of DNA ligase in in vivo cloning?"
+    o: ["To cut plasmids", "To copy DNA", "To join the DNA fragment into the vector by forming phosphodiester bonds", "To transcribe the gene"]
+    a: 2
+    e: "DNA ligase seals the sugar-phosphate backbone, making recombinant DNA."
+  - q: "Why are promoter and terminator regions added to a DNA fragment?"
+    o: ["To make it shorter", "To mark transformed cells", "To cut the plasmid", "So that the gene can be transcribed in the host cell"]
+    a: 3
+    e: "The promoter allows RNA polymerase to bind and start transcription. The terminator stops it."
+  - q: "What is the purpose of marker genes in in vivo cloning?"
+    o: ["To identify cells that have taken up the recombinant DNA", "To cut DNA", "To speed up transcription", "To remove introns"]
+    a: 0
+    e: "Marker genes, such as antibiotic resistance or fluorescence, show which cells were transformed."
+  - q: "What is a DNA probe?"
+    o: ["An enzyme that cuts DNA", "A short, labelled, single strand of DNA complementary to a target sequence", "A double-stranded plasmid", "A type of primer used in PCR only"]
+    a: 1
+    e: "The probe binds to its complementary sequence, and its label (radioactive or fluorescent) shows where it bound."
+  - q: "What is DNA hybridisation?"
+    o: ["Cutting DNA with enzymes", "Copying DNA by PCR", "Binding of a single-stranded probe to complementary single-stranded DNA", "Joining sticky ends"]
+    a: 2
+    e: "When DNA is made single-stranded, a probe can base-pair with its complementary sequence."
+  - q: "How can genetic screening lead to personalised medicine?"
+    o: ["It changes a person's DNA", "It removes faulty genes", "It cures all diseases", "It shows which alleles a person has, so treatments and doses can be matched to them"]
+    a: 3
+    e: "Knowing someone's alleles can show how they will respond to drugs, so treatments can be personalised."
+  - q: "What are VNTRs?"
+    o: ["Variable number tandem repeats: non-coding sequences repeated a different number of times in different people", "Viral nucleic acids", "Types of restriction enzyme", "Coding regions of genes"]
+    a: 0
+    e: "The number of repeats varies between individuals, giving each person a unique pattern."
+  - q: "In gel electrophoresis, which fragments move furthest?"
+    o: ["The largest fragments", "The smallest fragments", "Positively charged fragments", "Fragments with the most G and C"]
+    a: 1
+    e: "Smaller fragments move more easily through the gel, so they travel further towards the positive electrode."
+  - q: "Why does DNA move towards the positive electrode in electrophoresis?"
+    o: ["DNA is positively charged", "It is pulled by the gel", "DNA is negatively charged because of its phosphate groups", "It is heavier"]
+    a: 2
+    e: "Phosphate groups in the backbone give DNA an overall negative charge."
+  - q: "Which is NOT a use of genetic fingerprinting?"
+    o: ["Forensic science", "Paternity testing", "Animal and plant breeding", "Increasing an organism's mutation rate"]
+    a: 3
+    e: "Genetic fingerprinting identifies individuals and relationships. It doesn't change DNA."
+  - q: "What is gene therapy?"
+    o: ["Inserting a working allele into cells to treat a genetic disorder", "Using drugs to cure infections", "Removing genes from bacteria", "Testing for alleles"]
+    a: 0
+    e: "Gene therapy introduces functional alleles into a patient's cells to make up for faulty ones."
+  - q: "What is one concern about genetically modified crops?"
+    o: ["They always have lower yields", "Patents may stop poorer farmers accessing the seeds, and there may be ecological risks", "They contain no DNA", "They can't be grown"]
+    a: 1
+    e: "Concerns include patents and costs limiting access, and possible effects on wild plants and ecosystems."

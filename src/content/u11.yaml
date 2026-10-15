@@ -1,0 +1,135 @@
+id: "3.3d"
+order: 11
+section: "3.3"
+spec: "3.3.4.2"
+title: "Mass transport in plants"
+desc: "Movement of water in xylem by cohesion-tension, factors affecting transpiration, potometers, and translocation in phloem by mass flow."
+practicals: []
+summary:
+  - h: "Xylem and the cohesion-tension theory"
+    p:
+      - "Xylem vessels are long tubes of dead cells with no end walls, strengthened by **lignin**. They carry water and mineral ions upward."
+      - "Water **evaporates** from mesophyll cells into air spaces and diffuses out through **stomata** (transpiration). This lowers water potential in the leaf cells."
+      - "Water moves from the xylem into leaf cells by osmosis, creating **tension** (negative pressure) in the xylem."
+      - "**Hydrogen bonds** make water molecules **cohesive**, so a **continuous column** of water is pulled up the xylem."
+      - "**Adhesion** of water to the xylem walls also helps."
+  - h: "Evidence for cohesion-tension"
+    p:
+      - "Tree trunk diameter **decreases** during the day, when transpiration and tension are highest."
+      - "If a xylem vessel is broken, **air is drawn in** rather than water leaking out, and the plant can no longer draw water up that vessel because the column is broken."
+  - h: "Transpiration and the potometer"
+    p:
+      - "Transpiration rate **increases** with higher **light intensity** (more stomata open), higher **temperature**, more **wind** (removes water vapour), and **lower humidity** (steeper water potential gradient)."
+      - "A **potometer** measures **water uptake**, which is close to (but not the same as) water lost, because some water is used in photosynthesis and to keep cells turgid."
+      - "Set up the potometer **underwater** and cut the shoot **at a slant underwater**, so no air enters the xylem. Seal joints with petroleum jelly."
+      - "Rate of water uptake = distance the air bubble moves × πr² of the capillary ÷ time."
+  - h: "Phloem and translocation"
+    p:
+      - "Phloem has **sieve tube elements** (no nucleus, few organelles, sieve plates) and **companion cells** (many mitochondria) that support them."
+      - "**Translocation** moves organic substances such as **sucrose** from **sources** (e.g. leaves) to **sinks** (e.g. roots, growing regions, storage organs), in both directions."
+  - h: "Mass flow hypothesis"
+    p:
+      - "At the source, **companion cells actively load sucrose** into sieve tubes (using ATP, via co-transport with H⁺)."
+      - "This **lowers the water potential** in the sieve tube, so water enters by **osmosis** from the xylem, increasing **hydrostatic pressure**."
+      - "At the sink, sucrose is **unloaded** and used in respiration or stored as starch. Water potential rises, water leaves, and hydrostatic pressure falls."
+      - "The **pressure gradient** from source to sink pushes the solution along (**mass flow**)."
+  - h: "Evidence for translocation"
+    p:
+      - "**Ringing experiments**: removing a ring of bark (including phloem) causes the bark **above the ring to swell** with sugars that can't move down. Xylem is unaffected."
+      - "**Tracer experiments**: radioactive ¹⁴CO₂ given to a leaf is fixed into sugars. **Autoradiographs** show the label in the phloem and moving to sinks."
+      - "Aphid mouthparts inserted into phloem show sap flowing out under pressure, faster nearer the leaves."
+      - "Against mass flow: sugar moves to many sinks at different rates, and sieve plates would slow flow."
+pitfalls:
+  - "Transpiration is **evaporation** from leaves. Cohesion-tension explains how the water then moves up."
+  - "Potometers measure **water uptake**, not transpiration directly."
+  - "Active transport is used at the **source** to load sucrose. Mass flow itself is passive, driven by the pressure gradient."
+  - "Xylem is dead and carries water upward only. Phloem is living and carries sugars both up and down."
+questions:
+  - q: "What strengthens the walls of xylem vessels?"
+    o: ["Cellulose only", "Lignin", "Murein", "Chitin"]
+    a: 1
+    e: "Lignin waterproofs and strengthens xylem walls, so they don't collapse under tension."
+  - q: "Where does transpiration mainly happen?"
+    o: ["Evaporation of water from leaves, mostly through stomata", "Uptake of water by roots", "Movement of sucrose in phloem", "Loss of water through bark"]
+    a: 0
+    e: "Water evaporates from mesophyll cell surfaces into air spaces and diffuses out of the leaf through stomata."
+  - q: "What property of water allows a continuous column to be pulled up the xylem?"
+    o: ["High specific heat capacity", "Being a solvent", "Cohesion due to hydrogen bonds between water molecules", "High latent heat of vaporisation"]
+    a: 2
+    e: "Hydrogen bonds hold water molecules together, so when water is lost at the top, the whole column is pulled upward."
+  - q: "According to the cohesion-tension theory, what creates tension in the xylem?"
+    o: ["Root pressure", "Active transport of water", "Gravity", "Water lost by transpiration, so water is pulled from the xylem into leaf cells"]
+    a: 3
+    e: "Evaporation from leaves lowers water potential there. Water moves out of the xylem, pulling the column up under tension."
+  - q: "Why does a tree trunk get slightly narrower during the day?"
+    o: ["Transpiration is high, so tension in the xylem pulls the walls inward", "Phloem empties", "The bark dries out", "Water is stored in roots"]
+    a: 0
+    e: "High transpiration in daylight increases tension, pulling xylem walls inward and reducing trunk diameter."
+  - q: "When a xylem vessel is cut, air is drawn in rather than water leaking out. What does this suggest?"
+    o: ["Xylem is under positive pressure", "The water column is under tension", "Xylem contains no water", "Phloem drives water movement"]
+    a: 1
+    e: "If the water was under tension (negative pressure), breaking the vessel lets air rush in. This supports cohesion-tension."
+  - q: "Which change would decrease the rate of transpiration?"
+    o: ["Increasing wind speed", "Increasing temperature", "Increasing humidity", "Increasing light intensity"]
+    a: 2
+    e: "Higher humidity reduces the water potential gradient between the inside of the leaf and the air, so less water diffuses out."
+  - q: "Why does wind increase the rate of transpiration?"
+    o: ["It closes stomata", "It cools the leaf", "It increases humidity around the leaf", "It removes water vapour from around the leaf, keeping the gradient steep"]
+    a: 3
+    e: "Wind blows away moist air near the stomata, maintaining a steep water potential gradient."
+  - q: "Why does increasing light intensity increase transpiration?"
+    o: ["More stomata open to let CO₂ in for photosynthesis", "It reduces humidity", "It decreases temperature", "It closes stomata"]
+    a: 0
+    e: "Stomata open in light so CO₂ can enter. Open stomata also allow more water vapour to escape."
+  - q: "What does a potometer actually measure?"
+    o: ["Rate of photosynthesis", "Rate of water uptake", "Rate of transpiration exactly", "Rate of sucrose transport"]
+    a: 1
+    e: "A potometer measures water uptake. Some water taken up is used in photosynthesis or for turgor, so it isn't exactly equal to water lost."
+  - q: "Why is the shoot cut underwater when setting up a potometer?"
+    o: ["To stop stomata closing", "To clean the stem", "To prevent air entering the xylem and breaking the water column", "To keep the leaf cool"]
+    a: 2
+    e: "Air bubbles would break the continuous column of water, stopping water uptake."
+  - q: "An air bubble moves 15 mm in 5 minutes along a capillary with radius 0.5 mm. What is the rate of water uptake?"
+    o: ["3.0 mm³ min⁻¹", "11.8 mm³ min⁻¹", "1.5 mm³ min⁻¹", "2.4 mm³ min⁻¹"]
+    a: 3
+    e: "Volume = πr²h = 3.14 × 0.5² × 15 = 11.8 mm³. Rate = 11.8 ÷ 5 = 2.4 mm³ min⁻¹."
+  - q: "What is translocation?"
+    o: ["Movement of water in xylem", "Movement of organic substances such as sucrose from sources to sinks in the phloem", "Movement of mineral ions into roots", "Evaporation from leaves"]
+    a: 1
+    e: "Translocation is the energy-requiring movement of assimilates, mainly sucrose, through phloem from sources to sinks."
+  - q: "Which is an example of a sink?"
+    o: ["A mature photosynthesising leaf", "The xylem", "A growing root tip", "The stomata"]
+    a: 2
+    e: "Sinks use or store sugars, e.g. roots, growing tips, fruits and storage organs. Leaves that photosynthesise are sources."
+  - q: "How is sucrose loaded into sieve tubes at the source?"
+    o: ["By active transport from companion cells, using ATP", "By osmosis", "By simple diffusion through the bilayer", "By evaporation"]
+    a: 0
+    e: "Companion cells actively load sucrose into sieve tubes, so these cells have many mitochondria."
+  - q: "Why does water enter the phloem at the source?"
+    o: ["Hydrostatic pressure is lower there", "Sucrose loading lowers water potential, so water enters by osmosis from the xylem", "Active transport of water", "Transpiration pulls it in"]
+    a: 1
+    e: "High sucrose concentration lowers the water potential in sieve tubes, so water enters by osmosis, raising hydrostatic pressure."
+  - q: "What drives the movement of phloem sap in the mass flow hypothesis?"
+    o: ["Tension from transpiration", "Gravity", "Active pumping by sieve plates", "A hydrostatic pressure gradient from source to sink"]
+    a: 3
+    e: "High pressure at the source and low pressure at the sink push the solution along the phloem by mass flow."
+  - q: "In a ringing experiment, a ring of bark and phloem is removed. What is observed?"
+    o: ["The tissue above the ring swells, because sugars can't move down past the ring", "The leaves wilt immediately", "The tissue below the ring swells", "Nothing happens"]
+    a: 0
+    e: "Sugars accumulate above the ring. Xylem is deeper and unaffected, so water still reaches the leaves."
+  - q: "How do tracer experiments show that sugars move in phloem?"
+    o: ["Dye is seen in xylem", "Leaves turn yellow", "Radioactive ¹⁴C from ¹⁴CO₂ given to a leaf appears in the phloem and moves to sinks", "Sugars are seen in roots only"]
+    a: 2
+    e: "¹⁴CO₂ is fixed into radioactive sugars in photosynthesis. Autoradiographs show the label in phloem tissue and travelling to sinks."
+  - q: "Which observation is evidence AGAINST the mass flow hypothesis?"
+    o: ["Sap flows out of aphid mouthparts under pressure", "Removing a ring of bark causes swelling above it", "Sugars travel to many different sinks at different rates", "Radioactive sugars appear in the phloem"]
+    a: 2
+    e: "Mass flow predicts a single flow down a pressure gradient. Different rates to different sinks are hard to explain this way."
+  - q: "Why do companion cells contain many mitochondria?"
+    o: ["To photosynthesise", "To provide ATP for active loading of sucrose", "To store sucrose", "To transport water"]
+    a: 1
+    e: "Active transport of sucrose into sieve tubes needs a lot of ATP, produced by aerobic respiration."
+  - q: "Which statement correctly compares xylem and phloem?"
+    o: ["Xylem carries sugars and phloem carries water", "Xylem is dead and carries water upward; phloem is living and carries sugars in both directions", "Both are made of living cells", "Phloem is strengthened by lignin"]
+    a: 1
+    e: "Xylem vessels are dead, lignified tubes moving water and ions upward. Phloem sieve tubes are living and carry organic substances both ways."

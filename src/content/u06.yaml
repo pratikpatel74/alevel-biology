@@ -1,0 +1,135 @@
+id: "3.2c"
+order: 6
+section: "3.2"
+spec: "3.2.3"
+title: "Transport across cell membranes"
+desc: "The fluid-mosaic model, simple and facilitated diffusion, osmosis and water potential, active transport and co-transport."
+practicals: [3, 4]
+summary:
+  - h: "Fluid-mosaic model"
+    p:
+      - "Membranes are a **phospholipid bilayer** with **proteins** scattered through it (the mosaic). Phospholipids move, so the membrane is **fluid**."
+      - "**Cholesterol** sits between phospholipids. It restricts their movement, making the membrane **less fluid and more rigid**, and reduces leakage of water and ions."
+      - "**Glycoproteins** and **glycolipids** act as receptors and antigens, and are used in cell recognition."
+      - "**Channel proteins** form water-filled pores for specific ions. **Carrier proteins** change shape to move specific molecules."
+      - "The hydrophobic centre of the bilayer stops water-soluble substances such as ions and glucose diffusing straight through."
+  - h: "Simple and facilitated diffusion"
+    p:
+      - "**Simple diffusion**: net movement of molecules from a **higher to a lower concentration**, directly through the bilayer. Passive (no ATP). Used by small, non-polar molecules such as O₂ and CO₂."
+      - "**Facilitated diffusion**: passive movement down a concentration gradient **through channel or carrier proteins**. Used for ions and polar molecules such as glucose."
+      - "Rate of diffusion rises with a **steeper concentration gradient**, larger **surface area**, and **thinner** exchange surface (shorter diffusion pathway)."
+      - "Rate of facilitated diffusion also depends on the **number of channel or carrier proteins**. Once all are in use, rate levels off."
+  - h: "Osmosis and water potential"
+    p:
+      - "**Osmosis**: net movement of water from a **higher (less negative) water potential** to a **lower (more negative) water potential**, across a **partially permeable membrane**."
+      - "Water potential (ψ) is measured in **kPa**. Pure water has ψ = **0 kPa**, the highest possible. Adding solute makes ψ **more negative**."
+      - "Animal cells in a solution with higher ψ gain water and may **burst** (lyse). In lower ψ they shrink."
+      - "Plant cells in higher ψ become **turgid** (the cell wall stops them bursting). In lower ψ they become **plasmolysed**, as the membrane pulls away from the wall."
+  - h: "Active transport"
+    p:
+      - "Movement of molecules or ions **against a concentration gradient**, using **ATP** and **carrier proteins**."
+      - "ATP hydrolysis releases a phosphate that binds to the carrier, changing its shape so the molecule is released on the other side."
+      - "Rate depends on the number of carrier proteins and the rate of respiration (ATP supply). Respiratory inhibitors such as cyanide stop it."
+  - h: "Co-transport: glucose absorption in the ileum"
+    p:
+      - "**Na⁺ is actively transported out** of the epithelial cell into the blood by a sodium-potassium pump. This keeps Na⁺ concentration inside the cell **low**."
+      - "Na⁺ diffuses into the cell from the lumen down its concentration gradient through a **co-transporter protein**, carrying **glucose** (or amino acids) with it **against its gradient**."
+      - "Glucose then moves into the blood by **facilitated diffusion**."
+      - "This is **indirect active transport**: ATP powers the Na⁺ gradient, not the glucose movement itself."
+  - h: "Adaptations for rapid transport"
+    p:
+      - "Cells adapted for rapid transport have more **channel and carrier proteins** and a **larger surface area**, e.g. microvilli on ileum epithelial cells."
+pitfalls:
+  - "Water moves from **less negative to more negative** water potential. Don't write 'from high to low concentration of water'."
+  - "Facilitated diffusion is **passive**. It uses proteins but no ATP."
+  - "In co-transport, glucose moves against its gradient but the energy comes from the **Na⁺ gradient** set up by active transport."
+  - "Plant cells don't burst in pure water because the **cell wall** resists expansion."
+questions:
+  - q: "In the fluid-mosaic model, why is the membrane described as fluid?"
+    o: ["Phospholipids can move within the bilayer", "The membrane is made of water", "Proteins are dissolved in the cytoplasm", "Cholesterol makes it liquid"]
+    a: 0
+    e: "Individual phospholipid molecules move around within their layer, so the membrane is flexible and fluid."
+  - q: "What is the role of cholesterol in cell membranes?"
+    o: ["It acts as a receptor", "It transports glucose", "It restricts phospholipid movement, making the membrane more rigid", "It makes the membrane more permeable to ions"]
+    a: 2
+    e: "Cholesterol binds to phospholipid tails, reducing their movement. The membrane is less fluid and less leaky."
+  - q: "Why can't ions diffuse directly through the phospholipid bilayer?"
+    o: ["They are too large", "The centre of the bilayer is hydrophobic", "They are uncharged", "The bilayer is made of protein"]
+    a: 1
+    e: "Ions are charged, so the hydrophobic fatty acid tails in the centre of the bilayer repel them. They need channel or carrier proteins."
+  - q: "Which statement describes facilitated diffusion?"
+    o: ["Movement against a concentration gradient using ATP", "Movement of water across a partially permeable membrane", "Movement through the phospholipid bilayer only", "Passive movement down a concentration gradient through channel or carrier proteins"]
+    a: 3
+    e: "Facilitated diffusion is passive and moves substances down their concentration gradient through specific proteins."
+  - q: "Why does the rate of facilitated diffusion level off at high concentration gradients?"
+    o: ["All the channel or carrier proteins are in use", "ATP runs out", "The membrane becomes thicker", "The concentration gradient reverses"]
+    a: 0
+    e: "There are a limited number of proteins. Once all are working at their maximum rate, a steeper gradient makes no difference."
+  - q: "Which change would increase the rate of simple diffusion?"
+    o: ["A thicker exchange surface", "A larger surface area", "A smaller concentration gradient", "Fewer carrier proteins"]
+    a: 1
+    e: "A larger surface area, a steeper gradient and a thinner surface all increase the rate of diffusion."
+  - q: "What is the water potential of pure water at standard conditions?"
+    o: ["100 kPa", "−100 kPa", "1 kPa", "0 kPa"]
+    a: 3
+    e: "Pure water has a water potential of 0 kPa, the highest value. Any solute makes it negative."
+  - q: "Cell A has ψ = −300 kPa and cell B has ψ = −500 kPa. In which direction does water move by osmosis?"
+    o: ["From A to B", "From B to A", "No net movement", "It depends on temperature only"]
+    a: 0
+    e: "Water moves from higher (less negative) to lower (more negative) water potential: from −300 kPa to −500 kPa, so A to B."
+  - q: "A red blood cell is placed in pure water. What happens?"
+    o: ["It shrinks because water leaves", "It becomes plasmolysed", "Water enters by osmosis and it may burst", "Nothing, because it has a cell wall"]
+    a: 2
+    e: "Pure water has a higher water potential than the cell. Water enters by osmosis and, with no cell wall, the cell may burst."
+  - q: "A plant cell is placed in a concentrated sugar solution. What happens?"
+    o: ["It bursts", "Water leaves by osmosis and the cell becomes plasmolysed", "It becomes turgid", "Sugar enters by osmosis"]
+    a: 1
+    e: "The solution has lower ψ, so water leaves. The cytoplasm shrinks and the membrane pulls away from the cell wall."
+  - q: "Why don't plant cells burst in pure water?"
+    o: ["The cell wall resists expansion", "Their membranes are impermeable to water", "They have no vacuole", "Cholesterol stops water entering"]
+    a: 0
+    e: "As water enters, the cell swells against the cellulose cell wall, which resists further expansion. The cell becomes turgid."
+  - q: "Which feature is unique to active transport?"
+    o: ["It uses channel proteins", "It moves substances down a gradient", "It is passive", "It uses ATP to move substances against a concentration gradient"]
+    a: 3
+    e: "Active transport needs ATP and carrier proteins to move substances against their concentration gradient."
+  - q: "How does ATP cause a carrier protein to move a molecule in active transport?"
+    o: ["ATP binds to the molecule being moved", "Hydrolysis of ATP releases a phosphate that binds to the carrier, changing its shape", "ATP dissolves the membrane", "ATP opens a channel protein"]
+    a: 1
+    e: "Phosphate from ATP binds to the carrier protein. The protein changes shape and releases the molecule on the other side."
+  - q: "A respiratory inhibitor is added to cells. Which process stops?"
+    o: ["Simple diffusion", "Osmosis", "Active transport", "Facilitated diffusion"]
+    a: 2
+    e: "Respiratory inhibitors stop ATP production, so active transport stops. Passive processes continue."
+  - q: "In the ileum, what keeps the sodium ion concentration inside epithelial cells low?"
+    o: ["Active transport of Na⁺ out of the cell into the blood", "Facilitated diffusion of Na⁺ into the lumen", "Osmosis", "Co-transport of glucose into the blood"]
+    a: 0
+    e: "A sodium-potassium pump uses ATP to actively transport Na⁺ out of the cell into the blood, keeping internal Na⁺ low."
+  - q: "How does glucose enter ileum epithelial cells?"
+    o: ["By simple diffusion through the bilayer", "By osmosis", "By co-transport with Na⁺, which diffuses in down its concentration gradient", "By active transport using ATP directly"]
+    a: 2
+    e: "Na⁺ diffuses into the cell down its gradient through a co-transporter, carrying glucose with it against glucose's gradient."
+  - q: "How does glucose leave ileum epithelial cells and enter the blood?"
+    o: ["Co-transport", "Facilitated diffusion", "Active transport", "Osmosis"]
+    a: 1
+    e: "Glucose concentration is high inside the cell, so it moves into the blood by facilitated diffusion through carrier proteins."
+  - q: "Why is co-transport of glucose described as indirect active transport?"
+    o: ["It uses no energy at all", "ATP is used directly to move glucose", "Glucose diffuses down its gradient", "ATP is used to create the Na⁺ gradient, which then drives glucose uptake"]
+    a: 3
+    e: "Energy from ATP maintains the sodium gradient. The movement of Na⁺ down this gradient powers glucose uptake."
+  - q: "In RP3, potato cylinders show no change in mass in 0.3 mol dm⁻³ sucrose. What does this show?"
+    o: ["The tissue has the same water potential as 0.3 mol dm⁻³ sucrose", "The tissue has a water potential of 0 kPa", "The tissue is dead", "Sucrose entered the tissue"]
+    a: 0
+    e: "No net osmosis means equal water potentials, so the tissue's ψ equals that of the 0.3 mol dm⁻³ solution."
+  - q: "Why is percentage change in mass calculated in RP3?"
+    o: ["To remove the effect of temperature", "Because cylinders may start with different masses", "To make the numbers positive", "Because mass can't be measured accurately"]
+    a: 1
+    e: "Percentage change lets you compare cylinders fairly even if their starting masses differ."
+  - q: "In RP4, why does more pigment leak from beetroot at 70 °C than at 30 °C?"
+    o: ["The pigment is made faster", "Cholesterol increases", "Membrane proteins denature and phospholipids move more, increasing permeability", "Osmosis draws pigment out"]
+    a: 2
+    e: "High temperature increases phospholipid movement and denatures membrane proteins, leaving gaps. Pigment leaks out, so absorbance rises."
+  - q: "What are glycoproteins in the cell-surface membrane used for?"
+    o: ["Storing energy", "Making the membrane rigid", "Active transport only", "Cell recognition and as receptors, e.g. for hormones"]
+    a: 3
+    e: "Glycoproteins have carbohydrate chains that act as antigens for cell recognition and as receptors for chemical signals."

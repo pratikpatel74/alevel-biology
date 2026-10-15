@@ -1,0 +1,133 @@
+id: "3.4a"
+order: 12
+section: "3.4"
+spec: "3.4.1–3.4.2"
+title: "DNA, genes and protein synthesis"
+desc: "DNA in prokaryotes and eukaryotes, genes, the genetic code, introns and exons, mRNA and tRNA, transcription, splicing and translation."
+practicals: []
+summary:
+  - h: "DNA in different cells"
+    p:
+      - "**Eukaryotic** nuclear DNA is **long, linear** and associated with **histone** proteins. Together they form **chromosomes**."
+      - "**Prokaryotic** DNA is **short, circular** and **not associated with histones**."
+      - "**Mitochondria and chloroplasts** contain DNA that is like prokaryotic DNA: short, circular, no histones."
+  - h: "Genes and the genetic code"
+    p:
+      - "A **gene** is a base sequence of DNA that codes for the amino acid sequence of a **polypeptide**, or for a **functional RNA** (e.g. rRNA, tRNA)."
+      - "A gene occupies a fixed position on a chromosome, called a **locus**."
+      - "A sequence of three bases, a **triplet**, codes for one amino acid."
+      - "The genetic code is **universal** (same in almost all organisms), **non-overlapping** (each base is read once), and **degenerate** (more than one triplet codes for most amino acids)."
+      - "Eukaryotic genes contain **introns** (non-coding) between **exons** (coding). Much nuclear DNA doesn't code for polypeptides, including **multiple repeats** between genes."
+      - "**Genome**: the complete set of genes in a cell. **Proteome**: the full range of proteins the cell is able to produce."
+  - h: "mRNA and tRNA"
+    p:
+      - "**mRNA**: single-stranded, linear, made in transcription. It carries the code from DNA to ribosomes as **codons**."
+      - "**tRNA**: single-stranded, folded into a **clover-leaf shape** held by hydrogen bonds. Has an **anticodon** at one end and an **amino acid binding site** at the other."
+  - h: "Transcription"
+    p:
+      - "DNA **helicase** breaks hydrogen bonds, so the strands separate at the gene."
+      - "One strand acts as a **template**. Free RNA nucleotides line up by complementary base pairing (U pairs with A)."
+      - "**RNA polymerase** joins the nucleotides, forming phosphodiester bonds, to make **pre-mRNA**."
+      - "In eukaryotes, **splicing** removes introns from pre-mRNA to form **mRNA**. In prokaryotes, transcription produces mRNA directly (no introns)."
+      - "mRNA leaves the nucleus through a **nuclear pore**."
+  - h: "Translation"
+    p:
+      - "mRNA attaches to a **ribosome**. The ribosome moves along to the **start codon**."
+      - "A **tRNA** with a **complementary anticodon** brings the matching amino acid. Two tRNAs fit on the ribosome at once."
+      - "A **peptide bond** forms between adjacent amino acids. This uses **ATP**, and is catalysed by an enzyme in the ribosome."
+      - "The ribosome moves along one codon. The first tRNA is released and can collect another amino acid. This continues until a **stop codon**."
+      - "The polypeptide may then be folded and modified, e.g. in the Golgi apparatus."
+pitfalls:
+  - "**Codons** are on mRNA. **Anticodons** are on tRNA. Triplets are on DNA."
+  - "Degenerate means **more than one triplet** for one amino acid, not 'one triplet for many amino acids'."
+  - "Use **RNA polymerase** for transcription. DNA polymerase is only for replication."
+  - "Splicing happens in **eukaryotes** only, since prokaryotic genes have no introns."
+questions:
+  - q: "How does eukaryotic nuclear DNA differ from prokaryotic DNA?"
+    o: ["It is short and circular", "It is long, linear and associated with histones", "It is not found in chromosomes", "It contains uracil"]
+    a: 1
+    e: "Eukaryotic nuclear DNA is long, linear and wrapped around histones. Prokaryotic DNA is short, circular and lacks histones."
+  - q: "DNA in mitochondria and chloroplasts is most similar to:"
+    o: ["Prokaryotic DNA: short, circular and not associated with histones", "Eukaryotic nuclear DNA", "Viral RNA", "Ribosomal RNA"]
+    a: 0
+    e: "Mitochondrial and chloroplast DNA is short, circular and lacks histones, like prokaryotic DNA."
+  - q: "What is a gene?"
+    o: ["A molecule of mRNA", "A whole chromosome", "A base sequence of DNA that codes for a polypeptide or functional RNA", "A protein made in the ribosome"]
+    a: 2
+    e: "A gene is a section of DNA at a particular locus that codes for a polypeptide or a functional RNA."
+  - q: "What is meant by the locus of a gene?"
+    o: ["The protein it codes for", "The number of bases it has", "Its alleles", "Its fixed position on a chromosome"]
+    a: 3
+    e: "Each gene has a particular position on a particular chromosome, called its locus."
+  - q: "What does it mean that the genetic code is degenerate?"
+    o: ["Most amino acids are coded for by more than one triplet", "Each base is read only once", "The code is the same in all organisms", "The code changes over time"]
+    a: 0
+    e: "There are 64 possible triplets but only 20 amino acids, so most amino acids have more than one triplet."
+  - q: "What does it mean that the genetic code is non-overlapping?"
+    o: ["Each triplet codes for many amino acids", "Each base is part of only one triplet", "All organisms use it", "There are stop codons"]
+    a: 1
+    e: "Triplets are read one after another, so each base belongs to just one triplet."
+  - q: "What does it mean that the genetic code is universal?"
+    o: ["It is non-overlapping", "It has start codons", "The same triplets code for the same amino acids in almost all organisms", "It contains introns"]
+    a: 2
+    e: "The same codon codes for the same amino acid in nearly all organisms, which is evidence of a common ancestor."
+  - q: "What are introns?"
+    o: ["Coding sequences in mRNA", "Start codons", "Sequences that are translated", "Non-coding sequences within a eukaryotic gene"]
+    a: 3
+    e: "Introns are non-coding sections that separate exons. They are removed from pre-mRNA by splicing."
+  - q: "What is the proteome of a cell?"
+    o: ["The full range of proteins the cell is able to produce", "All the genes in the cell", "The number of ribosomes", "All the mRNA in the nucleus"]
+    a: 0
+    e: "The genome is the complete set of genes. The proteome is the full range of proteins it can produce."
+  - q: "Which feature is found on tRNA but not on mRNA?"
+    o: ["Codons", "An anticodon and an amino acid binding site", "Uracil", "Ribose"]
+    a: 1
+    e: "tRNA has an anticodon and an amino acid binding site, folded into a clover-leaf shape by hydrogen bonds. Both RNAs contain ribose and uracil."
+  - q: "Which enzyme joins RNA nucleotides during transcription?"
+    o: ["DNA polymerase", "Helicase", "RNA polymerase", "ATP synthase"]
+    a: 2
+    e: "RNA polymerase joins RNA nucleotides along the template strand, forming phosphodiester bonds."
+  - q: "A DNA template strand reads TAC GGA. What is the mRNA sequence?"
+    o: ["TAC GGA", "ATG CCT", "UAC GGA", "AUG CCU"]
+    a: 3
+    e: "mRNA is complementary to the template, with U in place of T. T→A, A→U, C→G, G→C. TAC GGA gives AUG CCU."
+  - q: "What happens during splicing?"
+    o: ["Introns are removed from pre-mRNA, and exons are joined", "Exons are removed from mRNA", "tRNA is attached to amino acids", "DNA is replicated"]
+    a: 0
+    e: "Splicing removes introns from pre-mRNA in eukaryotes, joining the exons to form mature mRNA."
+  - q: "Why do prokaryotes not need to splice their mRNA?"
+    o: ["They have no ribosomes", "Their genes do not contain introns", "They have no mRNA", "They translate DNA directly"]
+    a: 1
+    e: "Prokaryotic genes have no introns, so transcription produces mRNA that can be translated straight away."
+  - q: "How does mRNA leave the nucleus?"
+    o: ["By diffusion through the membrane", "By exocytosis", "Through nuclear pores", "Using tRNA"]
+    a: 2
+    e: "mRNA is too large to cross the membrane, so it exits through nuclear pores in the envelope."
+  - q: "An mRNA codon is AUG. What is the complementary tRNA anticodon?"
+    o: ["AUG", "TAC", "ATG", "UAC"]
+    a: 3
+    e: "The anticodon is complementary to the codon: A–U, U–A, G–C. So AUG pairs with UAC."
+  - q: "What forms between adjacent amino acids on the ribosome?"
+    o: ["A peptide bond", "A hydrogen bond", "A glycosidic bond", "A phosphodiester bond"]
+    a: 0
+    e: "Amino acids held by neighbouring tRNAs are joined by a peptide bond, catalysed by the ribosome and using ATP."
+  - q: "What role does ATP play in translation?"
+    o: ["It forms the anticodon", "It provides energy, e.g. to attach amino acids to tRNA and form peptide bonds", "It splices introns", "It unwinds DNA"]
+    a: 1
+    e: "ATP provides energy for attaching amino acids to tRNA and for forming peptide bonds."
+  - q: "What ends translation?"
+    o: ["The ribosome reaches a stop codon", "All tRNA is used up", "The mRNA is degraded", "An intron is reached"]
+    a: 0
+    e: "A stop codon doesn't code for an amino acid, so translation ends and the polypeptide is released."
+  - q: "A gene has 900 bases in its exons. Ignoring the stop codon, how many amino acids are in the polypeptide?"
+    o: ["900", "450", "3", "300"]
+    a: 3
+    e: "Each amino acid is coded by three bases. 900 ÷ 3 = 300 amino acids."
+  - q: "Why might an mRNA molecule be shorter than the gene it came from in eukaryotes?"
+    o: ["Some exons are translated", "Introns have been removed by splicing", "RNA nucleotides are smaller", "tRNA removes bases"]
+    a: 1
+    e: "The gene includes introns. These are spliced out, so mature mRNA is shorter than the gene."
+  - q: "What is the role of DNA helicase in transcription?"
+    o: ["It joins RNA nucleotides", "It removes introns", "It breaks hydrogen bonds between bases, separating the DNA strands at the gene", "It forms peptide bonds"]
+    a: 2
+    e: "Helicase separates the two DNA strands so one can act as a template for mRNA."

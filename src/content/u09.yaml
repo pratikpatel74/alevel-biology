@@ -1,0 +1,126 @@
+id: "3.3b"
+order: 9
+section: "3.3"
+spec: "3.3.3"
+title: "Digestion and absorption"
+desc: "Digestive enzymes for carbohydrates, proteins and lipids, bile salts and micelles, and absorption of digestion products in the ileum."
+practicals: []
+summary:
+  - h: "What digestion does"
+    p:
+      - "In mammals, large biological molecules are **hydrolysed** into smaller molecules that can be **absorbed** across cell membranes."
+  - h: "Carbohydrate digestion"
+    p:
+      - "**Amylase** (from salivary glands and pancreas) hydrolyses **starch** into **maltose** by breaking glycosidic bonds."
+      - "**Membrane-bound disaccharidases** on the ileum epithelium hydrolyse disaccharides into monosaccharides: **maltase** (maltose → glucose), **sucrase** (sucrose → glucose + fructose), **lactase** (lactose → glucose + galactose)."
+  - h: "Protein digestion"
+    p:
+      - "**Endopeptidases** hydrolyse peptide bonds **within** a polypeptide, making more ends for exopeptidases."
+      - "**Exopeptidases** hydrolyse peptide bonds at the **ends** of polypeptides, removing single amino acids."
+      - "**Membrane-bound dipeptidases** hydrolyse the bond between two amino acids in a dipeptide."
+  - h: "Lipid digestion"
+    p:
+      - "**Bile salts** (made in the liver) **emulsify** lipids into small droplets. This increases the surface area for **lipase** to act on."
+      - "**Lipase** (from the pancreas) hydrolyses the **ester bonds** in triglycerides, producing **monoglycerides** and **fatty acids**."
+      - "Bile salts, monoglycerides and fatty acids form **micelles**, which carry the products to the epithelial cells."
+  - h: "Absorption in the ileum"
+    p:
+      - "**Glucose and amino acids**: absorbed by **co-transport** with Na⁺ (see Transport across membranes), then leave by facilitated diffusion into the blood."
+      - "**Monoglycerides and fatty acids**: micelles release them near the epithelium. Being lipid-soluble, they **diffuse** across the cell-surface membrane."
+      - "Inside the cell, they are recombined into **triglycerides** at the **smooth ER** and modified in the **Golgi**. They are combined with proteins and cholesterol to form **chylomicrons**."
+      - "Chylomicrons leave by **exocytosis** and enter **lacteals** (lymphatic vessels), eventually reaching the blood."
+      - "Ileum adaptations: **villi** and **microvilli** give a large surface area, there is a thin epithelium, many capillaries maintain gradients, and many mitochondria provide ATP for active transport."
+pitfalls:
+  - "Bile salts **emulsify**. They are not enzymes and don't hydrolyse anything."
+  - "Endopeptidases cut **within** the chain. Exopeptidases cut at the **ends**."
+  - "Disaccharidases and dipeptidases are **membrane-bound** on the epithelium of the ileum, not secreted into the lumen."
+  - "Lipid digestion products enter cells by **simple diffusion**, not co-transport."
+questions:
+  - q: "What is the purpose of digestion?"
+    o: ["To build large molecules for storage", "To hydrolyse large molecules into small ones that can be absorbed", "To produce ATP", "To make enzymes"]
+    a: 1
+    e: "Large molecules can't cross cell membranes, so they are hydrolysed into smaller soluble molecules for absorption."
+  - q: "Which enzyme hydrolyses starch to maltose?"
+    o: ["Amylase", "Maltase", "Lipase", "Sucrase"]
+    a: 0
+    e: "Amylase from the salivary glands and pancreas breaks glycosidic bonds in starch, producing maltose."
+  - q: "Where are maltase, sucrase and lactase found?"
+    o: ["Secreted by the stomach", "Secreted by the liver", "Bound to the cell-surface membranes of epithelial cells in the ileum", "In bile"]
+    a: 2
+    e: "These disaccharidases are membrane-bound, so disaccharides are hydrolysed right where the products are absorbed."
+  - q: "What are the products of lactose hydrolysis?"
+    o: ["Two glucose molecules", "Glucose and fructose", "Fructose and galactose", "Glucose and galactose"]
+    a: 3
+    e: "Lactase hydrolyses lactose into glucose and galactose."
+  - q: "Sucrase hydrolyses sucrose into:"
+    o: ["Glucose and fructose", "Glucose and galactose", "Two glucose molecules", "Maltose"]
+    a: 0
+    e: "Sucrose is glucose joined to fructose, so its hydrolysis releases those two monosaccharides."
+  - q: "What do endopeptidases do?"
+    o: ["Remove amino acids from the ends of a polypeptide", "Hydrolyse peptide bonds within a polypeptide chain", "Hydrolyse dipeptides", "Join amino acids together"]
+    a: 1
+    e: "Endopeptidases hydrolyse internal peptide bonds, splitting polypeptides into shorter chains."
+  - q: "Why does the action of endopeptidases speed up protein digestion overall?"
+    o: ["They produce more ends for exopeptidases to act on", "They make amino acids", "They emulsify proteins", "They raise the temperature"]
+    a: 0
+    e: "Breaking chains in the middle creates more terminal ends, so exopeptidases have more places to work."
+  - q: "What do exopeptidases do?"
+    o: ["Hydrolyse ester bonds", "Hydrolyse bonds inside the chain", "Hydrolyse peptide bonds at the ends of polypeptides, releasing single amino acids", "Hydrolyse glycosidic bonds"]
+    a: 2
+    e: "Exopeptidases remove terminal amino acids one at a time."
+  - q: "Where are dipeptidases found?"
+    o: ["In saliva", "In bile", "In the stomach", "On the cell-surface membrane of ileum epithelial cells"]
+    a: 3
+    e: "Dipeptidases are membrane-bound, hydrolysing dipeptides into amino acids at the absorption surface."
+  - q: "What is the role of bile salts in lipid digestion?"
+    o: ["They hydrolyse ester bonds", "They emulsify lipids into smaller droplets, increasing surface area for lipase", "They absorb fatty acids", "They form chylomicrons"]
+    a: 1
+    e: "Bile salts break large fat globules into small droplets (emulsification), giving lipase a larger surface area."
+  - q: "What are the products of lipase action on triglycerides?"
+    o: ["Glycerol only", "Amino acids", "Monoglycerides and fatty acids", "Glucose"]
+    a: 2
+    e: "Lipase hydrolyses ester bonds in triglycerides, producing monoglycerides and fatty acids."
+  - q: "Which bonds does lipase hydrolyse?"
+    o: ["Ester bonds", "Glycosidic bonds", "Peptide bonds", "Hydrogen bonds"]
+    a: 0
+    e: "Fatty acids are attached to glycerol by ester bonds, which lipase hydrolyses."
+  - q: "What are micelles?"
+    o: ["Enzymes that digest fat", "Lymph vessels in villi", "Proteins that carry glucose", "Structures of bile salts, monoglycerides and fatty acids that carry lipid products to the epithelium"]
+    a: 3
+    e: "Micelles are tiny water-soluble structures that move lipid digestion products to the epithelial cells, where they are released."
+  - q: "How do monoglycerides and fatty acids enter ileum epithelial cells?"
+    o: ["By co-transport with sodium", "By simple diffusion across the membrane", "By active transport", "By osmosis"]
+    a: 1
+    e: "They are lipid-soluble, so they diffuse directly across the phospholipid bilayer."
+  - q: "Where are triglycerides reformed inside ileum epithelial cells?"
+    o: ["In the nucleus", "In mitochondria", "At the smooth endoplasmic reticulum", "In lysosomes"]
+    a: 2
+    e: "Smooth ER recombines monoglycerides and fatty acids into triglycerides. The Golgi then helps form chylomicrons."
+  - q: "What are chylomicrons?"
+    o: ["Vesicles of triglycerides combined with proteins and cholesterol", "Micelles in the lumen", "Enzymes in the pancreas", "Types of villi"]
+    a: 0
+    e: "Chylomicrons are lipoprotein particles containing triglycerides, cholesterol and protein. They are released by exocytosis."
+  - q: "Chylomicrons leave epithelial cells by exocytosis and enter:"
+    o: ["Capillaries directly", "Lacteals (lymphatic vessels)", "The lumen of the ileum", "The liver directly"]
+    a: 1
+    e: "Chylomicrons are too large to enter blood capillaries, so they enter lacteals and travel in lymph before reaching the blood."
+  - q: "How are amino acids absorbed into ileum epithelial cells?"
+    o: ["Simple diffusion through the bilayer", "In micelles", "Endocytosis", "Co-transport with sodium ions"]
+    a: 3
+    e: "Like glucose, amino acids are absorbed by sodium-dependent co-transport."
+  - q: "Why do ileum epithelial cells contain many mitochondria?"
+    o: ["To provide ATP for active transport, such as the sodium-potassium pump", "To digest proteins", "To make bile", "To store fat"]
+    a: 0
+    e: "Active transport of Na⁺ out of the cell needs ATP, which maintains the gradient for co-transport."
+  - q: "How do villi and microvilli improve absorption?"
+    o: ["They secrete enzymes", "They produce bile", "They greatly increase surface area", "They make the epithelium thicker"]
+    a: 2
+    e: "Villi are folds of the ileum wall. Microvilli are folds of the cell membrane. Both increase the area for absorption."
+  - q: "A person lacks lactase. Which disaccharide can they not digest?"
+    o: ["Maltose", "Sucrose", "Starch", "Lactose"]
+    a: 3
+    e: "Without lactase, lactose stays undigested, so it can't be absorbed. This causes lactose intolerance symptoms."
+  - q: "Which statement about bile salts is correct?"
+    o: ["They are made in the pancreas and are enzymes", "They are made in the liver and are not enzymes", "They hydrolyse triglycerides", "They are absorbed with glucose"]
+    a: 1
+    e: "Bile salts are made in the liver and stored in the gall bladder. They emulsify lipids and form micelles, but they don't catalyse reactions."

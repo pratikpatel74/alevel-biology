@@ -1,0 +1,127 @@
+id: "3.5a"
+order: 16
+section: "3.5"
+spec: "3.5.1"
+title: "Photosynthesis"
+desc: "The light-dependent reaction (photoionisation, photolysis, chemiosmosis), the light-independent reaction (Calvin cycle), and limiting factors."
+practicals: [7, 8]
+summary:
+  - h: "Overview"
+    p:
+      - "Photosynthesis happens in **chloroplasts**. The **light-dependent reaction** happens on the **thylakoid membranes**. The **light-independent reaction** happens in the **stroma**."
+  - h: "Light-dependent reaction"
+    p:
+      - "**Photoionisation**: light energy is absorbed by **chlorophyll**, which excites electrons. They leave the chlorophyll, which becomes positively charged (ionised)."
+      - "Some energy from these electrons is used to make **ATP** and reduced **NADP**."
+      - "Electrons pass along an **electron transfer chain** of carrier proteins in the thylakoid membrane, releasing energy."
+      - "**Chemiosmosis**: this energy is used to pump **H⁺** into the **thylakoid space**. H⁺ diffuses back into the stroma through **ATP synthase**, which makes ATP from ADP and Pi."
+      - "**Photolysis**: light splits water. `2H₂O → 4H⁺ + 4e⁻ + O₂`. The electrons replace those lost from chlorophyll. O₂ is a by-product."
+      - "Electrons and H⁺ reduce **NADP** to **reduced NADP**."
+  - h: "Light-independent reaction (Calvin cycle)"
+    p:
+      - "CO₂ reacts with **ribulose bisphosphate (RuBP)**, a 5-carbon compound, catalysed by the enzyme **rubisco**. This produces two molecules of **glycerate 3-phosphate (GP)**."
+      - "GP is **reduced** to **triose phosphate (TP)**, using **reduced NADP** and energy from **ATP**."
+      - "Some TP is converted into useful organic substances, e.g. glucose, starch, amino acids and lipids."
+      - "Most TP is used to **regenerate RuBP**, which also needs **ATP**."
+      - "For one glucose (6C), the cycle turns **six** times."
+  - h: "Limiting factors"
+    p:
+      - "**Light intensity**, **CO₂ concentration** and **temperature** limit the rate. The factor in shortest supply is the limiting factor."
+      - "Low light: less ATP and reduced NADP, so GP accumulates and RuBP falls."
+      - "Low CO₂: less GP is made, so RuBP accumulates."
+      - "Low temperature: enzymes such as rubisco work more slowly."
+      - "Growers use this: greenhouses with extra light, heating and CO₂ burners, but only where the extra yield pays for the cost."
+pitfalls:
+  - "Light-dependent on the **thylakoid membranes**; light-independent in the **stroma**."
+  - "Oxygen comes from **water** (photolysis), not from CO₂."
+  - "In the Calvin cycle, GP is **reduced** to TP. Don't say GP is 'oxidised'."
+  - "Graph trick: on a rate-against-light graph, where the line levels off, light is **no longer** the limiting factor."
+questions:
+  - q: "Where does the light-dependent reaction take place?"
+    o: ["Stroma", "Thylakoid membranes", "Mitochondrial matrix", "Cytoplasm"]
+    a: 1
+    e: "The light-dependent reaction happens on thylakoid membranes, where chlorophyll and electron carriers are located."
+  - q: "What is photoionisation?"
+    o: ["Light excites electrons in chlorophyll, which are lost, so chlorophyll becomes positively charged", "Light splits water molecules", "Light makes glucose", "Light activates rubisco"]
+    a: 0
+    e: "Absorbed light raises electrons to a higher energy level and they leave the chlorophyll, ionising it."
+  - q: "What is produced by the photolysis of water?"
+    o: ["Glucose and oxygen", "ATP and NADP", "H⁺, electrons and oxygen", "CO₂ and water"]
+    a: 2
+    e: "2H₂O → 4H⁺ + 4e⁻ + O₂. Electrons replace those lost from chlorophyll, and H⁺ is used to reduce NADP."
+  - q: "What happens to electrons from photoionisation?"
+    o: ["They are used to split water", "They combine with oxygen", "They are released as heat", "They pass along an electron transfer chain, releasing energy"]
+    a: 3
+    e: "Electrons pass between carrier proteins, losing energy at each step. This energy pumps H⁺ across the thylakoid membrane."
+  - q: "How is ATP produced in the light-dependent reaction?"
+    o: ["H⁺ diffuses from the thylakoid space through ATP synthase, which makes ATP (chemiosmosis)", "Glucose is broken down", "Substrate-level phosphorylation in the stroma", "Water reacts with ADP"]
+    a: 0
+    e: "H⁺ pumped into the thylakoid space diffuses back into the stroma through ATP synthase, which phosphorylates ADP."
+  - q: "Which two products of the light-dependent reaction are used in the light-independent reaction?"
+    o: ["Oxygen and water", "ATP and reduced NADP", "Glucose and CO₂", "RuBP and GP"]
+    a: 1
+    e: "ATP provides energy and reduced NADP provides hydrogen (reducing power) for converting GP to TP."
+  - q: "Where does the light-independent reaction take place?"
+    o: ["Thylakoid membranes", "Thylakoid space", "Stroma", "Grana"]
+    a: 2
+    e: "The Calvin cycle enzymes, including rubisco, are in the stroma."
+  - q: "Which enzyme catalyses the reaction between CO₂ and RuBP?"
+    o: ["ATP synthase", "NADP reductase", "Lipase", "Rubisco"]
+    a: 3
+    e: "Rubisco catalyses the fixation of CO₂ with RuBP, forming two molecules of GP."
+  - q: "What is produced when CO₂ combines with RuBP?"
+    o: ["Two molecules of glycerate 3-phosphate (GP)", "Triose phosphate", "Glucose", "Pyruvate"]
+    a: 0
+    e: "CO₂ (1C) + RuBP (5C) gives an unstable 6C compound that splits into two GP (3C)."
+  - q: "How is GP converted to triose phosphate?"
+    o: ["It is oxidised using oxygen", "It is reduced using reduced NADP and energy from ATP", "It is phosphorylated using water", "It is decarboxylated"]
+    a: 1
+    e: "GP is reduced to TP. Reduced NADP supplies hydrogen, and ATP supplies energy."
+  - q: "What happens to most of the triose phosphate produced?"
+    o: ["It is converted to glucose", "It is exported to the cytoplasm", "It is used to regenerate RuBP", "It is broken down to CO₂"]
+    a: 2
+    e: "Five out of every six TP molecules are used to regenerate RuBP, using ATP, so the cycle can continue."
+  - q: "How many turns of the Calvin cycle are needed to make one glucose molecule?"
+    o: ["One", "Two", "Three", "Six"]
+    a: 3
+    e: "Each turn fixes one CO₂. Glucose has six carbons, so six turns are needed."
+  - q: "A plant is moved from light into darkness. What happens to GP and RuBP levels?"
+    o: ["GP rises and RuBP falls", "GP falls and RuBP rises", "Both rise", "Both fall"]
+    a: 0
+    e: "Without light, ATP and reduced NADP aren't made, so GP can't be reduced and accumulates. RuBP isn't regenerated, so it falls."
+  - q: "CO₂ concentration around a plant drops sharply. What happens to RuBP?"
+    o: ["It falls, because it combines with CO₂", "It rises, because it isn't being used to fix CO₂ but is still regenerated", "It stays the same", "It is converted to glucose"]
+    a: 1
+    e: "With little CO₂, RuBP isn't used up, but TP already present still regenerates it, so RuBP accumulates and GP falls."
+  - q: "On a graph of rate of photosynthesis against light intensity, the curve levels off. What does this show?"
+    o: ["Light is now the limiting factor", "Photosynthesis has stopped", "Another factor, such as CO₂ or temperature, is now limiting", "The plant is dead"]
+    a: 2
+    e: "When increasing light no longer increases the rate, something else is limiting."
+  - q: "Why does low temperature limit photosynthesis?"
+    o: ["Chlorophyll is destroyed", "Less light is absorbed", "Water freezes", "Enzymes such as rubisco work more slowly"]
+    a: 3
+    e: "The light-independent reaction depends on enzymes. Low temperature reduces their kinetic energy and activity."
+  - q: "Why might a grower add CO₂ to a greenhouse?"
+    o: ["To increase the rate of photosynthesis when CO₂ is limiting, increasing yield", "To kill pests", "To reduce temperature", "To increase oxygen"]
+    a: 0
+    e: "If CO₂ is limiting, adding more increases photosynthesis and yield. Growers balance the cost against extra profit."
+  - q: "In RP7, why is the origin line drawn in pencil?"
+    o: ["Pencil is easier to see", "Ink would dissolve in the solvent and run with the pigments", "Pencil absorbs pigment", "Ink would react with chlorophyll"]
+    a: 1
+    e: "Graphite doesn't dissolve, so it doesn't interfere with the separation."
+  - q: "A pigment moves 3.6 cm and the solvent front moves 8.0 cm. What is the Rf value?"
+    o: ["2.22", "4.4", "0.45", "0.36"]
+    a: 2
+    e: "Rf = distance moved by spot ÷ distance moved by solvent = 3.6 ÷ 8.0 = 0.45."
+  - q: "In RP8, why does DCPIP turn from blue to colourless?"
+    o: ["It is oxidised by oxygen", "It is broken down by heat", "It is absorbed by chloroplasts", "It accepts electrons from the light-dependent reaction and is reduced"]
+    a: 3
+    e: "DCPIP acts as an electron acceptor in place of NADP. When reduced, it loses its blue colour."
+  - q: "In RP8, why is the chloroplast extract kept ice-cold?"
+    o: ["To slow enzymes that could damage the chloroplasts", "To speed up the reaction", "To dissolve the pigments", "To stop osmosis"]
+    a: 0
+    e: "Low temperature reduces the activity of enzymes released from broken cells that could damage chloroplasts."
+  - q: "Where are H⁺ ions pumped into during the light-dependent reaction?"
+    o: ["The stroma", "The thylakoid space", "The cytoplasm", "The intermembrane space of mitochondria"]
+    a: 1
+    e: "H⁺ is pumped into the thylakoid space, creating a gradient. It diffuses back into the stroma through ATP synthase."

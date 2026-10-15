@@ -1,0 +1,137 @@
+id: "3.3a"
+order: 8
+section: "3.3"
+spec: "3.3.1–3.3.2"
+title: "Surface area to volume and gas exchange"
+desc: "Surface area to volume ratio, and gas exchange in single-celled organisms, insects, fish, leaves and humans, including ventilation and lung disease."
+practicals: [5]
+summary:
+  - h: "Surface area to volume ratio"
+    p:
+      - "As an organism gets bigger, its **surface area to volume ratio falls**."
+      - "Small organisms have a large SA:V, so diffusion across their surface meets their needs. Larger organisms need **specialised exchange surfaces** and **mass transport** systems."
+      - "Larger SA:V also means faster heat loss, so small mammals have a higher metabolic rate per gram."
+      - "Example: a 2 cm cube has SA = 6 × 2² = 24 cm² and volume = 2³ = 8 cm³, so SA:V = 3:1."
+  - h: "Features of efficient exchange surfaces"
+    p:
+      - "**Large surface area**, **thin** (short diffusion pathway), and a **steep concentration gradient** maintained by ventilation or blood flow."
+      - "`Fick's law: rate of diffusion ∝ (surface area × difference in concentration) ÷ thickness of surface`"
+  - h: "Insects"
+    p:
+      - "Air enters through **spiracles** and passes along **tracheae** to **tracheoles**, which reach individual cells."
+      - "Gases diffuse along gradients. During exercise, **lactic acid** in muscles lowers the water potential, so water from the tracheole ends moves into cells by osmosis, bringing air closer to the muscle."
+      - "Abdominal pumping ventilates the tracheae."
+      - "Water loss is limited by a **waterproof exoskeleton** and **spiracles that close**, and hairs around spiracles."
+  - h: "Fish"
+    p:
+      - "Gills have **gill filaments** covered in **lamellae**, giving a large surface area and a thin diffusion distance."
+      - "**Counter-current flow**: blood in the lamellae flows in the **opposite direction** to water. Blood always meets water with a higher O₂ concentration, so a **diffusion gradient is maintained along the whole lamella**."
+  - h: "Dicotyledonous leaves"
+    p:
+      - "Gases diffuse through **stomata** into **air spaces** in the **spongy mesophyll**, giving a large surface area next to cells."
+      - "Leaves are thin, so diffusion distances are short. **Guard cells** close stomata to reduce water loss."
+      - "**Xerophytes** reduce water loss: thick waxy cuticle, rolled leaves, hairs, sunken stomata (these trap moist air and reduce the water potential gradient), and fewer stomata."
+  - h: "Humans: lungs and ventilation"
+    p:
+      - "Air passes down the **trachea**, **bronchi** and **bronchioles** to the **alveoli**. The alveolar epithelium is one cell thick, and each alveolus is surrounded by capillaries."
+      - "**Inspiration**: external intercostal muscles **contract** and internal intercostals relax, so ribs move **up and out**. The diaphragm contracts and flattens. Thoracic volume rises and pressure falls below atmospheric, so air flows in. This is **active**."
+      - "**Expiration** (at rest): external intercostals and diaphragm **relax**. Lung elastic recoil pushes air out, so it is mainly **passive**. Forced expiration uses the **internal intercostal muscles**."
+      - "`Pulmonary ventilation rate = tidal volume × breathing rate`"
+  - h: "Lung disease"
+    p:
+      - "**Pulmonary fibrosis** thickens the alveolar wall (longer diffusion pathway). **Emphysema** destroys alveolar walls (reduces surface area). **Asthma** narrows airways (reduces ventilation)."
+      - "When interpreting data, separate **correlation** from **causation**: e.g. smoking correlates with lung cancer, but other variables must be controlled."
+pitfalls:
+  - "In counter-current flow, the key point is that a gradient is maintained **along the whole length** of the lamella. Parallel flow only reaches equilibrium at 50%."
+  - "Inspiration lowers pressure **inside the lungs**, so air moves in. Don't say the lungs 'suck in' air."
+  - "Learn which intercostals do what: **external** for inspiration, **internal** for forced expiration."
+  - "Sunken stomata work by trapping water vapour, which **reduces the water potential gradient**."
+questions:
+  - q: "What happens to the surface area to volume ratio as an organism gets larger?"
+    o: ["It increases", "It decreases", "It stays the same", "It doubles"]
+    a: 1
+    e: "Volume increases faster than surface area (cubed vs squared), so SA:V falls as size increases."
+  - q: "What is the surface area to volume ratio of a cube with 3 cm sides?"
+    o: ["2:1", "3:1", "1:1", "1:2"]
+    a: 0
+    e: "SA = 6 × 3² = 54 cm². Volume = 3³ = 27 cm³. SA:V = 54:27 = 2:1."
+  - q: "Why do larger multicellular organisms need specialised exchange surfaces?"
+    o: ["They have a larger surface area to volume ratio", "Their cells don't respire", "Their SA:V is too small for diffusion across the body surface to meet their needs", "They have no blood"]
+    a: 2
+    e: "Larger organisms have a small SA:V and long diffusion distances, so diffusion across the outer surface is too slow."
+  - q: "According to Fick's law, which change would increase the rate of diffusion?"
+    o: ["Increasing the thickness of the exchange surface", "Reducing the concentration difference", "Reducing the surface area", "Increasing the surface area"]
+    a: 3
+    e: "Rate ∝ (surface area × difference in concentration) ÷ thickness. A larger area increases the rate."
+  - q: "Through which openings does air enter an insect's gas exchange system?"
+    o: ["Spiracles", "Stomata", "Tracheoles", "Lamellae"]
+    a: 0
+    e: "Spiracles are pores on the body surface. Air passes from them into tracheae and tracheoles."
+  - q: "How do insects reduce water loss from their gas exchange system?"
+    o: ["By having thin, permeable body walls", "By closing their spiracles and having a waterproof exoskeleton", "By opening spiracles all the time", "By having gills"]
+    a: 1
+    e: "Spiracles close when not needed, and a waterproof cuticle reduces evaporation. Hairs round spiracles also trap moist air."
+  - q: "During flight, lactic acid builds up in insect muscles. How does this help gas exchange?"
+    o: ["It releases oxygen", "It increases the number of spiracles", "It lowers water potential, so water moves from tracheoles into cells and air moves closer to the muscle", "It makes tracheae wider"]
+    a: 2
+    e: "Lactic acid lowers the water potential of muscle cells. Water leaves the tracheole ends by osmosis, so air reaches closer to the muscle and diffusion is faster."
+  - q: "What is counter-current flow in fish gills?"
+    o: ["Water and blood flow in the same direction", "Blood flows in the opposite direction to water over the lamellae", "Water flows in and out of the mouth", "Blood flows away from the gills"]
+    a: 1
+    e: "Water and blood move in opposite directions, so blood always meets water with a higher oxygen concentration."
+  - q: "Why is counter-current flow more efficient than parallel flow?"
+    o: ["It maintains a diffusion gradient along the whole length of the lamella", "Blood moves faster", "It uses less energy", "It increases the surface area"]
+    a: 0
+    e: "With parallel flow, concentrations equalise partway along. Counter-current maintains a gradient along the whole lamella, so more oxygen is absorbed."
+  - q: "Which feature increases the surface area of fish gills?"
+    o: ["Spiracles", "Alveoli", "Stomata", "Gill filaments covered in lamellae"]
+    a: 3
+    e: "Many filaments, each covered in many thin lamellae, give a very large surface area."
+  - q: "In a dicotyledonous leaf, where does most gas exchange with cells occur?"
+    o: ["Through the waxy cuticle", "In air spaces in the spongy mesophyll", "In the xylem", "In the upper epidermis"]
+    a: 1
+    e: "Gases enter through stomata and diffuse through air spaces in the spongy mesophyll, giving a large surface area next to the cells."
+  - q: "How do sunken stomata reduce water loss in xerophytes?"
+    o: ["They increase transpiration", "They trap moist air, reducing the water potential gradient", "They absorb water from the air", "They close permanently"]
+    a: 1
+    e: "Moist air trapped in pits around the stomata reduces the water potential gradient between leaf and air, so less water evaporates."
+  - q: "Which is NOT an adaptation of xerophytes to reduce water loss?"
+    o: ["Thick waxy cuticle", "Rolled leaves", "Many large stomata on the upper surface", "Hairs on the leaf"]
+    a: 2
+    e: "More stomata on the upper surface would increase water loss. Xerophytes typically have fewer stomata, often sunken and on the lower surface."
+  - q: "What happens during inspiration in humans?"
+    o: ["External intercostal muscles contract, ribs move up and out, diaphragm contracts and flattens", "Internal intercostal muscles contract and ribs move down", "Diaphragm relaxes and domes upward", "Thoracic volume decreases"]
+    a: 0
+    e: "These movements increase thoracic volume, lowering pressure below atmospheric so air moves in."
+  - q: "Why does air move into the lungs during inspiration?"
+    o: ["Pressure in the lungs rises above atmospheric pressure", "The lungs contract", "Thoracic volume increases, so pressure in the lungs falls below atmospheric pressure", "Oxygen is pulled in by diffusion"]
+    a: 2
+    e: "Larger volume means lower pressure. Air moves down the pressure gradient into the lungs."
+  - q: "Which muscles contract during forced expiration?"
+    o: ["External intercostal muscles", "Internal intercostal muscles", "Diaphragm only", "None, it is passive"]
+    a: 1
+    e: "Internal intercostal muscles contract to pull ribs down and in during forced expiration. Normal expiration at rest is mainly passive."
+  - q: "Tidal volume is 0.5 dm³ and breathing rate is 16 breaths per minute. What is the pulmonary ventilation rate?"
+    o: ["32 dm³ min⁻¹", "8 dm³ min⁻¹", "16.5 dm³ min⁻¹", "0.03 dm³ min⁻¹"]
+    a: 1
+    e: "PVR = tidal volume × breathing rate = 0.5 × 16 = 8 dm³ min⁻¹."
+  - q: "How are alveoli adapted for gas exchange?"
+    o: ["Thick walls and few capillaries", "Covered in cilia", "Contain cartilage", "Large surface area, walls one cell thick, and a good blood supply"]
+    a: 3
+    e: "Many alveoli give a large surface area. Thin epithelium gives a short diffusion distance. Capillaries and ventilation maintain gradients."
+  - q: "Pulmonary fibrosis reduces gas exchange mainly because it:"
+    o: ["Increases the surface area of alveoli", "Narrows the bronchioles", "Destroys red blood cells", "Thickens the alveolar walls, increasing diffusion distance"]
+    a: 3
+    e: "Fibrosis scars and thickens alveolar walls, so oxygen must diffuse further, slowing gas exchange."
+  - q: "How does emphysema affect gas exchange?"
+    o: ["It thickens airway walls", "It destroys alveolar walls, reducing surface area", "It increases the number of alveoli", "It speeds up ventilation"]
+    a: 1
+    e: "In emphysema, elastic tissue and alveolar walls break down, forming larger air sacs with a smaller total surface area."
+  - q: "A study finds a correlation between air pollution and asthma. What can you conclude?"
+    o: ["Air pollution causes asthma", "Asthma causes air pollution", "There is a link, but causation is not proved; other factors may be involved", "There is no link"]
+    a: 2
+    e: "Correlation doesn't prove causation. Other variables must be controlled, or a causal mechanism shown."
+  - q: "Why do small mammals have a higher metabolic rate per gram than large mammals?"
+    o: ["They have a larger SA:V, so lose heat faster and must respire more to maintain body temperature", "They have more cells", "They have a smaller SA:V", "They are more active"]
+    a: 0
+    e: "A large SA:V means faster heat loss relative to volume, so more respiration is needed per gram to keep warm."

@@ -1,0 +1,129 @@
+id: "3.4b"
+order: 13
+section: "3.4"
+spec: "3.4.3"
+title: "Mutation and meiosis"
+desc: "Gene mutations and mutagenic agents, chromosome mutations, the stages of meiosis, and how independent segregation and crossing over create variation."
+practicals: []
+summary:
+  - h: "Gene mutations"
+    p:
+      - "**Gene mutations** are changes in the base sequence of DNA. They happen spontaneously during **DNA replication**."
+      - "**Substitution**: one base is replaced. Because the code is **degenerate**, it may not change the amino acid (a silent mutation). Otherwise one amino acid changes."
+      - "**Deletion**: a base is lost. This causes a **frame shift**: every triplet after it changes, so many amino acids are altered."
+      - "A changed amino acid sequence can change the **tertiary structure** of the protein, e.g. an enzyme's active site."
+      - "**Mutagenic agents** increase the mutation rate, e.g. ionising radiation, UV light, benzene, and some chemicals in tobacco smoke."
+  - h: "Chromosome mutations"
+    p:
+      - "**Non-disjunction**: chromosomes or chromatids fail to separate during meiosis, so gametes have the wrong number of chromosomes."
+      - "Example: an extra chromosome 21 causes **Down syndrome**. Changes in whole sets of chromosomes (polyploidy) are more common in plants."
+  - h: "Meiosis"
+    p:
+      - "Meiosis produces **four genetically different haploid** cells (gametes) from one diploid cell. It involves **two divisions**."
+      - "**Meiosis I**: **homologous chromosomes** pair up and then **separate**, halving the chromosome number."
+      - "**Meiosis II**: **sister chromatids** separate, as in mitosis."
+      - "Diploid (2n) cells have two sets of chromosomes. Haploid (n) gametes have one set, so fertilisation restores the diploid number."
+  - h: "Sources of genetic variation"
+    p:
+      - "**Independent segregation**: in meiosis I, homologous pairs line up randomly at the equator, so each gamete gets a random mix of maternal and paternal chromosomes."
+      - "`Number of possible combinations = 2ⁿ`, where n is the number of homologous pairs. For humans, 2²³ ≈ 8.4 million."
+      - "**Crossing over**: in prophase I, chromatids of homologous chromosomes form **chiasmata** and exchange sections of DNA. This creates new combinations of alleles."
+      - "**Random fertilisation**: any male gamete can fuse with any female gamete. Combinations from two parents = (2ⁿ)²."
+  - h: "Meiosis vs mitosis"
+    p:
+      - "Mitosis: one division, two identical diploid cells, used for growth and repair."
+      - "Meiosis: two divisions, four genetically different haploid cells, used for sexual reproduction."
+pitfalls:
+  - "A substitution doesn't always change the protein, because the code is **degenerate**."
+  - "A deletion changes far more than a substitution, because of the **frame shift**."
+  - "Homologous chromosomes separate in **meiosis I**. Sister chromatids separate in **meiosis II**."
+  - "In 2ⁿ questions, n is the number of **homologous pairs**, not the total chromosomes."
+questions:
+  - q: "What is a gene mutation?"
+    o: ["A change in the number of chromosomes", "A change in the base sequence of DNA", "A change in the shape of a chromosome", "Crossing over between chromosomes"]
+    a: 1
+    e: "A gene mutation is any change in the base sequence of DNA, such as a substitution or deletion."
+  - q: "Why might a base substitution have no effect on the polypeptide?"
+    o: ["The genetic code is degenerate, so the new triplet may code for the same amino acid", "Substitutions happen only in introns", "The code is non-overlapping", "Substitutions are always repaired"]
+    a: 0
+    e: "Most amino acids have several triplets, so a substitution may still give the same amino acid. This is a silent mutation."
+  - q: "Why does a deletion usually have a bigger effect than a substitution?"
+    o: ["It removes a whole gene", "It changes only one amino acid", "It causes a frame shift, so all following triplets change", "It changes the DNA to RNA"]
+    a: 2
+    e: "Removing one base shifts the reading frame. Every triplet after it is read differently, so many amino acids change."
+  - q: "How can a gene mutation lead to a non-functional enzyme?"
+    o: ["It changes the enzyme's temperature", "It removes the enzyme's ribosomes", "It stops transcription completely", "It changes the amino acid sequence, which changes the tertiary structure and the active site"]
+    a: 3
+    e: "A different primary structure may fold differently, so the active site is no longer complementary to the substrate."
+  - q: "Which of these is a mutagenic agent?"
+    o: ["Ultraviolet light", "Glucose", "Water", "Oxygen at normal concentration"]
+    a: 0
+    e: "UV light, ionising radiation and some chemicals (e.g. benzene, some components of tobacco smoke) increase the mutation rate."
+  - q: "What is non-disjunction?"
+    o: ["A base substitution", "Failure of chromosomes or chromatids to separate in meiosis", "Crossing over between chromatids", "Random alignment of homologous pairs"]
+    a: 1
+    e: "If chromosomes don't separate, some gametes get an extra chromosome and some get one fewer."
+  - q: "Down syndrome is caused by:"
+    o: ["A deletion in a gene", "Crossing over", "An extra copy of chromosome 21 due to non-disjunction", "A substitution in chromosome 21"]
+    a: 2
+    e: "Non-disjunction in meiosis can produce a gamete with two copies of chromosome 21. After fertilisation, the cell has three."
+  - q: "How many cells does meiosis produce from one parent cell?"
+    o: ["Two diploid cells", "Two haploid cells", "One haploid cell", "Four haploid cells"]
+    a: 3
+    e: "Two divisions produce four haploid cells, each genetically different."
+  - q: "What separates in meiosis I?"
+    o: ["Homologous chromosomes", "Sister chromatids", "Introns", "Centrioles only"]
+    a: 0
+    e: "In meiosis I, homologous pairs separate, halving the chromosome number. Sister chromatids separate in meiosis II."
+  - q: "What separates in meiosis II?"
+    o: ["Homologous chromosomes", "Sister chromatids", "Whole sets of chromosomes", "Chiasmata"]
+    a: 1
+    e: "Meiosis II is like mitosis: sister chromatids are pulled apart to opposite poles."
+  - q: "Why must gametes be haploid?"
+    o: ["So they can divide by mitosis", "So they contain more DNA", "So that fertilisation restores the diploid number", "So they can't mutate"]
+    a: 2
+    e: "Two haploid gametes fuse to form a diploid zygote, keeping the chromosome number constant between generations."
+  - q: "What is independent segregation?"
+    o: ["Exchange of DNA between chromatids", "Separation of sister chromatids", "Mutation during replication", "Random alignment of homologous pairs in meiosis I, giving random combinations of maternal and paternal chromosomes in gametes"]
+    a: 3
+    e: "Each pair lines up randomly, so each gamete gets a random mix of chromosomes from each parent."
+  - q: "An organism has a diploid number of 8. How many different combinations of chromosomes are possible in its gametes, from independent segregation alone?"
+    o: ["16", "8", "256", "64"]
+    a: 0
+    e: "Diploid number 8 means 4 homologous pairs. 2⁴ = 16 combinations."
+  - q: "What happens during crossing over?"
+    o: ["Homologous chromosomes separate", "Chromatids of homologous chromosomes form chiasmata and exchange sections of DNA", "DNA is replicated", "Chromosomes fail to separate"]
+    a: 1
+    e: "In prophase I, non-sister chromatids of homologous chromosomes swap sections at chiasmata, creating new combinations of alleles."
+  - q: "During which stage does crossing over happen?"
+    o: ["Anaphase II", "Interphase", "Prophase I", "Telophase I"]
+    a: 2
+    e: "Homologous chromosomes pair up in prophase I, when chiasmata form and crossing over occurs."
+  - q: "How does random fertilisation increase genetic variation?"
+    o: ["It causes mutations", "It doubles the chromosome number", "It removes harmful alleles", "Any male gamete can fuse with any female gamete, producing new combinations"]
+    a: 3
+    e: "Each gamete is already genetically unique, and which two meet is random, so the number of possible offspring combinations is huge."
+  - q: "Humans have 23 pairs of chromosomes. Ignoring crossing over, how many genetically different gametes can one person make?"
+    o: ["2²³", "23²", "46", "2 × 23"]
+    a: 0
+    e: "Each of the 23 pairs can line up either way, giving 2²³ (about 8.4 million) combinations."
+  - q: "Which statement correctly compares mitosis and meiosis?"
+    o: ["Both produce genetically different cells", "Mitosis produces two identical diploid cells; meiosis produces four different haploid cells", "Meiosis has one division", "Mitosis involves crossing over"]
+    a: 1
+    e: "Mitosis: one division, identical diploid cells. Meiosis: two divisions, genetically different haploid cells."
+  - q: "When do spontaneous gene mutations most often occur?"
+    o: ["During translation", "During transcription", "During DNA replication", "During cytokinesis"]
+    a: 2
+    e: "Gene mutations arise mostly from errors in DNA replication, before cell division."
+  - q: "A DNA sequence CAT GGC TTA has a deletion of the first T. How many triplets are affected?"
+    o: ["Only the first", "None", "Only the last", "All three triplets from the deletion onward"]
+    a: 3
+    e: "Deleting the T in CAT shifts the reading frame: CAG GCT TA... All triplets from that point change."
+  - q: "Why does a gamete contain only one allele of each gene?"
+    o: ["Because homologous chromosomes separate in meiosis I", "Because alleles are destroyed in meiosis", "Because of mutation", "Because sister chromatids carry different genes"]
+    a: 0
+    e: "Each homologous chromosome carries one allele. When the pairs separate, each gamete receives one of each pair."
+  - q: "Crossing over increases variation because it:"
+    o: ["Changes the chromosome number", "Produces new combinations of alleles on chromosomes", "Causes frame shifts", "Makes cells diploid"]
+    a: 1
+    e: "Exchanging sections between homologous chromatids puts alleles together in new combinations on the same chromosome."

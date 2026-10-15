@@ -1,0 +1,138 @@
+id: "3.3c"
+order: 10
+section: "3.3"
+spec: "3.3.4.1"
+title: "Mass transport in animals"
+desc: "Haemoglobin and oxygen dissociation curves, the Bohr effect, the circulatory system, the heart and cardiac cycle, blood vessels and tissue fluid."
+practicals: [5]
+summary:
+  - h: "Haemoglobin"
+    p:
+      - "Haemoglobin has **quaternary structure**: four polypeptides, each with a **haem group** containing **Fe²⁺**. Each molecule can carry **four O₂**."
+      - "**Loading** (association) happens in the lungs, where pO₂ is high. **Unloading** (dissociation) happens in respiring tissues, where pO₂ is low."
+      - "**Cooperative binding**: once one O₂ binds, haemoglobin changes shape, making it easier for further O₂ to bind. This gives the **S-shaped (sigmoid) curve**."
+  - h: "Oxygen dissociation curves"
+    p:
+      - "The curve plots **% saturation** against **partial pressure of O₂ (pO₂)**."
+      - "**Curve shifted left**: higher affinity, loads O₂ more readily at low pO₂. Seen in organisms in low-oxygen environments (e.g. lugworms, llamas at altitude) and fetal haemoglobin."
+      - "**Curve shifted right**: lower affinity, unloads O₂ more readily. Seen in small, active animals with a high metabolic rate."
+      - "**Bohr effect**: higher CO₂ concentration lowers blood pH, which changes haemoglobin's shape and **lowers its affinity**. The curve **shifts right**, so more O₂ is unloaded in active tissues."
+  - h: "Circulatory system"
+    p:
+      - "Mammals have a **double circulation**: the pulmonary circuit (heart to lungs) and systemic circuit (heart to body). Blood passes through the heart twice per circuit."
+      - "Know the main vessels: **coronary arteries** (supply heart muscle), **aorta** and **vena cava**, **pulmonary artery** and **pulmonary vein**, **renal artery** and **renal vein**."
+  - h: "The heart and the cardiac cycle"
+    p:
+      - "Blood flow: vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → left ventricle → aorta."
+      - "**Atrioventricular valves** stop backflow from ventricles to atria. **Semilunar valves** stop backflow from arteries to ventricles. Valves open and close because of **pressure differences**."
+      - "**Atrial systole**: atria contract, pushing blood into ventricles. **Ventricular systole**: ventricles contract, AV valves close, semilunar valves open, blood is forced into arteries. **Diastole**: muscle relaxes, semilunar valves close, blood fills the atria."
+      - "`Cardiac output = stroke volume × heart rate`"
+  - h: "Blood vessels"
+    p:
+      - "**Arteries**: thick muscular walls and **elastic tissue**, which stretches and recoils to smooth out pressure. Narrow lumen. Carry blood at high pressure away from the heart."
+      - "**Arterioles**: muscle contracts or relaxes to control blood flow to tissues."
+      - "**Veins**: thin walls, wide lumen, and **valves** to prevent backflow. Low pressure."
+      - "**Capillaries**: walls one cell thick (**endothelium**), narrow lumen, and huge numbers, giving a large surface area and short diffusion distance."
+  - h: "Tissue fluid"
+    p:
+      - "At the **arteriole end** of a capillary, **hydrostatic pressure** is higher than the water potential effect from plasma proteins. Fluid (water and small molecules) is forced out, forming **tissue fluid**."
+      - "Large plasma proteins stay in the blood, so water potential in the capillary is lower. At the **venule end**, hydrostatic pressure has fallen, so water returns by **osmosis**."
+      - "Excess tissue fluid drains into the **lymphatic system** and returns to the blood."
+  - h: "Cardiovascular disease"
+    p:
+      - "Risk factors include smoking, high blood pressure, high blood cholesterol, and a diet high in salt or saturated fat."
+      - "Analyse data on risk factors carefully: separate correlation from causation, and note sample sizes."
+pitfalls:
+  - "Write **partial pressure** of oxygen, not 'oxygen concentration', when describing dissociation curves."
+  - "A curve shifted **right** means **lower affinity**, so more unloading. Shifted **left** means **higher affinity**."
+  - "Valves open and close due to **pressure differences**. Don't say the heart 'opens' them."
+  - "Arteries have elastic tissue to **maintain and smooth pressure**. They don't 'pump' blood."
+questions:
+  - q: "How many oxygen molecules can one haemoglobin molecule carry?"
+    o: ["One", "Two", "Four", "Eight"]
+    a: 2
+    e: "Haemoglobin has four haem groups, each with Fe²⁺ that binds one O₂ molecule."
+  - q: "Why is the oxygen dissociation curve for haemoglobin S-shaped?"
+    o: ["Cooperative binding: once one O₂ binds, haemoglobin changes shape and binds more O₂ more easily", "Haemoglobin denatures at high pO₂", "Oxygen is used up", "Fe²⁺ is oxidised"]
+    a: 0
+    e: "The first O₂ binds with difficulty. It changes the shape of haemoglobin, so the second and third bind more easily. The curve is steep in the middle."
+  - q: "Where does haemoglobin load oxygen?"
+    o: ["In respiring tissues where pO₂ is low", "In the lungs where pO₂ is high", "In the liver", "In the heart muscle"]
+    a: 1
+    e: "In the lungs, pO₂ is high, so haemoglobin has a high saturation (association)."
+  - q: "What does a dissociation curve shifted to the left indicate?"
+    o: ["Lower affinity for oxygen", "No change in affinity", "More CO₂ present", "Higher affinity for oxygen"]
+    a: 3
+    e: "A left-shifted curve reaches high saturation at lower pO₂, so the haemoglobin has a higher affinity for O₂."
+  - q: "Why does a lugworm living in low-oxygen mud have a left-shifted curve?"
+    o: ["Its haemoglobin can load oxygen at low partial pressures", "It needs to unload oxygen more easily", "It respires anaerobically only", "It has no haemoglobin"]
+    a: 0
+    e: "Higher affinity lets its haemoglobin become saturated even where pO₂ is low."
+  - q: "What is the Bohr effect?"
+    o: ["Haemoglobin binds more O₂ in the presence of CO₂", "Increased CO₂ lowers haemoglobin's affinity for O₂, shifting the curve right", "Oxygen dissolves in plasma", "Fetal haemoglobin has a higher affinity"]
+    a: 1
+    e: "CO₂ forms carbonic acid, lowering pH. Haemoglobin changes shape and releases O₂ more readily, which helps active tissues."
+  - q: "Why is the Bohr effect an advantage during exercise?"
+    o: ["More O₂ is loaded in the muscles", "Less CO₂ is produced", "More O₂ is unloaded to respiring muscles, where CO₂ concentration is high", "Breathing rate falls"]
+    a: 2
+    e: "Active muscles produce more CO₂, so haemoglobin's affinity falls there and more O₂ is released where it is needed."
+  - q: "Small mammals with a high metabolic rate have curves shifted to the:"
+    o: ["Right, so O₂ is unloaded more easily", "Left, so O₂ is loaded more easily", "Neither, all mammals are the same", "Left, so O₂ is unloaded more easily"]
+    a: 0
+    e: "A right shift (lower affinity) releases O₂ more readily to cells respiring rapidly."
+  - q: "Why does fetal haemoglobin have a higher affinity for O₂ than adult haemoglobin?"
+    o: ["The fetus doesn't need oxygen", "So it can load O₂ from the mother's blood in the placenta, where pO₂ is relatively low", "Fetal blood has more CO₂", "Fetal haemoglobin has more Fe²⁺"]
+    a: 1
+    e: "At the placenta, the mother's haemoglobin unloads O₂ and fetal haemoglobin loads it, which needs a higher affinity."
+  - q: "Which blood vessel carries oxygenated blood from the lungs to the heart?"
+    o: ["Pulmonary artery", "Vena cava", "Aorta", "Pulmonary vein"]
+    a: 3
+    e: "The pulmonary vein carries oxygenated blood from the lungs to the left atrium."
+  - q: "Which vessels supply the heart muscle with blood?"
+    o: ["Pulmonary arteries", "Coronary arteries", "Renal arteries", "Vena cava"]
+    a: 1
+    e: "Coronary arteries branch from the aorta and supply oxygenated blood to the cardiac muscle."
+  - q: "Why is the left ventricle wall thicker than the right?"
+    o: ["It receives more blood", "It pumps blood to the lungs", "It must generate higher pressure to pump blood around the whole body", "It contains the pacemaker"]
+    a: 2
+    e: "The left ventricle pumps blood through the systemic circuit, which needs more force. The right only pumps to the nearby lungs."
+  - q: "During ventricular systole, what happens to the valves?"
+    o: ["Atrioventricular valves close and semilunar valves open", "Both sets open", "Atrioventricular valves open and semilunar valves close", "Both sets close"]
+    a: 0
+    e: "Ventricular pressure exceeds atrial pressure, closing the AV valves, and exceeds arterial pressure, opening the semilunar valves."
+  - q: "What causes heart valves to open and close?"
+    o: ["Nerve impulses to the valves", "Muscles in the valves", "Hormones", "Differences in blood pressure on either side"]
+    a: 3
+    e: "Valves open when pressure behind them is higher than in front, and close when pressure in front is higher."
+  - q: "Stroke volume is 70 cm³ and heart rate is 72 beats per minute. What is cardiac output?"
+    o: ["142 cm³ min⁻¹", "5040 cm³ min⁻¹", "1.03 cm³ min⁻¹", "504 cm³ min⁻¹"]
+    a: 1
+    e: "Cardiac output = stroke volume × heart rate = 70 × 72 = 5040 cm³ min⁻¹."
+  - q: "Why do arteries contain elastic tissue?"
+    o: ["To help blood flow back to the heart", "To allow exchange of substances", "To stretch and recoil, maintaining and smoothing blood pressure", "To pump blood"]
+    a: 2
+    e: "Elastic fibres stretch during systole and recoil in diastole. This evens out pressure surges and keeps blood flowing."
+  - q: "Why do veins have valves?"
+    o: ["To prevent backflow of blood at low pressure", "To increase blood pressure", "To allow exchange", "To pump blood"]
+    a: 0
+    e: "Blood in veins is at low pressure. Valves stop it flowing backwards, and contraction of nearby muscles helps push it on."
+  - q: "How are capillaries adapted for exchange?"
+    o: ["Thick muscular walls", "Elastic tissue", "Valves", "Walls one cell thick and a very large total surface area"]
+    a: 3
+    e: "The endothelium is one cell thick, giving a short diffusion distance. Capillary networks give a huge surface area."
+  - q: "What forces fluid out of capillaries at the arteriole end?"
+    o: ["Osmosis", "High hydrostatic pressure", "Active transport", "Low water potential in the tissues"]
+    a: 1
+    e: "Hydrostatic pressure from the heart is high at the arteriole end, forcing water and small molecules out to form tissue fluid."
+  - q: "Why does water return to the capillary at the venule end?"
+    o: ["Hydrostatic pressure has risen", "Plasma proteins leave the capillary", "Hydrostatic pressure has fallen, and plasma proteins keep the water potential in the capillary low, so water returns by osmosis", "Active transport of water"]
+    a: 2
+    e: "Proteins remain in the blood, keeping its water potential low. With lower hydrostatic pressure at the venule end, osmosis brings water back."
+  - q: "What happens to excess tissue fluid that doesn't return to the capillaries?"
+    o: ["It drains into the lymphatic system and returns to the blood", "It is excreted", "It forms urine", "It stays in the tissues"]
+    a: 0
+    e: "Excess tissue fluid enters lymph vessels and is returned to the blood near the heart."
+  - q: "Which is a risk factor for cardiovascular disease?"
+    o: ["Low blood pressure", "Regular exercise", "Low salt intake", "High blood cholesterol"]
+    a: 3
+    e: "High cholesterol, smoking, high blood pressure and a diet high in saturated fat or salt all increase the risk."
