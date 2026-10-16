@@ -138,6 +138,6 @@ questions:
     a: 2
     e: "The second, enzyme-linked antibody only stays if it bound to the patient's antibody. Its enzyme converts the substrate to a coloured product."
   - q: "How can monoclonal antibodies be used to treat cancer?"
-    o: ["They attach a drug to the antibody, so it binds only to cancer cell antigens", "They make cancer cells divide faster", "They replace helper T cells", "They act as antibiotics"]
+    o: ["A drug is attached to an antibody that binds only to cancer cell antigens", "They make cancer cells divide faster", "They replace helper T cells", "They act as antibiotics"]
     a: 0
     e: "Antibodies complementary to cancer cell antigens carry the drug directly to those cells, reducing harm to healthy cells."

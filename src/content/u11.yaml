@@ -49,7 +49,7 @@ questions:
     o: ["Cellulose only", "Lignin", "Murein", "Chitin"]
     a: 1
     e: "Lignin waterproofs and strengthens xylem walls, so they don't collapse under tension."
-  - q: "Where does transpiration mainly happen?"
+  - q: "What is transpiration?"
     o: ["Evaporation of water from leaves, mostly through stomata", "Uptake of water by roots", "Movement of sucrose in phloem", "Loss of water through bark"]
     a: 0
     e: "Water evaporates from mesophyll cell surfaces into air spaces and diffuses out of the leaf through stomata."
