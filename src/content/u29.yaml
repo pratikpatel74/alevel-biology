@@ -15,6 +15,8 @@ summary:
       - "Mutations can change the amino acid sequence, so the **tertiary structure** and **function** of the protein may change."
       - "Mutations happen **spontaneously**. The rate is increased by **mutagenic agents**. Some mutations are harmful, some neutral, a few beneficial."
   - h: "Stem cells"
+    fig: stem-cell-potency
+    cap: "The range of cell types a stem cell can become narrows as development goes on, from totipotent (anything, including placenta) to unipotent (one type). iPS cells are made by turning unipotent adult cells back into pluripotent ones with transcription factors."
     p:
       - "**Stem cells** are **undifferentiated** cells that can divide continuously and become specialised."
       - "**Totipotent**: can divide and produce **any type of body cell**, including extra-embryonic (placenta) cells. Found only in the early embryo."

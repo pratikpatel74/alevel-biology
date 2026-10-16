@@ -13,6 +13,8 @@ summary:
       - "**Oestrogen** is a lipid-soluble steroid hormone. It **diffuses** through the cell membrane and binds to a **receptor** on a transcription factor in the cytoplasm."
       - "This changes the transcription factor's shape, releasing it from an inhibitor. It enters the nucleus, binds to DNA and **stimulates transcription**."
   - h: "Epigenetics"
+    fig: epigenetics
+    cap: "Neither change alters the base sequence. **Acetylated histones** hold DNA loosely, so transcription factors can reach the promoter and the gene is on. **Less acetylation** and **more methylation** of DNA condense the chromatin and block transcription factors, so the gene is off."
     p:
       - "**Epigenetics**: heritable changes in gene function **without changes to the base sequence** of DNA. Caused by changes in the environment that **inhibit transcription**."
       - "**Increased methylation of DNA**: methyl groups added to **cytosine** in the promoter region. This prevents transcription factors binding, so the gene is **switched off**."

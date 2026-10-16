@@ -18,6 +18,8 @@ summary:
       - "**Non-disjunction**: chromosomes or chromatids fail to separate during meiosis, so gametes have the wrong number of chromosomes."
       - "Example: an extra chromosome 21 causes **Down syndrome**. Changes in whole sets of chromosomes (polyploidy) are more common in plants."
   - h: "Meiosis"
+    fig: meiosis
+    cap: "Accent and gold show chromosomes from each parent. In **meiosis I** homologous pairs separate, halving the chromosome number; which way each pair lines up is random (independent segregation). In **meiosis II** sister chromatids separate, giving four haploid cells."
     p:
       - "Meiosis produces **four genetically different haploid** cells (gametes) from one diploid cell. It involves **two divisions**."
       - "**Meiosis I**: **homologous chromosomes** pair up and then **separate**, halving the chromosome number."

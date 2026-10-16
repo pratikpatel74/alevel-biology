@@ -20,6 +20,8 @@ summary:
       - "NPP is available for **plant growth and reproduction**, and to other **trophic levels**."
       - "Units are often kJ m⁻² year⁻¹ (energy per area per time)."
   - h: "Net production of consumers"
+    fig: energy-flow
+    cap: "Energy flows from plant biomass to consumers, and some is lost at every step: plant respiration (GPP → NPP), parts not eaten, faeces and urine, and the consumer's own respiration. Only N is left for the next trophic level."
     p:
       - "`N = I − (F + R)`"
       - "I = chemical energy store in **ingested** food, F = energy lost in **faeces and urine**, R = energy lost by **respiration**."

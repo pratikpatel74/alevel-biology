@@ -36,6 +36,8 @@ summary:
       - "**SEM**: electrons are scattered off the surface, giving a 3D image. Lower resolution than TEM."
       - "Use a **stage micrometer** to calibrate an **eyepiece graticule** at each magnification."
   - h: "Cell fractionation and ultracentrifugation"
+    fig: ultracentrifugation
+    cap: "The homogenate is spun at increasing speeds. Each time the densest organelles form a pellet, and the supernatant is poured into a new tube and spun faster: nuclei first, then mitochondria, then ER and ribosomes."
     p:
       - "Homogenise tissue in a solution that is **cold** (slows enzymes that break down organelles), **isotonic** (stops osmotic damage) and **buffered** (keeps pH stable, so proteins aren't denatured)."
       - "**Filter** to remove large debris and whole cells."

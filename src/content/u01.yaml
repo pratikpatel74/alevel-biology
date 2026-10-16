@@ -12,6 +12,8 @@ summary:
       - "A **condensation** reaction joins two molecules with a chemical bond and **releases a water molecule**."
       - "A **hydrolysis** reaction breaks a chemical bond between two molecules and **uses a water molecule**."
   - h: "Monosaccharides and disaccharides"
+    fig: glycosidic
+    cap: "Two monosaccharides join by **condensation**: an OH from each reacts, water is released and a glycosidic bond forms. **Hydrolysis** is the reverse: water is used to break the bond."
     p:
       - "Common monosaccharides: **glucose**, **galactose** and **fructose**."
       - "Glucose has two isomers. In **α-glucose** the OH on carbon 1 is **below** the ring. In **β-glucose** it is **above** the ring."

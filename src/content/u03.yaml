@@ -7,6 +7,8 @@ desc: "DNA and RNA structure, semi-conservative replication, ATP hydrolysis and 
 practicals: []
 summary:
   - h: "Nucleotides, DNA and RNA"
+    fig: dna-structure
+    cap: "Two antiparallel strands, each with a sugar-phosphate backbone, held together by hydrogen bonds between complementary bases: A pairs with T (2 hydrogen bonds), C with G (3)."
     p:
       - "A **nucleotide** has a **pentose sugar**, a **phosphate group** and a **nitrogen-containing organic base**."
       - "DNA nucleotide: sugar is **deoxyribose**, and bases are adenine (A), thymine (T), cytosine (C) and guanine (G). RNA nucleotide: sugar is **ribose**, and **uracil (U)** replaces thymine."

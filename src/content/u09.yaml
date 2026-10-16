@@ -24,6 +24,8 @@ summary:
       - "**Lipase** (from the pancreas) hydrolyses the **ester bonds** in triglycerides, producing **monoglycerides** and **fatty acids**."
       - "Bile salts, monoglycerides and fatty acids form **micelles**, which carry the products to the epithelial cells."
   - h: "Absorption in the ileum"
+    fig: co-transport
+    cap: "The Na⁺/K⁺ pump uses ATP to keep Na⁺ low inside the cell. Na⁺ then diffuses in from the lumen through a co-transporter, carrying glucose (or amino acids) against its gradient. Glucose leaves into the blood by facilitated diffusion."
     p:
       - "**Glucose and amino acids**: absorbed by **co-transport** with Na⁺ (see Transport across membranes), then leave by facilitated diffusion into the blood."
       - "**Monoglycerides and fatty acids**: micelles release them near the epithelium. Being lipid-soluble, they **diffuse** across the cell-surface membrane."

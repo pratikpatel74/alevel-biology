@@ -22,6 +22,8 @@ summary:
       - "Activated helper T cells divide by **mitosis** (clonal expansion) and **stimulate**: phagocytes to engulf, **cytotoxic T cells** to kill infected cells, and **B cells** to divide."
       - "**Cytotoxic T cells** kill infected body cells by producing **perforin**, which makes holes in the cell-surface membrane."
   - h: "Humoral response: B lymphocytes and antibodies"
+    fig: immune-response
+    cap: "The first exposure gives a slow, small primary response, usually with symptoms. Memory cells made then divide rapidly into plasma cells on a second exposure, so far more antibody is made far faster, usually before symptoms appear."
     p:
       - "A B cell with a complementary antibody on its surface binds the antigen, takes it in, and presents it. Helper T cells bind and activate it."
       - "The B cell divides by mitosis (**clonal selection**) into **plasma cells**, which secrete antibodies, and **memory cells**."

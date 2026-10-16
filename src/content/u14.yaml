@@ -28,6 +28,8 @@ summary:
       - "**Physiological**: processes inside the body, e.g. hibernation lowering metabolic rate."
       - "**Behavioural**: how an organism acts, e.g. migration or courtship."
   - h: "Antibiotic resistance"
+    fig: antibiotic-resistance
+    cap: "Resistance starts as a chance mutation in a few bacteria (accent). The antibiotic kills the rest, so resistant bacteria survive, divide by binary fission and pass the allele on. Over generations the resistance allele becomes common."
     p:
       - "A random **mutation** gives a bacterium an allele for resistance (e.g. an enzyme that breaks down the antibiotic)."
       - "When the antibiotic is used, non-resistant bacteria die. Resistant bacteria survive and reproduce by **binary fission**."

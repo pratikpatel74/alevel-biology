@@ -11,6 +11,8 @@ summary:
       - "A **species** is a group of organisms that can interbreed to produce **fertile offspring**."
       - "**Courtship behaviour** helps organisms recognise members of their own species, identify a mate capable of breeding, form a pair bond, and synchronise mating."
   - h: "Classification"
+    fig: classification
+    cap: "Each group sits entirely inside a larger one, with no overlap (a hierarchy). Humans as the example: the binomial name is genus + species, Homo sapiens."
     p:
       - "**Phylogenetic classification** groups organisms based on their **evolutionary relationships**. It is **hierarchical**: smaller groups inside larger groups, with **no overlap**."
       - "The hierarchy: **domain, kingdom, phylum, class, order, family, genus, species**."

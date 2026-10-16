@@ -28,6 +28,8 @@ summary:
       - "Phloem has **sieve tube elements** (no nucleus, few organelles, sieve plates) and **companion cells** (many mitochondria) that support them."
       - "**Translocation** moves organic substances such as **sucrose** from **sources** (e.g. leaves) to **sinks** (e.g. roots, growing regions, storage organs), in both directions."
   - h: "Mass flow hypothesis"
+    fig: mass-flow
+    cap: "At the source, sucrose is actively loaded into the sieve tube, lowering water potential, so water enters from the xylem by osmosis and pressure rises. At the sink, sucrose is removed and water leaves. The pressure gradient pushes sap from source to sink."
     p:
       - "At the source, **companion cells actively load sucrose** into sieve tubes (using ATP, via co-transport with H⁺)."
       - "This **lowers the water potential** in the sieve tube, so water enters by **osmosis** from the xylem, increasing **hydrostatic pressure**."

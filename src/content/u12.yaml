@@ -31,6 +31,8 @@ summary:
       - "In eukaryotes, **splicing** removes introns from pre-mRNA to form **mRNA**. In prokaryotes, transcription produces mRNA directly (no introns)."
       - "mRNA leaves the nucleus through a **nuclear pore**."
   - h: "Translation"
+    fig: translation
+    cap: "tRNA molecules with complementary anticodons bring amino acids to the ribosome, two at a time. A peptide bond forms between neighbouring amino acids (using ATP), the ribosome moves on one codon, and this repeats until a stop codon."
     p:
       - "mRNA attaches to a **ribosome**. The ribosome moves along to the **start codon**."
       - "A **tRNA** with a **complementary anticodon** brings the matching amino acid. Two tRNAs fit on the ribosome at once."

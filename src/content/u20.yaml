@@ -26,6 +26,8 @@ summary:
       - "**Rods**: one type of pigment (rhodopsin), very **sensitive** to light because **several rods connect to one bipolar neurone** (**summation**), so they work in dim light. But **low visual acuity**: the brain can't tell which rod was stimulated."
       - "**Cones**: three types, sensitive to red, green or blue light, so give **colour vision**. **Each cone connects to its own bipolar neurone**, giving **high visual acuity**, but they need bright light."
   - h: "Control of heart rate"
+    fig: heart-conduction
+    cap: "① The SAN starts a wave of excitation that spreads across the atria, so they contract. ② The AVN delays it so the atria finish emptying. ③ The bundle of His carries it down the septum to the apex, then ④ Purkyne tissue carries it up the ventricle walls, so they contract from the bottom up."
     p:
       - "Heart muscle is **myogenic**: it contracts without nervous stimulation."
       - "The **sinoatrial node (SAN)** in the right atrium is the pacemaker. It sends waves of electrical activity across the atria, so they contract."

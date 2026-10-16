@@ -19,6 +19,8 @@ summary:
       - "**Glycogenolysis**: hydrolysis of glycogen into **glucose**."
       - "**Gluconeogenesis**: making glucose from **non-carbohydrates**, such as glycerol and amino acids."
   - h: "Insulin: lowering blood glucose"
+    fig: glucose-feedback
+    cap: "Negative feedback with two separate mechanisms. A rise is detected by β cells, which secrete insulin: cells take up more glucose and the liver makes glycogen. A fall is detected by α cells, which secrete glucagon: the liver breaks down glycogen and makes new glucose."
     p:
       - "High blood glucose is detected by **β cells** in the **islets of Langerhans** in the pancreas, which secrete **insulin**."
       - "Insulin binds to specific receptors on cell membranes (e.g. liver and muscle cells)."

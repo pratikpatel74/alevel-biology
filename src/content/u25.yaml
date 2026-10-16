@@ -20,6 +20,8 @@ summary:
       - "**Dihybrid**: two genes on different chromosomes. Heterozygous for both × heterozygous for both gives **9:3:3:1**."
       - "Use **genetic diagrams**: parental phenotypes, parental genotypes, gametes, Punnett square, offspring genotypes and phenotypes, ratio."
   - h: "Sex linkage"
+    fig: sex-linkage
+    cap: "Haemophilia: carrier mother × unaffected father. Each son gets his X from his mother, so each son has a 0.5 chance of being affected. Daughters get the father's Xᴴ, so they are unaffected (half are carriers)."
     p:
       - "Genes on the **X chromosome** are **sex-linked**. Males (XY) have only **one copy**, so a recessive X-linked allele is always expressed."
       - "Examples: haemophilia, red-green colour blindness. These are far more common in males."

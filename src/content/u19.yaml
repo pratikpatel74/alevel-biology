@@ -12,6 +12,8 @@ summary:
       - "**Saprobionts** (saprotrophs) feed on dead organisms and waste by **extracellular digestion**: they secrete enzymes and absorb the products. This releases nutrients such as ammonium and phosphate ions."
       - "**Mycorrhizae** are associations between **fungi and plant roots**. Fungal hyphae act as an extension of the root system, increasing **surface area** for absorbing water and mineral ions (especially phosphate). The fungus gets organic compounds such as sugars."
   - h: "The nitrogen cycle"
+    fig: nitrogen-cycle
+    cap: "Saprobionts turn organic nitrogen into ammonium (ammonification); nitrifying bacteria oxidise it to nitrite then nitrate (needs O₂); plants absorb nitrate. Nitrogen-fixing bacteria turn N₂ into ammonium; denitrifying bacteria (gold) return nitrate to N₂ in anaerobic soil."
     p:
       - "**Ammonification**: saprobionts break down nitrogen-containing compounds (proteins, urea, DNA) in dead organisms and waste into **ammonia/ammonium ions (NH₄⁺)**."
       - "**Nitrification**: **nitrifying bacteria** oxidise ammonium to **nitrites (NO₂⁻)** and then to **nitrates (NO₃⁻)**. Needs **oxygen** (aerobic)."

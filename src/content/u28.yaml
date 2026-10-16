@@ -26,6 +26,8 @@ summary:
       - "`Estimated population size = (number in first sample × number in second sample) ÷ number of marked individuals recaptured`"
       - "Assumptions: marks don't affect survival or behaviour, marks aren't lost, marked individuals mix fully, no births, deaths or migration between samples."
   - h: "Succession"
+    fig: succession
+    cap: "Pioneer species such as lichens colonise bare rock and start to make soil. Each stage changes the abiotic conditions so new species can survive and outcompete the earlier ones, until a stable climax community forms. Biodiversity and biomass generally increase."
     p:
       - "**Primary succession** starts on bare rock or sand. **Pioneer species** colonise first (e.g. lichens). They are adapted to harsh conditions."
       - "Each stage **changes the environment** (especially the **abiotic** conditions, e.g. forming soil), making it **less hostile** for new species, which may outcompete earlier ones."

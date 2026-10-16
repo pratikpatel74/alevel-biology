@@ -7,6 +7,8 @@ desc: "The cell cycle, the stages of mitosis, the mitotic index, cancer as uncon
 practicals: [2]
 summary:
   - h: "The cell cycle"
+    fig: cell-cycle
+    cap: "Most of the cycle is interphase. DNA replicates in the S phase, so each chromosome has two sister chromatids before mitosis begins. Mitosis and cytokinesis are a small slice at the end."
     p:
       - "Within multicellular organisms, not all cells keep the ability to divide."
       - "The cycle has **interphase** (most of the time), then **mitosis** (nuclear division), then **cytokinesis** (cytoplasm divides)."

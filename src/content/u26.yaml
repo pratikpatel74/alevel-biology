@@ -13,6 +13,8 @@ summary:
       - "A **gene pool** is **all the alleles** of all the genes in a population at a given time."
       - "**Allele frequency** is the proportion of a particular allele in the gene pool."
   - h: "Hardy–Weinberg principle"
+    fig: hardy-weinberg
+    cap: "Why p² + 2pq + q² = 1: the square's sides are the allele frequencies p and q (p + q = 1). Its four regions are the genotype frequencies, with two pq regions for heterozygotes. Example: q = 0.3, so 9% are aa."
     p:
       - "Predicts that **allele frequencies will not change** from generation to generation, provided certain conditions are met."
       - "Conditions: **large** population, **no mutation**, **no migration** in or out, **no natural selection**, and **random mating**."
