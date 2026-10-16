@@ -3,6 +3,10 @@
   unit: "3.1b"
   spec: "3.1.4.2"
   title: "Effect of a variable on the rate of an enzyme-controlled reaction"
+  videos:
+    - yt: "ha_weShrOEU"
+      title: "Enzymes required practical: the effect of a variable on the rate of reaction"
+      by: "Miss Estruch"
   aim: "Measure how one factor (usually temperature, pH, or enzyme or substrate concentration) changes the initial rate of an enzyme-controlled reaction, e.g. trypsin digesting casein in milk powder, or catalase breaking down hydrogen peroxide."
   method:
     - "Set up a water bath at the chosen temperature and let the enzyme and substrate solutions **equilibrate separately** for about 10 minutes before mixing."
@@ -24,6 +28,10 @@
   unit: "3.2b"
   spec: "3.2.2"
   title: "Preparation of stained squashes of root tip cells and calculation of a mitotic index"
+  videos:
+    - yt: "e6LPXBhDT8Q"
+      title: "Required Practical 2: how to prepare a root tip squash for mitosis"
+      by: "Miss Estruch"
   aim: "Prepare a root tip squash (e.g. garlic or onion), observe stages of mitosis with an optical microscope, and calculate the mitotic index."
   method:
     - "Cut about 5 mm from the tip of a growing root, where the **meristem** is."
@@ -45,6 +53,10 @@
   unit: "3.2c"
   spec: "3.2.3"
   title: "Producing a dilution series to find the water potential of plant tissue"
+  videos:
+    - yt: "Uug6752svt8"
+      title: "Required Practical 3: osmosis in potato and serial dilution"
+      by: "Miss Estruch"
   aim: "Use a dilution series of sucrose or salt solution to find the concentration where plant tissue (e.g. potato cylinders) neither gains nor loses mass. This gives the water potential of the tissue."
   method:
     - "Make a **serial or simple dilution** of 1 M sucrose with distilled water, e.g. 0.0, 0.2, 0.4, 0.6, 0.8 and 1.0 M."
@@ -66,6 +78,10 @@
   unit: "3.2c"
   spec: "3.2.3"
   title: "Effect of a named variable on the permeability of cell-surface membranes"
+  videos:
+    - yt: "xnNpHDfLJv4"
+      title: "Required Practical 4: effect of ethanol on membrane permeability"
+      by: "Miss Estruch"
   aim: "Find how temperature (or a solvent such as ethanol) affects membrane permeability, using beetroot. Damaged membranes leak the red pigment betalain."
   method:
     - "Cut beetroot cubes of equal size and **rinse** them to remove pigment from cells cut open during preparation."
@@ -85,6 +101,10 @@
   unit: "3.3c"
   spec: "3.3.4"
   title: "Dissection of animal or plant gas exchange or mass transport system, or of an organ in such a system"
+  videos:
+    - yt: "mI4pno0npCc"
+      title: "Heart dissection: aim, equipment, method and results"
+      by: "Miss Estruch"
   aim: "Dissect a structure such as a mammalian heart, lungs or a fish gill, identify its parts and relate structure to function."
   method:
     - "Carry out a **risk assessment**: use a sharp scalpel cutting away from you and onto a dissecting board, wear gloves, and disinfect surfaces afterwards."
@@ -104,6 +124,10 @@
   unit: "3.2a"
   spec: "AS practical (links to 3.2.1 prokaryotes)"
   title: "Use of aseptic techniques to investigate the effect of antimicrobial substances on microbial growth"
+  videos:
+    - yt: "cXh9FQny8Jc"
+      title: "Required Practical 6: aseptic technique and inhibition zones"
+      by: "Miss Estruch"
   aim: "Grow a bacterial lawn on agar and measure the clear zones (zones of inhibition) around discs soaked in different antibiotics, antiseptics or concentrations."
   method:
     - "Disinfect the bench, work near a **Bunsen burner** (the updraught carries microbes away), and flame the neck of the culture bottle."
@@ -125,6 +149,10 @@
   unit: "3.5a"
   spec: "3.5.1"
   title: "Use of chromatography to investigate the pigments isolated from leaves"
+  videos:
+    - yt: "7iJzZ_tJVtI"
+      title: "Chlorophyll chromatography and Rf values"
+      by: "Miss Estruch"
   aim: "Separate photosynthetic pigments from leaf extracts by paper or thin-layer chromatography (TLC) and identify them using Rf values."
   method:
     - "Grind leaves with a solvent such as propanone and sand to extract the pigments."
@@ -146,6 +174,10 @@
   unit: "3.5a"
   spec: "3.5.1"
   title: "Investigation into the effect of a named factor on the rate of dehydrogenase activity in extracts of chloroplasts"
+  videos:
+    - yt: "Nql9FwKCslI"
+      title: "Required Practical 8: DCPIP and dehydrogenase in photosynthesis"
+      by: "Miss Estruch"
   aim: "Use the blue redox indicator DCPIP, which turns colourless when reduced, to measure the rate of the light-dependent reaction in isolated chloroplasts."
   method:
     - "Blend leaves in **ice-cold, buffered, isotonic** solution, filter, then centrifuge to get a chloroplast pellet. Resuspend it in the same solution."
@@ -165,6 +197,10 @@
   unit: "3.5b"
   spec: "3.5.2"
   title: "Investigation into the effect of a named variable on the rate of respiration of cultures of single-celled organisms"
+  videos:
+    - yt: "2D2tJNFJ0mM"
+      title: "Respirometer: how to measure the rate of respiration"
+      by: "Miss Estruch"
   aim: "Measure how a factor (e.g. temperature or sugar type) affects the respiration rate of yeast, using a respirometer, gas syringe or redox indicator such as methylene blue."
   method:
     - "Add equal volumes of yeast suspension to a buffered glucose solution and leave in a water bath to equilibrate."
@@ -185,6 +221,10 @@
   unit: "3.6a"
   spec: "3.6.1.1"
   title: "Investigation into the effect of an environmental variable on the movement of an animal using either a choice chamber or a maze"
+  videos:
+    - yt: "LG1cLm1jOG8"
+      title: "Choice chamber practical with maggots or woodlice"
+      by: "Miss Estruch"
   aim: "Use a choice chamber (or a maze) to show whether invertebrates such as woodlice show taxis or kinesis in response to humidity or light."
   method:
     - "Make a choice chamber with one side **dry** (silica gel or anhydrous calcium chloride under the mesh) and the other **humid** (water under the mesh)."
@@ -205,6 +245,10 @@
   unit: "3.6d"
   spec: "3.6.4.2"
   title: "Production of a dilution series of a glucose solution and use of colorimetric techniques to produce a calibration curve"
+  videos:
+    - yt: "1IQkbLE4mN0"
+      title: "Required Practical 11: using a colorimeter to find glucose concentration"
+      by: "Miss Estruch"
   aim: "Make glucose solutions of known concentration, measure the colour each gives with Benedict's reagent, and plot a calibration curve to find the glucose concentration of an unknown sample, e.g. simulated urine."
   method:
     - "Make a **dilution series** of glucose from a stock solution, e.g. 0, 2, 4, 6, 8 and 10 mmol dm⁻³."
@@ -225,6 +269,10 @@
   unit: "3.7d"
   spec: "3.7.4"
   title: "Investigation into the effect of a named environmental factor on the distribution of a given species"
+  videos:
+    - yt: "M2gfJQcYw-I"
+      title: "Required Practical 12: random and systematic sampling with quadrats"
+      by: "Miss Estruch"
   aim: "Use quadrats along a transect (or random quadrats) to see how a factor such as light intensity, soil moisture or trampling affects the abundance of a plant species."
   method:
     - "**Random sampling** for comparing two areas: lay two tape measures at right angles and use random number generators for coordinates."
