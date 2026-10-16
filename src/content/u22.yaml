@@ -11,6 +11,8 @@ summary:
       - "Skeletal muscles act in **antagonistic pairs** against an incompressible skeleton: when one contracts, the other relaxes, e.g. biceps and triceps."
       - "Muscle is made of **muscle fibres** (multinucleate cells). Each fibre contains many **myofibrils** made of repeating units called **sarcomeres**."
   - h: "Sarcomere structure"
+    fig: sarcomere
+    cap: "When the muscle contracts, actin slides over myosin towards the centre. The Z-lines move closer, so the sarcomere, I-band and H-zone all shorten. The **A-band stays the same length**, because it is the length of the myosin filaments."
     p:
       - "**Actin**: thin filaments. **Myosin**: thick filaments with heads."
       - "**Z-line**: the boundary of each sarcomere, where actin is attached."

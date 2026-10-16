@@ -1,0 +1,16 @@
+meta:
+  subject: "Biology"
+  code: "7402"
+  title: "AQA Biology Study Hub"
+  prefix: "bio_"
+  rpBlurb: "All 12 AQA required practicals: method, variables and the exam questions they lead to."
+  rpIntro: "Practicals 1–6 are Year 1 content and 7–12 are Year 2. Questions on them can appear on any paper."
+plan:
+  - {code: "3.1", name: "Biological molecules", year: 1, units: 3}
+  - {code: "3.2", name: "Cells", year: 1, units: 4}
+  - {code: "3.3", name: "Organisms exchange substances with their environment", year: 1, units: 4}
+  - {code: "3.4", name: "Genetic information, variation and relationships between organisms", year: 1, units: 4}
+  - {code: "3.5", name: "Energy transfers in and between organisms", year: 2, units: 4}
+  - {code: "3.6", name: "Organisms respond to changes in their internal and external environments", year: 2, units: 5}
+  - {code: "3.7", name: "Genetics, populations, evolution and ecosystems", year: 2, units: 4}
+  - {code: "3.8", name: "The control of gene expression", year: 2, units: 3}

@@ -12,6 +12,8 @@ summary:
       - "**Loading** (association) happens in the lungs, where pO₂ is high. **Unloading** (dissociation) happens in respiring tissues, where pO₂ is low."
       - "**Cooperative binding**: once one O₂ binds, haemoglobin changes shape, making it easier for further O₂ to bind. This gives the **S-shaped (sigmoid) curve**."
   - h: "Oxygen dissociation curves"
+    fig: odc
+    cap: "At the pO₂ of respiring tissue (dashed line), the right-shifted curve is much lower, so haemoglobin with **lower affinity has unloaded more O₂**. A left-shifted curve loads O₂ at low pO₂, which suits a fetus or an animal in low-oxygen mud."
     p:
       - "The curve plots **% saturation** against **partial pressure of O₂ (pO₂)**."
       - "**Curve shifted left**: higher affinity, loads O₂ more readily at low pO₂. Seen in organisms in low-oxygen environments (e.g. lugworms, llamas at altitude) and fetal haemoglobin."
@@ -22,6 +24,8 @@ summary:
       - "Mammals have a **double circulation**: the pulmonary circuit (heart to lungs) and systemic circuit (heart to body). Blood passes through the heart twice per circuit."
       - "Know the main vessels: **coronary arteries** (supply heart muscle), **aorta** and **vena cava**, **pulmonary artery** and **pulmonary vein**, **renal artery** and **renal vein**."
   - h: "The heart and the cardiac cycle"
+    fig: heart
+    cap: "Drawn as if facing the person, so the right side of the heart is on the left. **Gold**: deoxygenated blood, body → vena cava → RA → RV → pulmonary artery → lungs. **Accent**: oxygenated blood, lungs → pulmonary vein → LA → LV → aorta → body. Dashed bars are the valves. The left ventricle wall is thickest because it pumps blood round the whole body."
     p:
       - "Blood flow: vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → left ventricle → aorta."
       - "**Atrioventricular valves** stop backflow from ventricles to atria. **Semilunar valves** stop backflow from arteries to ventricles. Valves open and close because of **pressure differences**."
@@ -34,6 +38,8 @@ summary:
       - "**Veins**: thin walls, wide lumen, and **valves** to prevent backflow. Low pressure."
       - "**Capillaries**: walls one cell thick (**endothelium**), narrow lumen, and huge numbers, giving a large surface area and short diffusion distance."
   - h: "Tissue fluid"
+    fig: tissue-fluid
+    cap: "At the arteriole end, hydrostatic pressure is high enough to force water and small molecules out. Large plasma proteins stay in the blood, so by the venule end, where pressure has fallen, water moves back in by osmosis. Excess tissue fluid drains into the lymph."
     p:
       - "At the **arteriole end** of a capillary, **hydrostatic pressure** is higher than the water potential effect from plasma proteins. Fluid (water and small molecules) is forced out, forming **tissue fluid**."
       - "Large plasma proteins stay in the blood, so water potential in the capillary is lower. At the **venule end**, hydrostatic pressure has fallen, so water returns by **osmosis**."

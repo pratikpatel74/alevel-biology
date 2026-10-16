@@ -18,6 +18,8 @@ summary:
       - "**Photolysis**: light splits water. `2H₂O → 4H⁺ + 4e⁻ + O₂`. The electrons replace those lost from chlorophyll. O₂ is a by-product."
       - "Electrons and H⁺ reduce **NADP** to **reduced NADP**."
   - h: "Light-independent reaction (Calvin cycle)"
+    fig: calvin-cycle
+    cap: "CO₂ joins RuBP (catalysed by rubisco), giving two GP. GP is reduced to TP using reduced NADP and ATP from the light-dependent reaction. Most TP regenerates RuBP so the cycle continues; the rest makes useful organic molecules. Six turns make one glucose."
     p:
       - "CO₂ reacts with **ribulose bisphosphate (RuBP)**, a 5-carbon compound, catalysed by the enzyme **rubisco**. This produces two molecules of **glycerate 3-phosphate (GP)**."
       - "GP is **reduced** to **triose phosphate (TP)**, using **reduced NADP** and energy from **ATP**."

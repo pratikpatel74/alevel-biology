@@ -7,6 +7,8 @@ desc: "Glycolysis, the link reaction, the Krebs cycle, oxidative phosphorylation
 practicals: [9]
 summary:
   - h: "Glycolysis (cytoplasm)"
+    fig: respiration
+    cap: "The four stages of aerobic respiration, where each happens, and what each makes. Without oxygen, only glycolysis runs, so pyruvate is turned into lactate or ethanol to regenerate NAD."
     p:
       - "First stage of both aerobic and anaerobic respiration. Happens in the **cytoplasm**."
       - "Glucose is **phosphorylated** using **2 ATP**, forming a sugar bisphosphate, which splits into **two triose phosphate** molecules."

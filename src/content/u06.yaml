@@ -7,6 +7,8 @@ desc: "The fluid-mosaic model, simple and facilitated diffusion, osmosis and wat
 practicals: [3, 4]
 summary:
   - h: "Fluid-mosaic model"
+    fig: fluid-mosaic
+    cap: "A bilayer of phospholipids with proteins scattered through it. Ions and polar molecules need **channel or carrier proteins** to get past the hydrophobic tails. Cholesterol sits between phospholipids and makes the membrane less fluid. Glycoproteins and glycolipids act as receptors and antigens."
     p:
       - "Membranes are a **phospholipid bilayer** with **proteins** scattered through it (the mosaic). Phospholipids move, so the membrane is **fluid**."
       - "**Cholesterol** sits between phospholipids. It restricts their movement, making the membrane **less fluid and more rigid**, and reduces leakage of water and ions."

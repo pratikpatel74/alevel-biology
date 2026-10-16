@@ -23,6 +23,8 @@ summary:
       - "Abdominal pumping ventilates the tracheae."
       - "Water loss is limited by a **waterproof exoskeleton** and **spiracles that close**, and hairs around spiracles."
   - h: "Fish"
+    fig: counter-current
+    cap: "Numbers are % O₂ saturation along a lamella. In counter-current flow, blood meets water that is always a little richer in oxygen, so O₂ diffuses in along the **whole length** and blood leaves at 80%. With parallel flow, the two equalise at 50% and diffusion stops."
     p:
       - "Gills have **gill filaments** covered in **lamellae**, giving a large surface area and a thin diffusion distance."
       - "**Counter-current flow**: blood in the lamellae flows in the **opposite direction** to water. Blood always meets water with a higher O₂ concentration, so a **diffusion gradient is maintained along the whole lamella**."

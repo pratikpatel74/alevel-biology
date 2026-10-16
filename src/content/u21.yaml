@@ -12,6 +12,8 @@ summary:
       - "The **sodium-potassium pump** actively transports **3 Na⁺ out** for every **2 K⁺ in**, using ATP."
       - "The membrane is **more permeable to K⁺** than Na⁺ (more K⁺ channels open), so K⁺ diffuses back out. This keeps the inside negative."
   - h: "Action potential"
+    fig: action-potential
+    cap: "Once the membrane reaches about −55 mV, voltage-gated Na⁺ channels open and Na⁺ rushes in (to about +40 mV). Then Na⁺ channels close and K⁺ channels open, so K⁺ leaves. K⁺ channels are slow to close, so the potential dips below −70 mV before the pump restores it."
     p:
       - "**Depolarisation**: a stimulus opens some voltage-gated **Na⁺ channels**. Na⁺ diffuses in. If the **threshold** (about −55 mV) is reached, many more Na⁺ channels open, and the potential rises to about **+40 mV**."
       - "**Repolarisation**: Na⁺ channels close and voltage-gated **K⁺ channels open**. K⁺ diffuses out, so the potential falls."
@@ -27,6 +29,8 @@ summary:
       - "**Axon diameter**: wider axons conduct faster (less resistance, less leakage of ions)."
       - "**Temperature**: higher temperature speeds up ion diffusion and the pump, up to the point where proteins denature."
   - h: "Cholinergic synapses"
+    fig: synapse
+    cap: "The order to learn: ① the impulse opens Ca²⁺ channels and Ca²⁺ enters the knob; ② vesicles fuse with the membrane and release ACh; ③ ACh diffuses across the cleft; ④ it binds to receptors (gold), Na⁺ channels open and the postsynaptic membrane depolarises; ⑤ acetylcholinesterase breaks ACh down."
     p:
       - "An action potential arrives at the presynaptic knob. **Voltage-gated Ca²⁺ channels** open, and Ca²⁺ diffuses in."
       - "Ca²⁺ causes **vesicles** of **acetylcholine (ACh)** to move to and fuse with the presynaptic membrane, releasing ACh into the synaptic cleft by **exocytosis**."

@@ -11,6 +11,8 @@ summary:
       - "Individuals in a population vary in phenotype because of **genetic factors** and **environmental factors**."
       - "Genetic variation arises from **mutation**, **meiosis** (independent segregation and crossing over), and **random fertilisation** of gametes."
   - h: "Natural selection and evolution"
+    fig: selection
+    cap: "Stabilising selection favours the mean, so the range narrows. Directional selection favours one extreme, so the mean shifts. Disruptive selection favours both extremes, which can split a population into two groups."
     p:
       - "Predation, disease and **competition** for limited resources result in **differential survival and reproduction**."
       - "Organisms with advantageous alleles survive and reproduce, passing on these alleles. **Allele frequencies change** over generations: this is **evolution**."

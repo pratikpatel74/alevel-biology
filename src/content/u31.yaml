@@ -18,6 +18,8 @@ summary:
       - "**Restriction endonucleases**: cut DNA at specific **recognition sequences**. Many make a staggered cut, leaving **sticky ends**."
       - "**Gene machine**: synthesises the gene from nucleotides, based on a known amino acid sequence."
   - h: "PCR (in vitro amplification)"
+    fig: pcr
+    cap: "Each PCR cycle has three temperatures: 95 °C breaks the hydrogen bonds so the strands separate, 55 °C lets primers anneal, and 72 °C is the best temperature for Taq polymerase to join nucleotides. Each cycle doubles the DNA."
     p:
       - "**Polymerase chain reaction** makes many copies of a DNA fragment."
       - "Mix: DNA, **primers**, free **nucleotides** and **Taq polymerase** (heat-stable DNA polymerase)."

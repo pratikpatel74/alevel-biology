@@ -31,6 +31,8 @@ summary:
       - "**Substrate concentration**: rate increases until all active sites are occupied. Then **enzyme concentration** is the limiting factor and the curve levels off."
       - "**Enzyme concentration**: rate increases as long as there is excess substrate."
   - h: "Inhibitors"
+    fig: inhibitors
+    cap: "Adding more substrate outcompetes a **competitive** inhibitor, so the rate eventually reaches the same maximum. A **non-competitive** inhibitor changes the active site's shape, so the affected enzymes can't work however much substrate there is: the maximum rate is lower."
     p:
       - "**Competitive inhibitors** are similar in shape to the substrate and **bind to the active site**. Adding more substrate **reduces** their effect."
       - "**Non-competitive inhibitors** bind at a site **other than the active site** (allosteric site). This changes the shape of the active site, so substrate can't bind. More substrate **does not** reduce the effect."

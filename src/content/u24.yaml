@@ -22,6 +22,8 @@ summary:
       - "Na⁺ is actively transported out of the epithelial cells into the blood. Na⁺ then diffuses into the cells from the filtrate, **co-transporting glucose** and amino acids."
       - "Water follows by **osmosis**."
   - h: "Loop of Henle"
+    fig: nephron
+    cap: "The ascending limb pumps Na⁺ and Cl⁻ into the medulla but lets no water out, so the medulla's water potential falls, most of all at the bottom. Water then leaves the descending limb and the collecting duct by osmosis. ADH inserts aquaporins in the collecting duct, so more water leaves."
     p:
       - "The loop creates a **gradient of water potential** in the **medulla**, which becomes more negative deeper in."
       - "**Ascending limb**: Na⁺ and Cl⁻ are **actively transported out** into the medulla. The ascending limb is **impermeable to water**."

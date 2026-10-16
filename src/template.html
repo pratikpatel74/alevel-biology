@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AQA Biology Study Hub</title>
+<title>__TITLE__</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -134,6 +134,32 @@ a { color:inherit; }
 .sum-sec li { position:relative; padding-left:18px; font-size:0.93rem; line-height:1.65; max-width:68ch; }
 .sum-sec li::before { content:''; position:absolute; left:2px; top:0.68em; width:6px; height:6px; border-radius:2px; background:var(--acc); opacity:0.7; }
 .sum-sec li strong, .rp li strong { font-weight:700; color:var(--text); }
+/* Diagrams: inline SVG from src/diagrams, themed by these classes */
+.fig { margin:18px 0 6px; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 16px 12px; max-width:640px; }
+.fig svg { display:block; width:100%; height:auto; color:var(--text); font-family:var(--font); overflow:visible; }
+@media (max-width:540px) { .fig { padding:12px 8px 10px; margin-left:-8px; margin-right:-8px; } }
+.fig figcaption { color:var(--muted); font-size:0.82rem; line-height:1.55; margin-top:10px; max-width:62ch; }
+.fig text { fill:currentColor; font-size:15px; font-weight:500; }
+.fig .tm { fill:var(--muted); font-size:13px; }
+.fig .ta { fill:var(--acc); font-weight:700; }
+.fig .tg { fill:var(--gold); font-weight:700; }
+.fig .ln { fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+.fig .lm { fill:none; stroke:var(--muted); stroke-width:1.3; stroke-dasharray:5 5; }
+.fig .bx { fill:var(--surface); stroke:var(--border-hi); stroke-width:1.5; }
+.fig .ac { fill:none; stroke:var(--acc); stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round; }
+.fig .gl { fill:none; stroke:var(--gold); stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round; }
+.fig .at { fill:color-mix(in srgb, var(--acc) 16%, transparent); stroke:var(--acc); stroke-width:1.6; }
+.fig .gt { fill:color-mix(in srgb, var(--gold) 16%, transparent); stroke:var(--gold); stroke-width:1.6; }
+.fig .gap { fill:none; stroke:var(--card); stroke-width:9; }
+.fig .thick { stroke-width:4.5; }
+.fig .nt { fill:color-mix(in srgb, var(--text) 12%, transparent); stroke:var(--muted); stroke-width:1.2; }
+.fig .af { fill:var(--acc); } .fig .gf { fill:var(--gold); } .fig .cf { fill:currentColor; } .fig .mf { fill:var(--muted); }
+.ex { background:var(--card); border:1px solid var(--border); border-left:3px solid var(--acc); border-radius:12px; padding:18px 20px; margin-bottom:18px; min-width:0; }
+.ex-tag { font-size:0.66rem; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:var(--acc); margin-bottom:8px; }
+.ex-q { font-weight:600; font-size:0.95rem; margin-bottom:10px; line-height:1.55; }
+.ex ol { padding-left:20px; display:flex; flex-direction:column; gap:6px; font-size:0.9rem; line-height:1.6; font-variant-numeric:tabular-nums; }
+.ex-a { margin-top:10px; font-size:0.92rem; }
+.ex-a b { color:var(--acc); }
 .callout { background:var(--wrong-bg); border:1px solid color-mix(in srgb, var(--wrong) 40%, transparent); border-radius:12px; padding:18px 20px; margin-bottom:30px; }
 .callout h2 { font-size:0.74rem; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:var(--wrong); margin-bottom:10px; }
 .callout ul { padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:0.9rem; line-height:1.6; }
@@ -205,13 +231,14 @@ const DATA = __DATA__;
 const SEC_NAMES = DATA.sections;
 const $ = s => document.querySelector(s);
 const store = {
-  get(k, d) { try { const v = localStorage.getItem('bio_' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
-  set(k, v) { try { localStorage.setItem('bio_' + k, JSON.stringify(v)); } catch (e) {} },
-  del(k) { try { localStorage.removeItem('bio_' + k); } catch (e) {} }
+  get(k, d) { try { const v = localStorage.getItem(DATA.meta.prefix + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(DATA.meta.prefix + k, JSON.stringify(v)); } catch (e) {} },
+  del(k) { try { localStorage.removeItem(DATA.meta.prefix + k); } catch (e) {} }
 };
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const fmt = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/`(.+?)`/g,'<span class="eq">$1</span>');
-const secClass = u => 'sec' + u.section.split('.')[1];
+const secNum = c => (DATA.meta.secColors && DATA.meta.secColors[c]) || c.split('.')[1];
+const secClass = u => 'sec' + secNum(u.section);
 const unitById = id => DATA.units.find(u => u.id === id);
 const rpById = n => DATA.practicals.find(p => p.n === n);
 
@@ -232,10 +259,10 @@ function toggleTheme() {
 (function () { const t = store.get('theme', null); if (t) document.documentElement.setAttribute('data-theme', t); })();
 
 function topbar(extra) {
-  return `<header class="topbar"><a class="brand" href="#hub"><span>AQA 7402</span><b>Biology Study Hub</b></a>
+  return `<header class="topbar"><a class="brand" href="#hub"><span>AQA ${DATA.meta.code}</span><b>${DATA.meta.subject} Study Hub</b></a>
   <div class="top-right">${extra || '<a class="pill-btn" href="https://alevel-study-hubs.netlify.app/">← All subjects</a>'}<button class="icon-btn" id="theme-btn" onclick="toggleTheme()" aria-label="Switch light or dark theme">${isDark() ? ICON_SUN : ICON_MOON}</button></div></header>`;
 }
-const footer = () => `<footer class="footer wrap">Original notes written against the AQA A-level Biology specification (7402). Check facts against your own textbook and teacher.</footer>`;
+const footer = () => `<footer class="footer wrap">Original notes written against the AQA A-level ${DATA.meta.subject} specification (${DATA.meta.code}). Check facts against your own textbook and teacher.</footer>`;
 
 /* ---------- Hub ---------- */
 function scoreBadge(u) {
@@ -249,14 +276,14 @@ function renderHub() {
   const qCount = units.reduce((a, u) => a + u.questions.length, 0);
   let blocks = '';
   DATA.plan.filter(s => s.year === year).forEach(s => {
-    const secUnits = units.filter(u => u.section === s.code);
-    const cls = 'sec' + s.code.split('.')[1];
+    const secUnits = units.filter(u => u.section === s.code && (u.year || s.year) === s.year);
+    const cls = 'sec' + secNum(s.code);
     let cards = secUnits.map(u => {
       const rps = u.practicals || [];
       return `<article class="card ${cls}"><div class="card-accent"></div><div class="card-body">
-        <div class="card-head"><div class="sec-badge">${esc(s.code)}</div><div class="card-meta"><div class="card-num">Spec ${esc(u.spec)}</div><div class="card-title">${esc(u.title)}</div></div>${scoreBadge(u)}</div>
+        <div class="card-head"><div class="sec-badge">${esc(u.badge || s.code)}</div><div class="card-meta"><div class="card-num">Spec ${esc(u.spec)}</div><div class="card-title">${esc(u.title)}</div></div>${scoreBadge(u)}</div>
         <div class="divider"></div><p class="card-desc">${esc(u.desc)}</p>
-        <div class="actions"><a class="btn primary" href="#q-${u.id}">Quiz</a><a class="btn" href="#s-${u.id}">Summary</a>${rps.length ? `<a class="btn" href="#rp-${rps[0]}">Practical${rps.length > 1 ? 's' : ''} ${rps.map(n => n).join(', ')}</a>` : `<span class="btn off">No practical</span>`}</div>
+        <div class="actions"><a class="btn primary" href="#q-${u.id}">Quiz</a><a class="btn" href="#s-${u.id}">Summary</a>${!DATA.practicals.length ? (u.examples && u.examples.length ? `<a class="btn" href="#s-${u.id}">${u.examples.length} worked example${u.examples.length > 1 ? 's' : ''}</a>` : '') : rps.length ? `<a class="btn" href="#rp-${rps[0]}">Practical${rps.length > 1 ? 's' : ''} ${rps.map(n => n).join(', ')}</a>` : `<span class="btn off">No practical</span>`}</div>
       </div></article>`;
     }).join('');
     const missing = s.units - secUnits.length;
@@ -265,17 +292,17 @@ function renderHub() {
   });
   const y1 = DATA.plan.filter(s => s.year === 1), y2 = DATA.plan.filter(s => s.year === 2);
   $('#app').innerHTML = topbar() + `
-  <section class="hero wrap"><div class="eyebrow">AQA A-level Biology · 7402</div>
-    <h1>Biology<br><em>Study Hub</em></h1>
-    <p class="hero-sub">Topic summaries, required practicals and quizzes for every section of the specification. Each quiz draws 10 questions from a pool of 22.</p>
-    <div class="stats"><div class="stat"><div class="stat-num">${units.length}</div><div class="stat-label">Topics</div></div><div class="stat"><div class="stat-num">${qCount}</div><div class="stat-label">Questions</div></div><div class="stat"><div class="stat-num">${DATA.practicals.length}</div><div class="stat-label">Practicals</div></div></div>
+  <section class="hero wrap"><div class="eyebrow">AQA A-level ${DATA.meta.subject} · ${DATA.meta.code}</div>
+    <h1>${DATA.meta.subject}<br><em>Study Hub</em></h1>
+    <p class="hero-sub">${DATA.meta.heroSub || 'Topic summaries, required practicals and quizzes for every section of the specification. Each quiz draws 10 questions from a pool of 22.'}</p>
+    <div class="stats"><div class="stat"><div class="stat-num">${units.length}</div><div class="stat-label">Topics</div></div><div class="stat"><div class="stat-num">${qCount}</div><div class="stat-label">Questions</div></div>${DATA.practicals.length ? `<div class="stat"><div class="stat-num">${DATA.practicals.length}</div><div class="stat-label">Practicals</div></div>` : `<div class="stat"><div class="stat-num">${units.reduce((a, u) => a + (u.examples || []).length, 0)}</div><div class="stat-label">Worked examples</div></div>`}</div>
   </section>
   <main class="main wrap">
     <div class="year-tabs" role="group" aria-label="Choose year">
       <button class="year-tab" aria-pressed="${year === 1}" onclick="setYear(1)">Year 1 <small>${y1.map(s => s.code).join(' · ')}</small></button>
       <button class="year-tab" aria-pressed="${year === 2}" onclick="setYear(2)">Year 2 <small>${y2.map(s => s.code).join(' · ')}</small></button>
     </div>
-    <div class="rp-banner"><div><h2>Required practicals</h2><p>All 12 AQA required practicals: method, variables and the exam questions they lead to.</p></div><a class="btn" href="#practicals">Open practicals</a></div>
+    ${DATA.practicals.length ? `<div class="rp-banner"><div><h2>Required practicals</h2><p>${DATA.meta.rpBlurb}</p></div><a class="btn" href="#practicals">Open practicals</a></div>` : (DATA.meta.banner ? `<div class="rp-banner"><div><h2>${esc(DATA.meta.banner.h)}</h2><p>${esc(DATA.meta.banner.p)}</p></div></div>` : "")}
     ${blocks}
   </main>` + footer();
 }
@@ -284,14 +311,15 @@ function setYear(y) { store.set('year', y); renderHub(); }
 /* ---------- Summary ---------- */
 function renderSummary(u) {
   const cls = secClass(u);
-  const secs = u.summary.map((s, i) => `<section class="sum-sec"><h2><span class="n">${String(i + 1).padStart(2, '0')}</span>${fmt(s.h)}</h2><ul>${s.p.map(p => `<li>${fmt(p)}</li>`).join('')}</ul></section>`).join('');
+  const exs = (u.examples || []).map((x, i) => `<section class="ex"><div class="ex-tag">Worked example ${i + 1}</div><p class="ex-q">${fmt(x.q)}</p><ol>${x.steps.map(st => `<li>${fmt(st)}</li>`).join('')}</ol><p class="ex-a"><b>Answer:</b> ${fmt(x.a)}</p></section>`).join('');
+  const secs = u.summary.map((s, i) => `<section class="sum-sec"><h2><span class="n">${String(i + 1).padStart(2, '0')}</span>${fmt(s.h)}</h2><ul>${s.p.map(p => `<li>${fmt(p)}</li>`).join('')}</ul>${s.svg ? `<figure class="fig">${s.svg}${s.cap ? `<figcaption>${fmt(s.cap)}</figcaption>` : ''}</figure>` : ''}</section>`).join('');
   const pit = u.pitfalls && u.pitfalls.length ? `<div class="callout"><h2>Where marks are lost</h2><ul>${u.pitfalls.map(p => `<li>${fmt(p)}</li>`).join('')}</ul></div>` : '';
   const rps = (u.practicals || []).map(n => { const p = rpById(n); return p ? `<a class="btn" href="#rp-${n}">RP${n}: ${esc(p.title)}</a>` : ''; }).join('');
   $('#app').innerHTML = topbar(`<a class="pill-btn" href="#hub">← Hub</a>`) + `
-  <main class="page wrap ${cls}"><div class="page-head"><div class="page-eyebrow">${esc(u.section)} ${esc(SEC_NAMES[u.section])} · Spec ${esc(u.spec)}</div>
+  <main class="page wrap ${cls}"><div class="page-head"><div class="page-eyebrow">${u.section.includes('.') ? esc(u.section) + ' ' : ''}${esc(SEC_NAMES[u.section])} · Spec ${esc(u.spec)}</div>
   <h1 class="page-title">${esc(u.title)}</h1><p class="page-sub">${esc(u.desc)}</p>
   <div class="page-actions"><a class="btn primary" href="#q-${u.id}">Take the quiz</a>${rps}</div></div>
-  ${secs}${pit}
+  ${secs}${exs}${pit}
   <div class="page-actions"><a class="btn primary" href="#q-${u.id}">Take the quiz</a><a class="btn" href="#hub">Back to hub</a></div></main>` + footer();
 }
 
@@ -309,7 +337,7 @@ function renderPracticals(focus) {
   const list = DATA.practicals.slice().sort((a, b) => a.n - b.n);
   $('#app').innerHTML = topbar(`<a class="pill-btn" href="#hub">← Hub</a>`) + `
   <main class="page wrap"><div class="page-head"><div class="page-eyebrow">Practical skills · Apparatus and techniques</div><h1 class="page-title">Required practicals</h1>
-  <p class="page-sub">Practicals 1–6 are Year 1 content and 7–12 are Year 2. Questions on them can appear on any paper.</p></div>
+  <p class="page-sub">${DATA.meta.rpIntro}</p></div>
   ${list.map(rpCard).join('')}${list.length < 12 ? `<div class="pending">${12 - list.length} more practicals being written.</div>` : ''}</main>` + footer();
   if (focus) { const el = document.getElementById('rp-card-' + focus); if (el) el.scrollIntoView(); }
 }
@@ -329,7 +357,7 @@ function renderQuiz(u, retry) {
   Q = { u, qs: pool.slice(0, Math.min(DRAW, pool.length)), cur: 0, score: 0, answered: false, done: false, timer: store.get('timer', false), secs: 60 };
   const cls = secClass(u);
   $('#app').innerHTML = topbar(`<button class="pill-btn ${Q.timer ? 'active' : ''}" id="timer-btn" onclick="toggleTimer()">Timer: ${Q.timer ? 'On' : 'Off'}</button><a class="pill-btn" href="#hub">← Hub</a>`) + `
-  <main class="quiz wrap ${cls}"><div class="quiz-head"><div class="page-eyebrow">${esc(u.section)} · Spec ${esc(u.spec)}</div><h1 class="page-title">${esc(u.title)}</h1>
+  <main class="quiz wrap ${cls}"><div class="quiz-head"><div class="page-eyebrow">${esc(u.section.includes('.') ? u.section : SEC_NAMES[u.section])} · Spec ${esc(u.spec)}</div><h1 class="page-title">${esc(u.title)}</h1>
   <p class="page-sub">${retry ? 'Retrying the questions you missed' : `10 questions drawn from a pool of ${u.questions.length}`} · <a href="#s-${u.id}">Read the summary</a></p></div>
   <div id="qa"></div></main>` + footer();
   drawQ();
